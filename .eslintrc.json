@@ -1,0 +1,58 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "@typescript-eslint/naming-convention": "warn",
+        "@typescript-eslint/semi": "warn",
+        "no-unused-vars": "error",
+        "no-undef": "off",
+        "no-const-assign": "error",
+        "prefer-const": "error",
+        "semi": "error",
+        "no-extra-semi": "error",
+        "semi-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "no-dupe-else-if": "error",
+        "no-debugger": "error",
+        "no-console": "error",
+        "no-compare-neg-zero": "error",
+        "no-duplicate-case": "error",
+        "no-empty": "error",
+        "no-import-assign": "error",
+        "no-obj-calls": "error",
+        "no-prototype-builtins": "error",
+        "no-template-curly-in-string": "error",
+        "valid-typeof": "error",
+        "block-scoped-var": "error",
+        "default-case": "error",
+        "eqeqeq": "error",
+        "no-alert": "error",
+        "no-eq-null": "error",
+        "no-sequences": "error",
+        "no-throw-literal": "error",
+        "no-trailing-spaces": "error",
+        "no-whitespace-before-property": "error",
+        "block-spacing": "error",
+        "quotes": [
+            "error",
+            "single"
+        ]
+    },
+    "ignorePatterns": [
+        "out",
+        "dist",
+        "**/*.d.ts"
+    ]
+}

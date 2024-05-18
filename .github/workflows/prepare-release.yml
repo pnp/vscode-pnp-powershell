@@ -1,0 +1,74 @@
+name: "Prepare Release"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 6'
+    - cron: '0 12 * * 3'
+
+jobs: 
+  deploy:
+    name: "Prepare Release"
+    runs-on: windows-latest
+
+    steps:
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Checkout PnP PowerShell VS Code Extension
+        uses: actions/checkout@v4
+        with:
+          path: vscode-pnp-powershell
+
+      - name: Checkout PnP PowerShell
+        uses: actions/checkout@v4
+        with:
+          repository: pnp/powershell
+          path: powershell
+
+      - name: Checkout PnP Script Samples
+        uses: actions/checkout@v4
+        with:
+          repository: pnp/script-samples
+          path: script-samples
+
+      - name: Run create script samples script
+        run: .\vscode-pnp-powershell\scripts\createScriptSampleDefenition.ps1 -PathToWorkspace ".\"
+        shell: pwsh
+        continue-on-error: false
+
+      - name: Run create snippet defenition script
+        run: .\vscode-pnp-powershell\scripts\createSnippetDefenition.ps1 -PathToWorkspace ".\"
+        shell: pwsh
+        continue-on-error: false
+
+      - name: Run update package version script
+        run: .\vscode-pnp-powershell\scripts\updatePackageVersion.ps1 -PathToWorkspace ".\"
+        shell: pwsh
+        continue-on-error: false
+
+      - name: Install dependencies
+        run: npm run install:all
+        working-directory: vscode-pnp-powershell
+
+      - name: Build
+        run: npm run vscode:prepublish
+        working-directory: vscode-pnp-powershell
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: vscode-pnp-powershell
+          commit-message: Release
+          branch: prepare-release
+          title: Release     
+          body: |
+            Hi, this is auto generated release. In order to release the extension, please follow the instructions below:
+
+            - review, approve and merge to `main` branch
+            - create a new release with new tag that starts from `v*` prefix and number matches the extension version number from project.json. For example: `v1.0.0`
+            - wait for the release to be published to the marketplace
+...

@@ -1,0 +1,36 @@
+name: Create .vsix package
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Create .vsix package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Checkout PnP PowerShell VS Code Extension
+        uses: actions/checkout@v4
+        
+      - name: Install dependencies
+        run: npm run install:all
+
+      - name: Build
+        run: npm run vscode:prepublish
+
+      - name: Package
+        run: |
+          npx @vscode/vsce package
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: vsix_package
+          path: |
+            *.vsix

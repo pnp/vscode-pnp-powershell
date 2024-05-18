@@ -1,0 +1,3544 @@
+{
+  "commands": [
+    {
+      "name": "Add-PnPAlert",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAlert.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAlert.html"
+    },
+    {
+      "name": "Add-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPApp.html"
+    },
+    {
+      "name": "Add-PnPApplicationCustomizer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPApplicationCustomizer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPApplicationCustomizer.html"
+    },
+    {
+      "name": "Add-PnPAvailableSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAvailableSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAvailableSiteClassification.html"
+    },
+    {
+      "name": "Add-PnPAzureADGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADGroupMember.html"
+    },
+    {
+      "name": "Add-PnPAzureADGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Add-PnPAzureADServicePrincipalAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADServicePrincipalAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADServicePrincipalAppRole.html"
+    },
+    {
+      "name": "Add-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentType.html"
+    },
+    {
+      "name": "Add-PnPContentTypesFromContentTypeHub",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentTypesFromContentTypeHub.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentTypesFromContentTypeHub.html"
+    },
+    {
+      "name": "Add-PnPContentTypeToDocumentSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentTypeToDocumentSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentTypeToDocumentSet.html"
+    },
+    {
+      "name": "Add-PnPContentTypeToList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentTypeToList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentTypeToList.html"
+    },
+    {
+      "name": "Add-PnPCustomAction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPCustomAction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPCustomAction.html"
+    },
+    {
+      "name": "Add-PnPDataRowsToSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPDataRowsToSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPDataRowsToSiteTemplate.html"
+    },
+    {
+      "name": "Add-PnPDocumentSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPDocumentSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPDocumentSet.html"
+    },
+    {
+      "name": "Add-PnPEventReceiver",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEventReceiver.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEventReceiver.html"
+    },
+    {
+      "name": "Add-PnPField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPField.html"
+    },
+    {
+      "name": "Add-PnPFieldFromXml",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFieldFromXml.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFieldFromXml.html"
+    },
+    {
+      "name": "Add-PnPFieldToContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFieldToContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFieldToContentType.html"
+    },
+    {
+      "name": "Add-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFile.html"
+    },
+    {
+      "name": "Add-PnPFileAnonymousSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileAnonymousSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileAnonymousSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFileOrganizationalSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileOrganizationalSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileOrganizationalSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFileSharingInvite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileSharingInvite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileSharingInvite.html"
+    },
+    {
+      "name": "Add-PnPFileToSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileToSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileToSiteTemplate.html"
+    },
+    {
+      "name": "Add-PnPFileUserSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileUserSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileUserSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFlowOwner.html"
+    },
+    {
+      "name": "Add-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolder.html"
+    },
+    {
+      "name": "Add-PnPFolderAnonymousSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderAnonymousSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderAnonymousSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFolderOrganizationalSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderOrganizationalSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderOrganizationalSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFolderSharingInvite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderSharingInvite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderSharingInvite.html"
+    },
+    {
+      "name": "Add-PnPFolderUserSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderUserSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderUserSharingLink.html"
+    },
+    {
+      "name": "Add-PnPGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPGroupMember.html"
+    },
+    {
+      "name": "Add-PnPHtmlPublishingPageLayout",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPHtmlPublishingPageLayout.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPHtmlPublishingPageLayout.html"
+    },
+    {
+      "name": "Add-PnPHubSiteAssociation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPHubSiteAssociation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPHubSiteAssociation.html"
+    },
+    {
+      "name": "Add-PnPHubToHubAssociation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPHubToHubAssociation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPHubToHubAssociation.html"
+    },
+    {
+      "name": "Add-PnPIndexedProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPIndexedProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPIndexedProperty.html"
+    },
+    {
+      "name": "Add-PnPJavaScriptBlock",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPJavaScriptBlock.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPJavaScriptBlock.html"
+    },
+    {
+      "name": "Add-PnPJavaScriptLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPJavaScriptLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPJavaScriptLink.html"
+    },
+    {
+      "name": "Add-PnPListDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPListDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPListDesign.html"
+    },
+    {
+      "name": "Add-PnPListFoldersToSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPListFoldersToSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPListFoldersToSiteTemplate.html"
+    },
+    {
+      "name": "Add-PnPListItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPListItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPListItem.html"
+    },
+    {
+      "name": "Add-PnPListItemAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPListItemAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPListItemAttachment.html"
+    },
+    {
+      "name": "Add-PnPListItemComment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPListItemComment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPListItemComment.html"
+    },
+    {
+      "name": "Add-PnPMasterPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPMasterPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPMasterPage.html"
+    },
+    {
+      "name": "Add-PnPMicrosoft365GroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPMicrosoft365GroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPMicrosoft365GroupMember.html"
+    },
+    {
+      "name": "Add-PnPMicrosoft365GroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPMicrosoft365GroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPMicrosoft365GroupOwner.html"
+    },
+    {
+      "name": "Add-PnPMicrosoft365GroupToSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPMicrosoft365GroupToSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPMicrosoft365GroupToSite.html"
+    },
+    {
+      "name": "Add-PnPNavigationNode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPNavigationNode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPNavigationNode.html"
+    },
+    {
+      "name": "Add-PnPOrgAssetsLibrary",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPOrgAssetsLibrary.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPOrgAssetsLibrary.html"
+    },
+    {
+      "name": "Add-PnPOrgNewsSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPOrgNewsSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPOrgNewsSite.html"
+    },
+    {
+      "name": "Add-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPage.html"
+    },
+    {
+      "name": "Add-PnPPageImageWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageImageWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageImageWebPart.html"
+    },
+    {
+      "name": "Add-PnPPageSection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageSection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageSection.html"
+    },
+    {
+      "name": "Add-PnPPageTextPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageTextPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageTextPart.html"
+    },
+    {
+      "name": "Add-PnPPageWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageWebPart.html"
+    },
+    {
+      "name": "Add-PnPPlannerBucket",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPlannerBucket.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPlannerBucket.html"
+    },
+    {
+      "name": "Add-PnPPlannerRoster",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPlannerRoster.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPlannerRoster.html"
+    },
+    {
+      "name": "Add-PnPPlannerRosterMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPlannerRosterMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPlannerRosterMember.html"
+    },
+    {
+      "name": "Add-PnPPlannerTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPlannerTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPlannerTask.html"
+    },
+    {
+      "name": "Add-PnPPublishingImageRendition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPublishingImageRendition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPublishingImageRendition.html"
+    },
+    {
+      "name": "Add-PnPPublishingPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPublishingPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPublishingPage.html"
+    },
+    {
+      "name": "Add-PnPPublishingPageLayout",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPublishingPageLayout.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPublishingPageLayout.html"
+    },
+    {
+      "name": "Add-PnPRoleDefinition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPRoleDefinition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPRoleDefinition.html"
+    },
+    {
+      "name": "Add-PnPSiteCollectionAdmin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteCollectionAdmin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteCollectionAdmin.html"
+    },
+    {
+      "name": "Add-PnPSiteCollectionAppCatalog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteCollectionAppCatalog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteCollectionAppCatalog.html"
+    },
+    {
+      "name": "Add-PnPSiteDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteDesign.html"
+    },
+    {
+      "name": "Add-PnPSiteDesignFromWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteDesignFromWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteDesignFromWeb.html"
+    },
+    {
+      "name": "Add-PnPSiteDesignTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteDesignTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteDesignTask.html"
+    },
+    {
+      "name": "Add-PnPSiteScript",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteScript.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteScript.html"
+    },
+    {
+      "name": "Add-PnPSiteScriptPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteScriptPackage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteScriptPackage.html"
+    },
+    {
+      "name": "Add-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Add-PnPStoredCredential",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPStoredCredential.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPStoredCredential.html"
+    },
+    {
+      "name": "Add-PnPTaxonomyField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTaxonomyField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTaxonomyField.html"
+    },
+    {
+      "name": "Add-PnPTeamsChannel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsChannel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsChannel.html"
+    },
+    {
+      "name": "Add-PnPTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsChannelUser.html"
+    },
+    {
+      "name": "Add-PnPTeamsTab",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsTab.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsTab.html"
+    },
+    {
+      "name": "Add-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsTeam.html"
+    },
+    {
+      "name": "Add-PnPTeamsUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsUser.html"
+    },
+    {
+      "name": "Add-PnPTenantCdnOrigin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantCdnOrigin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantCdnOrigin.html"
+    },
+    {
+      "name": "Add-PnPTenantSequence",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSequence.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSequence.html"
+    },
+    {
+      "name": "Add-PnPTenantSequenceSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSequenceSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSequenceSite.html"
+    },
+    {
+      "name": "Add-PnPTenantSequenceSubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSequenceSubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSequenceSubSite.html"
+    },
+    {
+      "name": "Add-PnPTenantTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantTheme.html"
+    },
+    {
+      "name": "Add-PnPTermToTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTermToTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTermToTerm.html"
+    },
+    {
+      "name": "Add-PnPView",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPView.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPView.html"
+    },
+    {
+      "name": "Add-PnPViewsFromXML",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPViewsFromXML.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPViewsFromXML.html"
+    },
+    {
+      "name": "Add-PnPVivaConnectionsDashboardACE",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPVivaConnectionsDashboardACE.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Add-PnPWebhookSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPWebhookSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPWebhookSubscription.html"
+    },
+    {
+      "name": "Add-PnPWebPartToWebPartPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPWebPartToWebPartPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPWebPartToWebPartPage.html"
+    },
+    {
+      "name": "Add-PnPWebPartToWikiPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPWebPartToWikiPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPWebPartToWikiPage.html"
+    },
+    {
+      "name": "Add-PnPWikiPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPWikiPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPWikiPage.html"
+    },
+    {
+      "name": "Approve-PnPTenantServicePrincipalPermissionRequest",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Approve-PnPTenantServicePrincipalPermissionRequest.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Approve-PnPTenantServicePrincipalPermissionRequest.html"
+    },
+    {
+      "name": "Clear-PnPAzureADGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPAzureADGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPAzureADGroupMember.html"
+    },
+    {
+      "name": "Clear-PnPAzureADGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPAzureADGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Clear-PnPDefaultColumnValues",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPDefaultColumnValues.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPDefaultColumnValues.html"
+    },
+    {
+      "name": "Clear-PnPListItemAsRecord",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPListItemAsRecord.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPListItemAsRecord.html"
+    },
+    {
+      "name": "Clear-PnPMicrosoft365GroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPMicrosoft365GroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPMicrosoft365GroupMember.html"
+    },
+    {
+      "name": "Clear-PnPMicrosoft365GroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPMicrosoft365GroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPMicrosoft365GroupOwner.html"
+    },
+    {
+      "name": "Clear-PnPRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPRecycleBinItem.html"
+    },
+    {
+      "name": "Clear-PnPTenantAppCatalogUrl",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPTenantAppCatalogUrl.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPTenantAppCatalogUrl.html"
+    },
+    {
+      "name": "Clear-PnPTenantRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPTenantRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPTenantRecycleBinItem.html"
+    },
+    {
+      "name": "Connect-PnPOnline",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Connect-PnPOnline.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Connect-PnPOnline.html"
+    },
+    {
+      "name": "Convert-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPFile.html"
+    },
+    {
+      "name": "Convert-PnPFolderToSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPFolderToSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPFolderToSiteTemplate.html"
+    },
+    {
+      "name": "Convert-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Convert-PnPSiteTemplateToMarkdown",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPSiteTemplateToMarkdown.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPSiteTemplateToMarkdown.html"
+    },
+    {
+      "name": "ConvertTo-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/ConvertTo-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/ConvertTo-PnPPage.html"
+    },
+    {
+      "name": "Copy-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFile.html"
+    },
+    {
+      "name": "Copy-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFolder.html"
+    },
+    {
+      "name": "Copy-PnPItemProxy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPItemProxy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPItemProxy.html"
+    },
+    {
+      "name": "Copy-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPList.html"
+    },
+    {
+      "name": "Copy-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPTeamsTeam.html"
+    },
+    {
+      "name": "Deny-PnPTenantServicePrincipalPermissionRequest",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Deny-PnPTenantServicePrincipalPermissionRequest.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Deny-PnPTenantServicePrincipalPermissionRequest.html"
+    },
+    {
+      "name": "Disable-PnPFeature",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPFeature.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPFeature.html"
+    },
+    {
+      "name": "Disable-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPFlow.html"
+    },
+    {
+      "name": "Disable-PnPPageScheduling",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPPageScheduling.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPPageScheduling.html"
+    },
+    {
+      "name": "Disable-PnPPowerShellTelemetry",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPPowerShellTelemetry.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPPowerShellTelemetry.html"
+    },
+    {
+      "name": "Disable-PnPSharingForNonOwnersOfSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPSharingForNonOwnersOfSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPSharingForNonOwnersOfSite.html"
+    },
+    {
+      "name": "Disable-PnPSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPSiteClassification.html"
+    },
+    {
+      "name": "Disable-PnPTenantServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPTenantServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPTenantServicePrincipal.html"
+    },
+    {
+      "name": "Disconnect-PnPOnline",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disconnect-PnPOnline.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disconnect-PnPOnline.html"
+    },
+    {
+      "name": "Enable-PnPCommSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPCommSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPCommSite.html"
+    },
+    {
+      "name": "Enable-PnPFeature",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPFeature.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPFeature.html"
+    },
+    {
+      "name": "Enable-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPFlow.html"
+    },
+    {
+      "name": "Enable-PnPPageScheduling",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPageScheduling.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPageScheduling.html"
+    },
+    {
+      "name": "Enable-PnPPowerShellTelemetry",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPowerShellTelemetry.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPowerShellTelemetry.html"
+    },
+    {
+      "name": "Enable-PnPSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPSiteClassification.html"
+    },
+    {
+      "name": "Enable-PnPTenantServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPTenantServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPTenantServicePrincipal.html"
+    },
+    {
+      "name": "Export-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPFlow.html"
+    },
+    {
+      "name": "Export-PnPListToSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPListToSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPListToSiteTemplate.html"
+    },
+    {
+      "name": "Export-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPPage.html"
+    },
+    {
+      "name": "Export-PnPPageMapping",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPPageMapping.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPPageMapping.html"
+    },
+    {
+      "name": "Export-PnPPowerApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPPowerApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPPowerApp.html"
+    },
+    {
+      "name": "Export-PnPTaxonomy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPTaxonomy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPTaxonomy.html"
+    },
+    {
+      "name": "Export-PnPTermGroupToXml",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPTermGroupToXml.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPTermGroupToXml.html"
+    },
+    {
+      "name": "Export-PnPUserInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPUserInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPUserInfo.html"
+    },
+    {
+      "name": "Export-PnPUserProfile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPUserProfile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPUserProfile.html"
+    },
+    {
+      "name": "Find-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Find-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Find-PnPFile.html"
+    },
+    {
+      "name": "Get-PnPAccessToken",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAccessToken.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAccessToken.html"
+    },
+    {
+      "name": "Get-PnPAlert",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAlert.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAlert.html"
+    },
+    {
+      "name": "Get-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPApp.html"
+    },
+    {
+      "name": "Get-PnPAppAuthAccessToken",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAppAuthAccessToken.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAppAuthAccessToken.html"
+    },
+    {
+      "name": "Get-PnPAppErrors",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAppErrors.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAppErrors.html"
+    },
+    {
+      "name": "Get-PnPAppInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAppInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAppInfo.html"
+    },
+    {
+      "name": "Get-PnPApplicationCustomizer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPApplicationCustomizer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPApplicationCustomizer.html"
+    },
+    {
+      "name": "Get-PnPAuditing",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAuditing.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAuditing.html"
+    },
+    {
+      "name": "Get-PnPAuthenticationRealm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAuthenticationRealm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAuthenticationRealm.html"
+    },
+    {
+      "name": "Get-PnPAvailableLanguage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAvailableLanguage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAvailableLanguage.html"
+    },
+    {
+      "name": "Get-PnPAvailableSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAvailableSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAvailableSensitivityLabel.html"
+    },
+    {
+      "name": "Get-PnPAvailableSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAvailableSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAvailableSiteClassification.html"
+    },
+    {
+      "name": "Get-PnPAzureACSPrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureACSPrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureACSPrincipal.html"
+    },
+    {
+      "name": "Get-PnPAzureADActivityReportDirectoryAudit",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportDirectoryAudit.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportDirectoryAudit.html"
+    },
+    {
+      "name": "Get-PnPAzureADActivityReportSignIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportSignIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportSignIn.html"
+    },
+    {
+      "name": "Get-PnPAzureADApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADApp.html"
+    },
+    {
+      "name": "Get-PnPAzureADAppPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADAppPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADAppPermission.html"
+    },
+    {
+      "name": "Get-PnPAzureADAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADAppSitePermission.html"
+    },
+    {
+      "name": "Get-PnPAzureADGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroup.html"
+    },
+    {
+      "name": "Get-PnPAzureADGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroupMember.html"
+    },
+    {
+      "name": "Get-PnPAzureADGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipal.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipalAvailableAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAvailableAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAvailableAppRole.html"
+    },
+    {
+      "name": "Get-PnPAzureADUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADUser.html"
+    },
+    {
+      "name": "Get-PnPAzureCertificate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureCertificate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureCertificate.html"
+    },
+    {
+      "name": "Get-PnPBrowserIdleSignout",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBrowserIdleSignout.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBrowserIdleSignout.html"
+    },
+    {
+      "name": "Get-PnPBuiltInDesignPackageVisibility",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBuiltInDesignPackageVisibility.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBuiltInDesignPackageVisibility.html"
+    },
+    {
+      "name": "Get-PnPBuiltInSiteTemplateSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBuiltInSiteTemplateSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBuiltInSiteTemplateSettings.html"
+    },
+    {
+      "name": "Get-PnPChangeLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPChangeLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPChangeLog.html"
+    },
+    {
+      "name": "Get-PnPCompatibleHubContentTypes",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCompatibleHubContentTypes.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCompatibleHubContentTypes.html"
+    },
+    {
+      "name": "Get-PnPConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPConnection.html"
+    },
+    {
+      "name": "Get-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainer.html"
+    },
+    {
+      "name": "Get-PnPContainerTypeConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerTypeConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerTypeConfiguration.html"
+    },
+    {
+      "name": "Get-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContentType.html"
+    },
+    {
+      "name": "Get-PnPContentTypePublishingHubUrl",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContentTypePublishingHubUrl.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContentTypePublishingHubUrl.html"
+    },
+    {
+      "name": "Get-PnPContentTypePublishingStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContentTypePublishingStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContentTypePublishingStatus.html"
+    },
+    {
+      "name": "Get-PnPContext",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContext.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContext.html"
+    },
+    {
+      "name": "Get-PnPCustomAction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCustomAction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCustomAction.html"
+    },
+    {
+      "name": "Get-PnPDefaultColumnValues",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDefaultColumnValues.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDefaultColumnValues.html"
+    },
+    {
+      "name": "Get-PnPDeletedContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDeletedContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedContainer.html"
+    },
+    {
+      "name": "Get-PnPDeletedMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDeletedMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedMicrosoft365Group.html"
+    },
+    {
+      "name": "Get-PnPDeletedTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDeletedTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedTeam.html"
+    },
+    {
+      "name": "Get-PnPDiagnostics",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDiagnostics.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDiagnostics.html"
+    },
+    {
+      "name": "Get-PnPDisableSpacesActivation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDisableSpacesActivation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDisableSpacesActivation.html"
+    },
+    {
+      "name": "Get-PnPDocumentSetTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDocumentSetTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDocumentSetTemplate.html"
+    },
+    {
+      "name": "Get-PnPEventReceiver",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEventReceiver.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEventReceiver.html"
+    },
+    {
+      "name": "Get-PnPException",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPException.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPException.html"
+    },
+    {
+      "name": "Get-PnPExternalUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPExternalUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPExternalUser.html"
+    },
+    {
+      "name": "Get-PnPFeature",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFeature.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFeature.html"
+    },
+    {
+      "name": "Get-PnPField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPField.html"
+    },
+    {
+      "name": "Get-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFile.html"
+    },
+    {
+      "name": "Get-PnPFileAnalyticsData",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileAnalyticsData.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileAnalyticsData.html"
+    },
+    {
+      "name": "Get-PnPFileInFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileInFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
+    },
+    {
+      "name": "Get-PnPFileSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSharingLink.html"
+    },
+    {
+      "name": "Get-PnPFileVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileVersion.html"
+    },
+    {
+      "name": "Get-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlow.html"
+    },
+    {
+      "name": "Get-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlowOwner.html"
+    },
+    {
+      "name": "Get-PnPFlowRun",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFlowRun.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlowRun.html"
+    },
+    {
+      "name": "Get-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolder.html"
+    },
+    {
+      "name": "Get-PnPFolderInFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderInFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderInFolder.html"
+    },
+    {
+      "name": "Get-PnPFolderItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderItem.html"
+    },
+    {
+      "name": "Get-PnPFolderSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderSharingLink.html"
+    },
+    {
+      "name": "Get-PnPFolderStorageMetric",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderStorageMetric.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderStorageMetric.html"
+    },
+    {
+      "name": "Get-PnPFooter",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFooter.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFooter.html"
+    },
+    {
+      "name": "Get-PnPGraphAccessToken",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGraphAccessToken.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGraphAccessToken.html"
+    },
+    {
+      "name": "Get-PnPGraphSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGraphSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGraphSubscription.html"
+    },
+    {
+      "name": "Get-PnPGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGroup.html"
+    },
+    {
+      "name": "Get-PnPGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGroupMember.html"
+    },
+    {
+      "name": "Get-PnPGroupPermissions",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGroupPermissions.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGroupPermissions.html"
+    },
+    {
+      "name": "Get-PnPHideDefaultThemes",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPHideDefaultThemes.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPHideDefaultThemes.html"
+    },
+    {
+      "name": "Get-PnPHomePage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPHomePage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPHomePage.html"
+    },
+    {
+      "name": "Get-PnPHomeSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPHomeSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPHomeSite.html"
+    },
+    {
+      "name": "Get-PnPHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPHubSite.html"
+    },
+    {
+      "name": "Get-PnPHubSiteChild",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPHubSiteChild.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPHubSiteChild.html"
+    },
+    {
+      "name": "Get-PnPIndexedPropertyKeys",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPIndexedPropertyKeys.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPIndexedPropertyKeys.html"
+    },
+    {
+      "name": "Get-PnPInPlaceRecordsManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPInPlaceRecordsManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPInPlaceRecordsManagement.html"
+    },
+    {
+      "name": "Get-PnPIsSiteAliasAvailable",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPIsSiteAliasAvailable.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPIsSiteAliasAvailable.html"
+    },
+    {
+      "name": "Get-PnPJavaScriptLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPJavaScriptLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPJavaScriptLink.html"
+    },
+    {
+      "name": "Get-PnPKnowledgeHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPKnowledgeHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPKnowledgeHubSite.html"
+    },
+    {
+      "name": "Get-PnPLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLabel.html"
+    },
+    {
+      "name": "Get-PnPLargeListOperationStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLargeListOperationStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLargeListOperationStatus.html"
+    },
+    {
+      "name": "Get-PnPLibraryFileVersionBatchDeleteJobStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLibraryFileVersionBatchDeleteJobStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLibraryFileVersionBatchDeleteJobStatus.html"
+    },
+    {
+      "name": "Get-PnPLibraryFileVersionExpirationReportJobStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLibraryFileVersionExpirationReportJobStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLibraryFileVersionExpirationReportJobStatus.html"
+    },
+    {
+      "name": "Get-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPList.html"
+    },
+    {
+      "name": "Get-PnPListDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListDesign.html"
+    },
+    {
+      "name": "Get-PnPListInformationRightsManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListInformationRightsManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListInformationRightsManagement.html"
+    },
+    {
+      "name": "Get-PnPListItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItem.html"
+    },
+    {
+      "name": "Get-PnPListItemAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemAttachment.html"
+    },
+    {
+      "name": "Get-PnPListItemComment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemComment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemComment.html"
+    },
+    {
+      "name": "Get-PnPListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemPermission.html"
+    },
+    {
+      "name": "Get-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemVersion.html"
+    },
+    {
+      "name": "Get-PnPListPermissions",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListPermissions.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListPermissions.html"
+    },
+    {
+      "name": "Get-PnPListRecordDeclaration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListRecordDeclaration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListRecordDeclaration.html"
+    },
+    {
+      "name": "Get-PnPMasterPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMasterPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMasterPage.html"
+    },
+    {
+      "name": "Get-PnPMessageCenterAnnouncement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMessageCenterAnnouncement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMessageCenterAnnouncement.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365ExpiringGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365ExpiringGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365ExpiringGroup.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365Group.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupEndpoint",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupEndpoint.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupEndpoint.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupMember.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupOwner.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupSettings.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupSettingTemplates",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupSettingTemplates.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupSettingTemplates.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupTeam.html"
+    },
+    {
+      "name": "Get-PnPMicrosoft365GroupYammerCommunity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365GroupYammerCommunity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupYammerCommunity.html"
+    },
+    {
+      "name": "Get-PnPNavigationNode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPNavigationNode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPNavigationNode.html"
+    },
+    {
+      "name": "Get-PnPOrgAssetsLibrary",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPOrgAssetsLibrary.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPOrgAssetsLibrary.html"
+    },
+    {
+      "name": "Get-PnPOrgNewsSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPOrgNewsSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPOrgNewsSite.html"
+    },
+    {
+      "name": "Get-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPage.html"
+    },
+    {
+      "name": "Get-PnPPageComponent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageComponent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageComponent.html"
+    },
+    {
+      "name": "Get-PnPPageLikedByInformation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageLikedByInformation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageLikedByInformation.html"
+    },
+    {
+      "name": "Get-PnPPlannerBucket",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerBucket.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerBucket.html"
+    },
+    {
+      "name": "Get-PnPPlannerConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerConfiguration.html"
+    },
+    {
+      "name": "Get-PnPPlannerPlan",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerPlan.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerPlan.html"
+    },
+    {
+      "name": "Get-PnPPlannerRosterMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerRosterMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerRosterMember.html"
+    },
+    {
+      "name": "Get-PnPPlannerRosterPlan",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerRosterPlan.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerRosterPlan.html"
+    },
+    {
+      "name": "Get-PnPPlannerTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerTask.html"
+    },
+    {
+      "name": "Get-PnPPlannerUserPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerUserPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerUserPolicy.html"
+    },
+    {
+      "name": "Get-PnPPowerApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerApp.html"
+    },
+    {
+      "name": "Get-PnPPowerPlatformCustomConnector",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformCustomConnector.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformCustomConnector.html"
+    },
+    {
+      "name": "Get-PnPPowerPlatformEnvironment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformEnvironment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformEnvironment.html"
+    },
+    {
+      "name": "Get-PnPPowerPlatformSolution",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformSolution.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformSolution.html"
+    },
+    {
+      "name": "Get-PnPPowerShellTelemetryEnabled",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerShellTelemetryEnabled.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerShellTelemetryEnabled.html"
+    },
+    {
+      "name": "Get-PnPProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPProperty.html"
+    },
+    {
+      "name": "Get-PnPPropertyBag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPropertyBag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPropertyBag.html"
+    },
+    {
+      "name": "Get-PnPPublishingImageRendition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPublishingImageRendition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPublishingImageRendition.html"
+    },
+    {
+      "name": "Get-PnPRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRecycleBinItem.html"
+    },
+    {
+      "name": "Get-PnPRequestAccessEmails",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRequestAccessEmails.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRequestAccessEmails.html"
+    },
+    {
+      "name": "Get-PnPRoleDefinition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRoleDefinition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRoleDefinition.html"
+    },
+    {
+      "name": "Get-PnPSearchConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Get-PnPSearchCrawlLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchCrawlLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchCrawlLog.html"
+    },
+    {
+      "name": "Get-PnPSearchSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchSettings.html"
+    },
+    {
+      "name": "Get-PnPServiceCurrentHealth",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPServiceCurrentHealth.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPServiceCurrentHealth.html"
+    },
+    {
+      "name": "Get-PnPServiceHealthIssue",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPServiceHealthIssue.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPServiceHealthIssue.html"
+    },
+    {
+      "name": "Get-PnPSharePointAddIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSharePointAddIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSharePointAddIn.html"
+    },
+    {
+      "name": "Get-PnPSharingForNonOwnersOfSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSharingForNonOwnersOfSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSharingForNonOwnersOfSite.html"
+    },
+    {
+      "name": "Get-PnPSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSite.html"
+    },
+    {
+      "name": "Get-PnPSiteAnalyticsData",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteAnalyticsData.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteAnalyticsData.html"
+    },
+    {
+      "name": "Get-PnPSiteClosure",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteClosure.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteClosure.html"
+    },
+    {
+      "name": "Get-PnPSiteCollectionAdmin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteCollectionAdmin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteCollectionAdmin.html"
+    },
+    {
+      "name": "Get-PnPSiteCollectionAppCatalog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteCollectionAppCatalog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteCollectionAppCatalog.html"
+    },
+    {
+      "name": "Get-PnPSiteCollectionTermStore",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteCollectionTermStore.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteCollectionTermStore.html"
+    },
+    {
+      "name": "Get-PnPSiteDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesign.html"
+    },
+    {
+      "name": "Get-PnPSiteDesignRights",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesignRights.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesignRights.html"
+    },
+    {
+      "name": "Get-PnPSiteDesignRun",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesignRun.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesignRun.html"
+    },
+    {
+      "name": "Get-PnPSiteDesignRunStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesignRunStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesignRunStatus.html"
+    },
+    {
+      "name": "Get-PnPSiteDesignTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesignTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesignTask.html"
+    },
+    {
+      "name": "Get-PnPSiteFileVersionBatchDeleteJobStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteFileVersionBatchDeleteJobStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteFileVersionBatchDeleteJobStatus.html"
+    },
+    {
+      "name": "Get-PnPSiteFileVersionExpirationReportJobStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteFileVersionExpirationReportJobStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteFileVersionExpirationReportJobStatus.html"
+    },
+    {
+      "name": "Get-PnPSiteGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteGroup.html"
+    },
+    {
+      "name": "Get-PnPSitePolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSitePolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSitePolicy.html"
+    },
+    {
+      "name": "Get-PnPSiteScript",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteScript.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteScript.html"
+    },
+    {
+      "name": "Get-PnPSiteScriptFromList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteScriptFromList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteScriptFromList.html"
+    },
+    {
+      "name": "Get-PnPSiteScriptFromWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteScriptFromWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteScriptFromWeb.html"
+    },
+    {
+      "name": "Get-PnPSiteSearchQueryResults",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteSearchQueryResults.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSearchQueryResults.html"
+    },
+    {
+      "name": "Get-PnPSiteSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSensitivityLabel.html"
+    },
+    {
+      "name": "Get-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Get-PnPSiteUserInvitations",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteUserInvitations.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteUserInvitations.html"
+    },
+    {
+      "name": "Get-PnPSiteVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html"
+    },
+    {
+      "name": "Get-PnPSiteVersionPolicyStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicyStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicyStatus.html"
+    },
+    {
+      "name": "Get-PnPStorageEntity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPStorageEntity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStorageEntity.html"
+    },
+    {
+      "name": "Get-PnPStoredCredential",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPStoredCredential.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStoredCredential.html"
+    },
+    {
+      "name": "Get-PnPStructuralNavigationCacheSiteState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPStructuralNavigationCacheSiteState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStructuralNavigationCacheSiteState.html"
+    },
+    {
+      "name": "Get-PnPStructuralNavigationCacheWebState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPStructuralNavigationCacheWebState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStructuralNavigationCacheWebState.html"
+    },
+    {
+      "name": "Get-PnPSubscribeSharePointNewsDigest",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSubscribeSharePointNewsDigest.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSubscribeSharePointNewsDigest.html"
+    },
+    {
+      "name": "Get-PnPSubWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSubWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSubWeb.html"
+    },
+    {
+      "name": "Get-PnPSyntexModel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSyntexModel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSyntexModel.html"
+    },
+    {
+      "name": "Get-PnPSyntexModelPublication",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSyntexModelPublication.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSyntexModelPublication.html"
+    },
+    {
+      "name": "Get-PnPTaxonomyItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTaxonomyItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTaxonomyItem.html"
+    },
+    {
+      "name": "Get-PnPTaxonomySession",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTaxonomySession.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTaxonomySession.html"
+    },
+    {
+      "name": "Get-PnPTeamsApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsApp.html"
+    },
+    {
+      "name": "Get-PnPTeamsChannel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsChannel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsChannel.html"
+    },
+    {
+      "name": "Get-PnPTeamsChannelFilesFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsChannelFilesFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsChannelFilesFolder.html"
+    },
+    {
+      "name": "Get-PnPTeamsChannelMessage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsChannelMessage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsChannelMessage.html"
+    },
+    {
+      "name": "Get-PnPTeamsChannelMessageReply",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsChannelMessageReply.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsChannelMessageReply.html"
+    },
+    {
+      "name": "Get-PnPTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsChannelUser.html"
+    },
+    {
+      "name": "Get-PnPTeamsPrimaryChannel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsPrimaryChannel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsPrimaryChannel.html"
+    },
+    {
+      "name": "Get-PnPTeamsTab",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsTab.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsTab.html"
+    },
+    {
+      "name": "Get-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsTag.html"
+    },
+    {
+      "name": "Get-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsTeam.html"
+    },
+    {
+      "name": "Get-PnPTeamsUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsUser.html"
+    },
+    {
+      "name": "Get-PnPTemporarilyDisableAppBar",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTemporarilyDisableAppBar.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTemporarilyDisableAppBar.html"
+    },
+    {
+      "name": "Get-PnPTenant",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenant.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenant.html"
+    },
+    {
+      "name": "Get-PnPTenantAppCatalogUrl",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantAppCatalogUrl.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantAppCatalogUrl.html"
+    },
+    {
+      "name": "Get-PnPTenantCdnEnabled",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantCdnEnabled.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantCdnEnabled.html"
+    },
+    {
+      "name": "Get-PnPTenantCdnOrigin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantCdnOrigin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantCdnOrigin.html"
+    },
+    {
+      "name": "Get-PnPTenantCdnPolicies",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantCdnPolicies.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantCdnPolicies.html"
+    },
+    {
+      "name": "Get-PnPTenantDeletedSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantDeletedSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantDeletedSite.html"
+    },
+    {
+      "name": "Get-PnPTenantId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantId.html"
+    },
+    {
+      "name": "Get-PnPTenantInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInfo.html"
+    },
+    {
+      "name": "Get-PnPTenantInstance",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInstance.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInstance.html"
+    },
+    {
+      "name": "Get-PnPTenantRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRecycleBinItem.html"
+    },
+    {
+      "name": "Get-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
+    },
+    {
+      "name": "Get-PnPTenantSequence",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantSequence.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantSequence.html"
+    },
+    {
+      "name": "Get-PnPTenantSequenceSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantSequenceSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantSequenceSite.html"
+    },
+    {
+      "name": "Get-PnPTenantServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantServicePrincipal.html"
+    },
+    {
+      "name": "Get-PnPTenantServicePrincipalPermissionGrants",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantServicePrincipalPermissionGrants.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantServicePrincipalPermissionGrants.html"
+    },
+    {
+      "name": "Get-PnPTenantServicePrincipalPermissionRequests",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantServicePrincipalPermissionRequests.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantServicePrincipalPermissionRequests.html"
+    },
+    {
+      "name": "Get-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantSite.html"
+    },
+    {
+      "name": "Get-PnPTenantSyncClientRestriction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantSyncClientRestriction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantSyncClientRestriction.html"
+    },
+    {
+      "name": "Get-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantTemplate.html"
+    },
+    {
+      "name": "Get-PnPTenantTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantTheme.html"
+    },
+    {
+      "name": "Get-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTerm.html"
+    },
+    {
+      "name": "Get-PnPTermGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTermGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTermGroup.html"
+    },
+    {
+      "name": "Get-PnPTermLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTermLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTermLabel.html"
+    },
+    {
+      "name": "Get-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTermSet.html"
+    },
+    {
+      "name": "Get-PnPTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTheme.html"
+    },
+    {
+      "name": "Get-PnPTimeZoneId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTimeZoneId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTimeZoneId.html"
+    },
+    {
+      "name": "Get-PnPUnfurlLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnfurlLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnfurlLink.html"
+    },
+    {
+      "name": "Get-PnPUnifiedAuditLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnifiedAuditLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnifiedAuditLog.html"
+    },
+    {
+      "name": "Get-PnPUPABulkImportStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUPABulkImportStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUPABulkImportStatus.html"
+    },
+    {
+      "name": "Get-PnPUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUser.html"
+    },
+    {
+      "name": "Get-PnPUserOneDriveQuota",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserOneDriveQuota.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserOneDriveQuota.html"
+    },
+    {
+      "name": "Get-PnPUserProfileProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserProfileProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserProfileProperty.html"
+    },
+    {
+      "name": "Get-PnPView",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPView.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPView.html"
+    },
+    {
+      "name": "Get-PnPVivaConnectionsDashboardACE",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPVivaConnectionsDashboardACE.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Get-PnPWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWeb.html"
+    },
+    {
+      "name": "Get-PnPWebHeader",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebHeader.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebHeader.html"
+    },
+    {
+      "name": "Get-PnPWebhookSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebhookSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebhookSubscription.html"
+    },
+    {
+      "name": "Get-PnPWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebPart.html"
+    },
+    {
+      "name": "Get-PnPWebPartProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebPartProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebPartProperty.html"
+    },
+    {
+      "name": "Get-PnPWebPartXml",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebPartXml.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebPartXml.html"
+    },
+    {
+      "name": "Get-PnPWebPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebPermission.html"
+    },
+    {
+      "name": "Get-PnPWebTemplates",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebTemplates.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebTemplates.html"
+    },
+    {
+      "name": "Get-PnPWikiPageContent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWikiPageContent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWikiPageContent.html"
+    },
+    {
+      "name": "Grant-PnPAzureADAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPAzureADAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPAzureADAppSitePermission.html"
+    },
+    {
+      "name": "Grant-PnPHubSiteRights",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPHubSiteRights.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPHubSiteRights.html"
+    },
+    {
+      "name": "Grant-PnPSiteDesignRights",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPSiteDesignRights.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPSiteDesignRights.html"
+    },
+    {
+      "name": "Grant-PnPTenantServicePrincipalPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPTenantServicePrincipalPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPTenantServicePrincipalPermission.html"
+    },
+    {
+      "name": "Import-PnPTaxonomy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Import-PnPTaxonomy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Import-PnPTaxonomy.html"
+    },
+    {
+      "name": "Import-PnPTermGroupFromXml",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Import-PnPTermGroupFromXml.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Import-PnPTermGroupFromXml.html"
+    },
+    {
+      "name": "Import-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Import-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Import-PnPTermSet.html"
+    },
+    {
+      "name": "Install-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Install-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Install-PnPApp.html"
+    },
+    {
+      "name": "Invoke-PnPBatch",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPBatch.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPBatch.html"
+    },
+    {
+      "name": "Invoke-PnPGraphMethod",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPGraphMethod.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPGraphMethod.html"
+    },
+    {
+      "name": "Invoke-PnPListDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPListDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPListDesign.html"
+    },
+    {
+      "name": "Invoke-PnPQuery",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPQuery.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPQuery.html"
+    },
+    {
+      "name": "Invoke-PnPSiteDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPSiteDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPSiteDesign.html"
+    },
+    {
+      "name": "Invoke-PnPSiteScript",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPSiteScript.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPSiteScript.html"
+    },
+    {
+      "name": "Invoke-PnPSiteSwap",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPSiteSwap.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPSiteSwap.html"
+    },
+    {
+      "name": "Invoke-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Invoke-PnPSPRestMethod",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPSPRestMethod.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPSPRestMethod.html"
+    },
+    {
+      "name": "Invoke-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPTenantTemplate.html"
+    },
+    {
+      "name": "Invoke-PnPWebAction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Invoke-PnPWebAction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Invoke-PnPWebAction.html"
+    },
+    {
+      "name": "Measure-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Measure-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Measure-PnPList.html"
+    },
+    {
+      "name": "Measure-PnPWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Measure-PnPWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Measure-PnPWeb.html"
+    },
+    {
+      "name": "Merge-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Merge-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Merge-PnPTerm.html"
+    },
+    {
+      "name": "Move-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPFile.html"
+    },
+    {
+      "name": "Move-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPFolder.html"
+    },
+    {
+      "name": "Move-PnPListItemToRecycleBin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPListItemToRecycleBin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPListItemToRecycleBin.html"
+    },
+    {
+      "name": "Move-PnPPageComponent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPPageComponent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPPageComponent.html"
+    },
+    {
+      "name": "Move-PnPRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPRecycleBinItem.html"
+    },
+    {
+      "name": "Move-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPTerm.html"
+    },
+    {
+      "name": "Move-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPTermSet.html"
+    },
+    {
+      "name": "New-PnPAzureADGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureADGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureADGroup.html"
+    },
+    {
+      "name": "New-PnPAzureADUserTemporaryAccessPass",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureADUserTemporaryAccessPass.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureADUserTemporaryAccessPass.html"
+    },
+    {
+      "name": "New-PnPAzureCertificate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureCertificate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureCertificate.html"
+    },
+    {
+      "name": "New-PnPBatch",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPBatch.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPBatch.html"
+    },
+    {
+      "name": "New-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPContainerType.html"
+    },
+    {
+      "name": "New-PnPExtensibilityHandlerObject",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPExtensibilityHandlerObject.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPExtensibilityHandlerObject.html"
+    },
+    {
+      "name": "New-PnPGraphSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPGraphSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPGraphSubscription.html"
+    },
+    {
+      "name": "New-PnPGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPGroup.html"
+    },
+    {
+      "name": "New-PnPLibraryFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPLibraryFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPLibraryFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "New-PnPLibraryFileVersionExpirationReportJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPLibraryFileVersionExpirationReportJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPLibraryFileVersionExpirationReportJob.html"
+    },
+    {
+      "name": "New-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPList.html"
+    },
+    {
+      "name": "New-PnPMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPMicrosoft365Group.html"
+    },
+    {
+      "name": "New-PnPMicrosoft365GroupSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPMicrosoft365GroupSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPMicrosoft365GroupSettings.html"
+    },
+    {
+      "name": "New-PnPPersonalSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPPersonalSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPPersonalSite.html"
+    },
+    {
+      "name": "New-PnPPlannerPlan",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPPlannerPlan.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPPlannerPlan.html"
+    },
+    {
+      "name": "New-PnPSdnProvider",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSdnProvider.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSdnProvider.html"
+    },
+    {
+      "name": "New-PnPSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSite.html"
+    },
+    {
+      "name": "New-PnPSiteCollectionTermStore",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteCollectionTermStore.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteCollectionTermStore.html"
+    },
+    {
+      "name": "New-PnPSiteFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "New-PnPSiteFileVersionExpirationReportJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteFileVersionExpirationReportJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteFileVersionExpirationReportJob.html"
+    },
+    {
+      "name": "New-PnPSiteGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteGroup.html"
+    },
+    {
+      "name": "New-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteTemplate.html"
+    },
+    {
+      "name": "New-PnPSiteTemplateFromFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteTemplateFromFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteTemplateFromFolder.html"
+    },
+    {
+      "name": "New-PnPTeamsApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTeamsApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTeamsApp.html"
+    },
+    {
+      "name": "New-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTeamsTeam.html"
+    },
+    {
+      "name": "New-PnPTenantSequence",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSequence.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSequence.html"
+    },
+    {
+      "name": "New-PnPTenantSequenceCommunicationSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSequenceCommunicationSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSequenceCommunicationSite.html"
+    },
+    {
+      "name": "New-PnPTenantSequenceTeamNoGroupSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSequenceTeamNoGroupSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSequenceTeamNoGroupSite.html"
+    },
+    {
+      "name": "New-PnPTenantSequenceTeamNoGroupSubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSequenceTeamNoGroupSubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSequenceTeamNoGroupSubSite.html"
+    },
+    {
+      "name": "New-PnPTenantSequenceTeamSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSequenceTeamSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSequenceTeamSite.html"
+    },
+    {
+      "name": "New-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantSite.html"
+    },
+    {
+      "name": "New-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTenantTemplate.html"
+    },
+    {
+      "name": "New-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTerm.html"
+    },
+    {
+      "name": "New-PnPTermGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTermGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTermGroup.html"
+    },
+    {
+      "name": "New-PnPTermLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTermLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTermLabel.html"
+    },
+    {
+      "name": "New-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTermSet.html"
+    },
+    {
+      "name": "New-PnPUPABulkImportJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPUPABulkImportJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPUPABulkImportJob.html"
+    },
+    {
+      "name": "New-PnPUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPUser.html"
+    },
+    {
+      "name": "New-PnPWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPWeb.html"
+    },
+    {
+      "name": "Publish-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPApp.html"
+    },
+    {
+      "name": "Publish-PnPCompanyApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPCompanyApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPCompanyApp.html"
+    },
+    {
+      "name": "Publish-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPContentType.html"
+    },
+    {
+      "name": "Publish-PnPSyntexModel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPSyntexModel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPSyntexModel.html"
+    },
+    {
+      "name": "Read-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Read-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Read-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Read-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Read-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Read-PnPTenantTemplate.html"
+    },
+    {
+      "name": "Receive-PnPCopyMoveJobStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Receive-PnPCopyMoveJobStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Receive-PnPCopyMoveJobStatus.html"
+    },
+    {
+      "name": "Register-PnPAppCatalogSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPAppCatalogSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPAppCatalogSite.html"
+    },
+    {
+      "name": "Register-PnPAzureADApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPAzureADApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPAzureADApp.html"
+    },
+    {
+      "name": "Register-PnPHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPHubSite.html"
+    },
+    {
+      "name": "Register-PnPManagementShellAccess",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPManagementShellAccess.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPManagementShellAccess.html"
+    },
+    {
+      "name": "Remove-PnPAdaptiveScopeProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAdaptiveScopeProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAdaptiveScopeProperty.html"
+    },
+    {
+      "name": "Remove-PnPAlert",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAlert.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAlert.html"
+    },
+    {
+      "name": "Remove-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPApp.html"
+    },
+    {
+      "name": "Remove-PnPApplicationCustomizer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPApplicationCustomizer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPApplicationCustomizer.html"
+    },
+    {
+      "name": "Remove-PnPAvailableSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAvailableSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAvailableSiteClassification.html"
+    },
+    {
+      "name": "Remove-PnPAzureADApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADApp.html"
+    },
+    {
+      "name": "Remove-PnPAzureADGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroup.html"
+    },
+    {
+      "name": "Remove-PnPAzureADGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroupMember.html"
+    },
+    {
+      "name": "Remove-PnPAzureADGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPAzureADServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Remove-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainer.html"
+    },
+    {
+      "name": "Remove-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainerType.html"
+    },
+    {
+      "name": "Remove-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContentType.html"
+    },
+    {
+      "name": "Remove-PnPContentTypeFromDocumentSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContentTypeFromDocumentSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContentTypeFromDocumentSet.html"
+    },
+    {
+      "name": "Remove-PnPContentTypeFromList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContentTypeFromList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContentTypeFromList.html"
+    },
+    {
+      "name": "Remove-PnPCustomAction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPCustomAction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPCustomAction.html"
+    },
+    {
+      "name": "Remove-PnPDeletedMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPDeletedMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPDeletedMicrosoft365Group.html"
+    },
+    {
+      "name": "Remove-PnPEventReceiver",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEventReceiver.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEventReceiver.html"
+    },
+    {
+      "name": "Remove-PnPExternalUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPExternalUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPExternalUser.html"
+    },
+    {
+      "name": "Remove-PnPField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPField.html"
+    },
+    {
+      "name": "Remove-PnPFieldFromContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFieldFromContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFieldFromContentType.html"
+    },
+    {
+      "name": "Remove-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFile.html"
+    },
+    {
+      "name": "Remove-PnPFileFromSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFileFromSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileFromSiteTemplate.html"
+    },
+    {
+      "name": "Remove-PnPFileSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFileSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileSharingLink.html"
+    },
+    {
+      "name": "Remove-PnPFileVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFileVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileVersion.html"
+    },
+    {
+      "name": "Remove-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFlow.html"
+    },
+    {
+      "name": "Remove-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFlowOwner.html"
+    },
+    {
+      "name": "Remove-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFolder.html"
+    },
+    {
+      "name": "Remove-PnPFolderSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFolderSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFolderSharingLink.html"
+    },
+    {
+      "name": "Remove-PnPGraphSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPGraphSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPGraphSubscription.html"
+    },
+    {
+      "name": "Remove-PnPGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPGroup.html"
+    },
+    {
+      "name": "Remove-PnPGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPGroupMember.html"
+    },
+    {
+      "name": "Remove-PnPHomeSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPHomeSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPHomeSite.html"
+    },
+    {
+      "name": "Remove-PnPHubSiteAssociation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPHubSiteAssociation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPHubSiteAssociation.html"
+    },
+    {
+      "name": "Remove-PnPHubToHubAssociation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPHubToHubAssociation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPHubToHubAssociation.html"
+    },
+    {
+      "name": "Remove-PnPIndexedProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPIndexedProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPIndexedProperty.html"
+    },
+    {
+      "name": "Remove-PnPJavaScriptLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPJavaScriptLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPJavaScriptLink.html"
+    },
+    {
+      "name": "Remove-PnPKnowledgeHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPKnowledgeHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPKnowledgeHubSite.html"
+    },
+    {
+      "name": "Remove-PnPLibraryFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPLibraryFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPLibraryFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "Remove-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPList.html"
+    },
+    {
+      "name": "Remove-PnPListDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListDesign.html"
+    },
+    {
+      "name": "Remove-PnPListItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItem.html"
+    },
+    {
+      "name": "Remove-PnPListItemAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListItemAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemAttachment.html"
+    },
+    {
+      "name": "Remove-PnPListItemComment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListItemComment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemComment.html"
+    },
+    {
+      "name": "Remove-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemVersion.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365Group.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365GroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupMember.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365GroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365GroupPhoto",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupPhoto.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupPhoto.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365GroupSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupSettings.html"
+    },
+    {
+      "name": "Remove-PnPNavigationNode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPNavigationNode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPNavigationNode.html"
+    },
+    {
+      "name": "Remove-PnPOrgAssetsLibrary",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPOrgAssetsLibrary.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPOrgAssetsLibrary.html"
+    },
+    {
+      "name": "Remove-PnPOrgNewsSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPOrgNewsSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPOrgNewsSite.html"
+    },
+    {
+      "name": "Remove-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPage.html"
+    },
+    {
+      "name": "Remove-PnPPageComponent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPageComponent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPageComponent.html"
+    },
+    {
+      "name": "Remove-PnPPlannerBucket",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerBucket.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerBucket.html"
+    },
+    {
+      "name": "Remove-PnPPlannerPlan",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerPlan.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerPlan.html"
+    },
+    {
+      "name": "Remove-PnPPlannerRoster",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerRoster.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerRoster.html"
+    },
+    {
+      "name": "Remove-PnPPlannerRosterMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerRosterMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerRosterMember.html"
+    },
+    {
+      "name": "Remove-PnPPlannerTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerTask.html"
+    },
+    {
+      "name": "Remove-PnPPropertyBagValue",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPropertyBagValue.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPropertyBagValue.html"
+    },
+    {
+      "name": "Remove-PnPPublishingImageRendition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPublishingImageRendition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPublishingImageRendition.html"
+    },
+    {
+      "name": "Remove-PnPRoleDefinition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPRoleDefinition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPRoleDefinition.html"
+    },
+    {
+      "name": "Remove-PnPSdnProvider",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSdnProvider.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSdnProvider.html"
+    },
+    {
+      "name": "Remove-PnPSearchConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Remove-PnPSiteCollectionAdmin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteCollectionAdmin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteCollectionAdmin.html"
+    },
+    {
+      "name": "Remove-PnPSiteCollectionAppCatalog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteCollectionAppCatalog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteCollectionAppCatalog.html"
+    },
+    {
+      "name": "Remove-PnPSiteCollectionTermStore",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteCollectionTermStore.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteCollectionTermStore.html"
+    },
+    {
+      "name": "Remove-PnPSiteDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteDesign.html"
+    },
+    {
+      "name": "Remove-PnPSiteDesignTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteDesignTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteDesignTask.html"
+    },
+    {
+      "name": "Remove-PnPSiteFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "Remove-PnPSiteGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteGroup.html"
+    },
+    {
+      "name": "Remove-PnPSiteScript",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteScript.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteScript.html"
+    },
+    {
+      "name": "Remove-PnPSiteUserInvitations",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteUserInvitations.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteUserInvitations.html"
+    },
+    {
+      "name": "Remove-PnPStorageEntity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPStorageEntity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPStorageEntity.html"
+    },
+    {
+      "name": "Remove-PnPStoredCredential",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPStoredCredential.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPStoredCredential.html"
+    },
+    {
+      "name": "Remove-PnPTaxonomyItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTaxonomyItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTaxonomyItem.html"
+    },
+    {
+      "name": "Remove-PnPTeamsApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsApp.html"
+    },
+    {
+      "name": "Remove-PnPTeamsChannel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsChannel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsChannel.html"
+    },
+    {
+      "name": "Remove-PnPTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsChannelUser.html"
+    },
+    {
+      "name": "Remove-PnPTeamsTab",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsTab.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTab.html"
+    },
+    {
+      "name": "Remove-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTag.html"
+    },
+    {
+      "name": "Remove-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTeam.html"
+    },
+    {
+      "name": "Remove-PnPTeamsUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsUser.html"
+    },
+    {
+      "name": "Remove-PnPTenantCdnOrigin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTenantCdnOrigin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTenantCdnOrigin.html"
+    },
+    {
+      "name": "Remove-PnPTenantDeletedSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTenantDeletedSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTenantDeletedSite.html"
+    },
+    {
+      "name": "Remove-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTenantSite.html"
+    },
+    {
+      "name": "Remove-PnPTenantSyncClientRestriction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTenantSyncClientRestriction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTenantSyncClientRestriction.html"
+    },
+    {
+      "name": "Remove-PnPTenantTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTenantTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTenantTheme.html"
+    },
+    {
+      "name": "Remove-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTerm.html"
+    },
+    {
+      "name": "Remove-PnPTermGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTermGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTermGroup.html"
+    },
+    {
+      "name": "Remove-PnPTermLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTermLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTermLabel.html"
+    },
+    {
+      "name": "Remove-PnPUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUser.html"
+    },
+    {
+      "name": "Remove-PnPUserInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPUserInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUserInfo.html"
+    },
+    {
+      "name": "Remove-PnPUserProfile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPUserProfile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUserProfile.html"
+    },
+    {
+      "name": "Remove-PnPView",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPView.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPView.html"
+    },
+    {
+      "name": "Remove-PnPVivaConnectionsDashboardACE",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPVivaConnectionsDashboardACE.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Remove-PnPWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWeb.html"
+    },
+    {
+      "name": "Remove-PnPWebhookSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWebhookSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWebhookSubscription.html"
+    },
+    {
+      "name": "Remove-PnPWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWebPart.html"
+    },
+    {
+      "name": "Remove-PnPWikiPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWikiPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWikiPage.html"
+    },
+    {
+      "name": "Rename-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Rename-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Rename-PnPFile.html"
+    },
+    {
+      "name": "Rename-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Rename-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Rename-PnPFolder.html"
+    },
+    {
+      "name": "Rename-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Rename-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Rename-PnPTenantSite.html"
+    },
+    {
+      "name": "Repair-PnPSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Repair-PnPSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Repair-PnPSite.html"
+    },
+    {
+      "name": "Request-PnPAccessToken",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPAccessToken.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPAccessToken.html"
+    },
+    {
+      "name": "Request-PnPPersonalSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPPersonalSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPPersonalSite.html"
+    },
+    {
+      "name": "Request-PnPReIndexList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPReIndexList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPReIndexList.html"
+    },
+    {
+      "name": "Request-PnPReIndexWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPReIndexWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPReIndexWeb.html"
+    },
+    {
+      "name": "Request-PnPSyntexClassifyAndExtract",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPSyntexClassifyAndExtract.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPSyntexClassifyAndExtract.html"
+    },
+    {
+      "name": "Reset-PnPFileVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPFileVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPFileVersion.html"
+    },
+    {
+      "name": "Reset-PnPMicrosoft365GroupExpiration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPMicrosoft365GroupExpiration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPMicrosoft365GroupExpiration.html"
+    },
+    {
+      "name": "Reset-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPRetentionLabel.html"
+    },
+    {
+      "name": "Reset-PnPUserOneDriveQuotaToDefault",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPUserOneDriveQuotaToDefault.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPUserOneDriveQuotaToDefault.html"
+    },
+    {
+      "name": "Resolve-PnPFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Resolve-PnPFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Resolve-PnPFolder.html"
+    },
+    {
+      "name": "Restart-PnPFlowRun",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restart-PnPFlowRun.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restart-PnPFlowRun.html"
+    },
+    {
+      "name": "Restore-PnPDeletedContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPDeletedContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPDeletedContainer.html"
+    },
+    {
+      "name": "Restore-PnPDeletedMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPDeletedMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPDeletedMicrosoft365Group.html"
+    },
+    {
+      "name": "Restore-PnPFileVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPFileVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPFileVersion.html"
+    },
+    {
+      "name": "Restore-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPListItemVersion.html"
+    },
+    {
+      "name": "Restore-PnPRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPRecycleBinItem.html"
+    },
+    {
+      "name": "Restore-PnPTenantRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPTenantRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantRecycleBinItem.html"
+    },
+    {
+      "name": "Restore-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantSite.html"
+    },
+    {
+      "name": "Revoke-PnPAzureADAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPAzureADAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPAzureADAppSitePermission.html"
+    },
+    {
+      "name": "Revoke-PnPHubSiteRights",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPHubSiteRights.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPHubSiteRights.html"
+    },
+    {
+      "name": "Revoke-PnPSiteDesignRights",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPSiteDesignRights.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPSiteDesignRights.html"
+    },
+    {
+      "name": "Revoke-PnPTenantServicePrincipalPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPTenantServicePrincipalPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPTenantServicePrincipalPermission.html"
+    },
+    {
+      "name": "Revoke-PnPUserSession",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPUserSession.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPUserSession.html"
+    },
+    {
+      "name": "Save-PnPPageConversionLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Save-PnPPageConversionLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Save-PnPPageConversionLog.html"
+    },
+    {
+      "name": "Save-PnPSiteTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Save-PnPSiteTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Save-PnPSiteTemplate.html"
+    },
+    {
+      "name": "Save-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Save-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Save-PnPTenantTemplate.html"
+    },
+    {
+      "name": "Send-PnPMail",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Send-PnPMail.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Send-PnPMail.html"
+    },
+    {
+      "name": "Set-PnPAdaptiveScopeProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAdaptiveScopeProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAdaptiveScopeProperty.html"
+    },
+    {
+      "name": "Set-PnPApplicationCustomizer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPApplicationCustomizer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPApplicationCustomizer.html"
+    },
+    {
+      "name": "Set-PnPAppSideLoading",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAppSideLoading.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAppSideLoading.html"
+    },
+    {
+      "name": "Set-PnPAuditing",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAuditing.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAuditing.html"
+    },
+    {
+      "name": "Set-PnPAvailablePageLayouts",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAvailablePageLayouts.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAvailablePageLayouts.html"
+    },
+    {
+      "name": "Set-PnPAzureADAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAzureADAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAzureADAppSitePermission.html"
+    },
+    {
+      "name": "Set-PnPAzureADGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAzureADGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAzureADGroup.html"
+    },
+    {
+      "name": "Set-PnPBrowserIdleSignOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignOut.html"
+    },
+    {
+      "name": "Set-PnPBuiltInDesignPackageVisibility",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBuiltInDesignPackageVisibility.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBuiltInDesignPackageVisibility.html"
+    },
+    {
+      "name": "Set-PnPBuiltInSiteTemplateSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBuiltInSiteTemplateSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBuiltInSiteTemplateSettings.html"
+    },
+    {
+      "name": "Set-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContentType.html"
+    },
+    {
+      "name": "Set-PnPContext",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContext.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContext.html"
+    },
+    {
+      "name": "Set-PnPDefaultColumnValues",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDefaultColumnValues.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDefaultColumnValues.html"
+    },
+    {
+      "name": "Set-PnPDefaultContentTypeToList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDefaultContentTypeToList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDefaultContentTypeToList.html"
+    },
+    {
+      "name": "Set-PnPDefaultPageLayout",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDefaultPageLayout.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDefaultPageLayout.html"
+    },
+    {
+      "name": "Set-PnPDisableSpacesActivation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDisableSpacesActivation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDisableSpacesActivation.html"
+    },
+    {
+      "name": "Set-PnPDocumentSetField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDocumentSetField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDocumentSetField.html"
+    },
+    {
+      "name": "Set-PnPField",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPField.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPField.html"
+    },
+    {
+      "name": "Set-PnPFileCheckedIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileCheckedIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileCheckedIn.html"
+    },
+    {
+      "name": "Set-PnPFileCheckedOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileCheckedOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileCheckedOut.html"
+    },
+    {
+      "name": "Set-PnPFolderPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFolderPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFolderPermission.html"
+    },
+    {
+      "name": "Set-PnPFooter",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFooter.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFooter.html"
+    },
+    {
+      "name": "Set-PnPGraphSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPGraphSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPGraphSubscription.html"
+    },
+    {
+      "name": "Set-PnPGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPGroup.html"
+    },
+    {
+      "name": "Set-PnPGroupPermissions",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPGroupPermissions.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPGroupPermissions.html"
+    },
+    {
+      "name": "Set-PnPHideDefaultThemes",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPHideDefaultThemes.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPHideDefaultThemes.html"
+    },
+    {
+      "name": "Set-PnPHomePage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPHomePage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPHomePage.html"
+    },
+    {
+      "name": "Set-PnPHomeSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPHomeSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPHomeSite.html"
+    },
+    {
+      "name": "Set-PnPHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPHubSite.html"
+    },
+    {
+      "name": "Set-PnPImageListItemColumn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPImageListItemColumn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPImageListItemColumn.html"
+    },
+    {
+      "name": "Set-PnPIndexedProperties",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPIndexedProperties.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPIndexedProperties.html"
+    },
+    {
+      "name": "Set-PnPInPlaceRecordsManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPInPlaceRecordsManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPInPlaceRecordsManagement.html"
+    },
+    {
+      "name": "Set-PnPKnowledgeHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPKnowledgeHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPKnowledgeHubSite.html"
+    },
+    {
+      "name": "Set-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPList.html"
+    },
+    {
+      "name": "Set-PnPListInformationRightsManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListInformationRightsManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListInformationRightsManagement.html"
+    },
+    {
+      "name": "Set-PnPListItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html"
+    },
+    {
+      "name": "Set-PnPListItemAsRecord",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListItemAsRecord.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListItemAsRecord.html"
+    },
+    {
+      "name": "Set-PnPListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListItemPermission.html"
+    },
+    {
+      "name": "Set-PnPListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListPermission.html"
+    },
+    {
+      "name": "Set-PnPListRecordDeclaration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListRecordDeclaration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListRecordDeclaration.html"
+    },
+    {
+      "name": "Set-PnPMasterPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMasterPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMasterPage.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsArchived",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsArchived.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsArchived.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsFavorite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsFavorite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsFavorite.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsNotArchived",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsNotArchived.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsNotArchived.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsNotFavorite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsNotFavorite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsNotFavorite.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsRead",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsRead.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsRead.html"
+    },
+    {
+      "name": "Set-PnPMessageCenterAnnouncementAsUnread",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMessageCenterAnnouncementAsUnread.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMessageCenterAnnouncementAsUnread.html"
+    },
+    {
+      "name": "Set-PnPMicrosoft365Group",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMicrosoft365Group.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365Group.html"
+    },
+    {
+      "name": "Set-PnPMicrosoft365GroupSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMicrosoft365GroupSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html"
+    },
+    {
+      "name": "Set-PnPMinimalDownloadStrategy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMinimalDownloadStrategy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMinimalDownloadStrategy.html"
+    },
+    {
+      "name": "Set-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPage.html"
+    },
+    {
+      "name": "Set-PnPPageTextPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPageTextPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPageTextPart.html"
+    },
+    {
+      "name": "Set-PnPPageWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPageWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPageWebPart.html"
+    },
+    {
+      "name": "Set-PnPPlannerBucket",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerBucket.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerBucket.html"
+    },
+    {
+      "name": "Set-PnPPlannerConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerConfiguration.html"
+    },
+    {
+      "name": "Set-PnPPlannerPlan",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerPlan.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerPlan.html"
+    },
+    {
+      "name": "Set-PnPPlannerTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerTask.html"
+    },
+    {
+      "name": "Set-PnPPlannerUserPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerUserPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerUserPolicy.html"
+    },
+    {
+      "name": "Set-PnPPropertyBagValue",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPropertyBagValue.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPropertyBagValue.html"
+    },
+    {
+      "name": "Set-PnPRequestAccessEmails",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPRequestAccessEmails.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRequestAccessEmails.html"
+    },
+    {
+      "name": "Set-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRetentionLabel.html"
+    },
+    {
+      "name": "Set-PnPRoleDefinition",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPRoleDefinition.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRoleDefinition.html"
+    },
+    {
+      "name": "Set-PnPSearchConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Set-PnPSearchExternalItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalItem.html"
+    },
+    {
+      "name": "Set-PnPSearchSettings",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchSettings.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchSettings.html"
+    },
+    {
+      "name": "Set-PnPSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSite.html"
+    },
+    {
+      "name": "Set-PnPSiteArchiveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteArchiveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteArchiveState.html"
+    },
+    {
+      "name": "Set-PnPSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteClassification.html"
+    },
+    {
+      "name": "Set-PnPSiteClosure",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteClosure.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteClosure.html"
+    },
+    {
+      "name": "Set-PnPSiteDesign",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteDesign.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteDesign.html"
+    },
+    {
+      "name": "Set-PnPSiteGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteGroup.html"
+    },
+    {
+      "name": "Set-PnPSitePolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSitePolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSitePolicy.html"
+    },
+    {
+      "name": "Set-PnPSiteScript",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteScript.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteScript.html"
+    },
+    {
+      "name": "Set-PnPSiteScriptPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteScriptPackage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteScriptPackage.html"
+    },
+    {
+      "name": "Set-PnPSiteSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteSensitivityLabel.html"
+    },
+    {
+      "name": "Set-PnPSiteTemplateMetadata",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteTemplateMetadata.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteTemplateMetadata.html"
+    },
+    {
+      "name": "Set-PnPSiteVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteVersionPolicy.html"
+    },
+    {
+      "name": "Set-PnPStorageEntity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPStorageEntity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPStorageEntity.html"
+    },
+    {
+      "name": "Set-PnPStructuralNavigationCacheSiteState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPStructuralNavigationCacheSiteState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPStructuralNavigationCacheSiteState.html"
+    },
+    {
+      "name": "Set-PnPStructuralNavigationCacheWebState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPStructuralNavigationCacheWebState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPStructuralNavigationCacheWebState.html"
+    },
+    {
+      "name": "Set-PnPSubscribeSharePointNewsDigest",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSubscribeSharePointNewsDigest.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSubscribeSharePointNewsDigest.html"
+    },
+    {
+      "name": "Set-PnPTaxonomyFieldValue",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTaxonomyFieldValue.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTaxonomyFieldValue.html"
+    },
+    {
+      "name": "Set-PnPTeamifyPromptHidden",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamifyPromptHidden.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamifyPromptHidden.html"
+    },
+    {
+      "name": "Set-PnPTeamsChannel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsChannel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsChannel.html"
+    },
+    {
+      "name": "Set-PnPTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsChannelUser.html"
+    },
+    {
+      "name": "Set-PnPTeamsTab",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTab.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTab.html"
+    },
+    {
+      "name": "Set-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTag.html"
+    },
+    {
+      "name": "Set-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTeam.html"
+    },
+    {
+      "name": "Set-PnPTeamsTeamArchivedState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTeamArchivedState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTeamArchivedState.html"
+    },
+    {
+      "name": "Set-PnPTeamsTeamPicture",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTeamPicture.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTeamPicture.html"
+    },
+    {
+      "name": "Set-PnPTemporarilyDisableAppBar",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTemporarilyDisableAppBar.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTemporarilyDisableAppBar.html"
+    },
+    {
+      "name": "Set-PnPTenant",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenant.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenant.html"
+    },
+    {
+      "name": "Set-PnPTenantAppCatalogUrl",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantAppCatalogUrl.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantAppCatalogUrl.html"
+    },
+    {
+      "name": "Set-PnPTenantCdnEnabled",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantCdnEnabled.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantCdnEnabled.html"
+    },
+    {
+      "name": "Set-PnPTenantCdnPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantCdnPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantCdnPolicy.html"
+    },
+    {
+      "name": "Set-PnPTenantSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantSite.html"
+    },
+    {
+      "name": "Set-PnPTenantSyncClientRestriction",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantSyncClientRestriction.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantSyncClientRestriction.html"
+    },
+    {
+      "name": "Set-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTerm.html"
+    },
+    {
+      "name": "Set-PnPTermGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTermGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTermGroup.html"
+    },
+    {
+      "name": "Set-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTermSet.html"
+    },
+    {
+      "name": "Set-PnPTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTheme.html"
+    },
+    {
+      "name": "Set-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTraceLog.html"
+    },
+    {
+      "name": "Set-PnPUserOneDriveQuota",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPUserOneDriveQuota.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPUserOneDriveQuota.html"
+    },
+    {
+      "name": "Set-PnPUserProfileProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPUserProfileProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPUserProfileProperty.html"
+    },
+    {
+      "name": "Set-PnPView",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPView.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPView.html"
+    },
+    {
+      "name": "Set-PnPVivaConnectionsDashboardACE",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPVivaConnectionsDashboardACE.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Set-PnPWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html"
+    },
+    {
+      "name": "Set-PnPWebHeader",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWebHeader.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html"
+    },
+    {
+      "name": "Set-PnPWebhookSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWebhookSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWebhookSubscription.html"
+    },
+    {
+      "name": "Set-PnPWebPartProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWebPartProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWebPartProperty.html"
+    },
+    {
+      "name": "Set-PnPWebPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWebPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWebPermission.html"
+    },
+    {
+      "name": "Set-PnPWebTheme",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWebTheme.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWebTheme.html"
+    },
+    {
+      "name": "Set-PnPWikiPageContent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWikiPageContent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWikiPageContent.html"
+    },
+    {
+      "name": "Stop-PnPFlowRun",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPFlowRun.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPFlowRun.html"
+    },
+    {
+      "name": "Submit-PnPSearchQuery",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Submit-PnPSearchQuery.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Submit-PnPSearchQuery.html"
+    },
+    {
+      "name": "Submit-PnPTeamsChannelMessage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Submit-PnPTeamsChannelMessage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Submit-PnPTeamsChannelMessage.html"
+    },
+    {
+      "name": "Sync-PnPAppToTeams",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Sync-PnPAppToTeams.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Sync-PnPAppToTeams.html"
+    },
+    {
+      "name": "Sync-PnPSharePointUserProfilesFromAzureActiveDirectory",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Sync-PnPSharePointUserProfilesFromAzureActiveDirectory.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Sync-PnPSharePointUserProfilesFromAzureActiveDirectory.html"
+    },
+    {
+      "name": "Test-PnPListItemIsRecord",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Test-PnPListItemIsRecord.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPListItemIsRecord.html"
+    },
+    {
+      "name": "Test-PnPMicrosoft365GroupAliasIsUsed",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Test-PnPMicrosoft365GroupAliasIsUsed.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPMicrosoft365GroupAliasIsUsed.html"
+    },
+    {
+      "name": "Test-PnPSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Test-PnPSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPSite.html"
+    },
+    {
+      "name": "Test-PnPTenantTemplate",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Test-PnPTenantTemplate.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPTenantTemplate.html"
+    },
+    {
+      "name": "Undo-PnPFileCheckedOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Undo-PnPFileCheckedOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Undo-PnPFileCheckedOut.html"
+    },
+    {
+      "name": "Uninstall-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Uninstall-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Uninstall-PnPApp.html"
+    },
+    {
+      "name": "Unlock-PnPSensitivityLabelEncryptedFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Unlock-PnPSensitivityLabelEncryptedFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Unlock-PnPSensitivityLabelEncryptedFile.html"
+    },
+    {
+      "name": "Unpublish-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Unpublish-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Unpublish-PnPApp.html"
+    },
+    {
+      "name": "Unpublish-PnPContentType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Unpublish-PnPContentType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Unpublish-PnPContentType.html"
+    },
+    {
+      "name": "Unpublish-PnPSyntexModel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Unpublish-PnPSyntexModel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Unpublish-PnPSyntexModel.html"
+    },
+    {
+      "name": "Unregister-PnPHubSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Unregister-PnPHubSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Unregister-PnPHubSite.html"
+    },
+    {
+      "name": "Update-PnPApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPApp.html"
+    },
+    {
+      "name": "Update-PnPAvailableSiteClassification",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPAvailableSiteClassification.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPAvailableSiteClassification.html"
+    },
+    {
+      "name": "Update-PnPSiteDesignFromWeb",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPSiteDesignFromWeb.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPSiteDesignFromWeb.html"
+    },
+    {
+      "name": "Update-PnPTeamsApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTeamsApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTeamsApp.html"
+    },
+    {
+      "name": "Update-PnPTeamsUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTeamsUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTeamsUser.html"
+    },
+    {
+      "name": "Update-PnPUserType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPUserType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPUserType.html"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.loader {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.loader div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+}

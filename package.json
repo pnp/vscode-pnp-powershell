@@ -1,0 +1,98 @@
+{
+  "name": "pnp-powershell-extension",
+  "displayName": "PnP PowerShell VSCode extension",
+  "description": "With the PnP PowerShell VS Code extension, you can quickly learn, code and create scripts that use PnP PowerShell commands.",
+  "version": "2.12.24",
+  "publisher": "adamwojcikit",
+  "author": {
+    "name": "Adam"
+  },
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Snippets",
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "PowerShell",
+    "Microsoft365",
+    "SharePoint"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnp/vscode-pnp-powershell"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "PnPPS.showSamples",
+        "title": "PnP PS: Open samples gallery"
+      },
+      {
+        "command": "PnPPS.showManual",
+        "title": "PnP PS: Open docs for command"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "powershell",
+        "path": "./snippets/pnpPowerShell.code-snippets"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "PnPPS",
+          "title": "PnP PowerShell commands",
+          "icon": "assets/logo.svg"
+        }
+      ]
+    },
+    "views": {
+      "PnPPS": [
+        {
+          "type": "webview",
+          "id": "PnPPS",
+          "name": "PnP PowerShell commands",
+          "icon": "assets/logo.svg"
+        }
+      ]
+    }
+  },
+  "activationEvents": [
+    "onView:PnPPS",
+    "onCommand:PnPPS.showSamples",
+    "onCommand:PnPPS.showManual"
+  ],
+  "main": "./out/src/extension.js",
+  "scripts": {
+    "install:all": "npm install && npm --prefix ./webview-ui/commandsList install ./webview-ui/commandsList && npm --prefix ./webview-ui/docsView install ./webview-ui/docsView && npm --prefix ./webview-ui/samplesView install ./webview-ui/samplesView",
+    "build:webview": "npm --prefix ./webview-ui/commandsList run build && npm --prefix ./webview-ui/docsView run build && npm --prefix ./webview-ui/samplesView run build",
+    "vscode:prepublish": "npm run clean && npm run build:webview && npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "clean": "del-cli --force ./out"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.46.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "del-cli": "^4.0.1",
+    "eslint": "^7.19.0",
+    "glob": "^7.1.6",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0",
+    "@vscode/codicons": "^0.0.31"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

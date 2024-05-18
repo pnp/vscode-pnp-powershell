@@ -1,0 +1,24 @@
+.not-found {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.not-found div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.not-found div i{
+    font-size: 5em !important;
+}
+
+.not-found-title{
+    text-align: center;
+}
+
+.not-found-description{
+    text-align: left;
+}

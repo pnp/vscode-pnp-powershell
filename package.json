@@ -2,7 +2,7 @@
   "name": "pnp-powershell-extension",
   "displayName": "PnP PowerShell VSCode extension",
   "description": "With the PnP PowerShell VS Code extension, you can quickly learn, code and create scripts that use PnP PowerShell commands.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "publisher": "adamwojcikit",
   "author": {
     "name": "Adam"

@@ -2257,6 +2257,26 @@
       ]
     },
     {
+      "title": "Delete SharePoint Online sites that have retention policies",
+      "url": "https://pnp.github.io/script-samples/spo-delete-site-with-retention-policy/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-site-with-retention-policy/README.md",
+      "description": "This sample script deletes specified SharePoint Online sites that have a retention policy applied by excluding them from the retention policy, deleting the site and then cleaning up the retention policy exclusions.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-site-with-retention-policy/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Giacomo Pozzoni",
+          "pictureUrl": "https://github.com/jackpoz.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>",
+        "Connect-PnPOnline",
+        "Remove-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Deploys and Installs SharePoint Framework (SPFx) solutions to Hub Site and Associated Sites",
       "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsite-associatedsites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/README.md",
@@ -4972,6 +4992,30 @@
         "Connect-PnPOnline",
         "Invoke-PnPQuery",
         "Disconnect-PnPOnline"
+      ]
+    },
+    {
+      "title": "Repair IdMismatch for user cross all Sites",
+      "url": "https://pnp.github.io/script-samples/spo-repair-user-idmismatch/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-repair-user-idmismatch/README.md",
+      "description": "This script will fix the IdMismatch of a user across all sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-repair-user-idmismatch/assets/ScriptPreview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Alvaro Avila Ruiz",
+          "pictureUrl": "https://github.com/barbarur.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPUserProfileProperty",
+        "Set-PnPTenantSite",
+        "Get-PnPUser",
+        "Remove-PnPSiteCollectionAdmin",
+        "Remove-PnPUser"
       ]
     },
     {

@@ -93,6 +93,6 @@
     "@vscode/codicons": "^0.0.31"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.6.8"
   }
 }

@@ -156,6 +156,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPGroupMember.html"
     },
     {
+      "name": "Add-PnPHomeSite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPHomeSite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPHomeSite.html"
+    },
+    {
       "name": "Add-PnPHtmlPublishingPageLayout",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPHtmlPublishingPageLayout.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPHtmlPublishingPageLayout.html"
@@ -851,6 +856,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainer.html"
     },
     {
+      "name": "Get-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerType.html"
+    },
+    {
       "name": "Get-PnPContainerTypeConfiguration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerTypeConfiguration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerTypeConfiguration.html"
@@ -1239,6 +1249,11 @@
       "name": "Get-PnPPageLikedByInformation",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageLikedByInformation.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageLikedByInformation.html"
+    },
+    {
+      "name": "Get-PnPPageSchedulingEnabled",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageSchedulingEnabled.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageSchedulingEnabled.html"
     },
     {
       "name": "Get-PnPPlannerBucket",
@@ -1641,9 +1656,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInstance.html"
     },
     {
+      "name": "Get-PnPTenantInternalSetting",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInternalSetting.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInternalSetting.html"
+    },
+    {
       "name": "Get-PnPTenantRecycleBinItem",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantRecycleBinItem.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRecycleBinItem.html"
+    },
+    {
+      "name": "Get-PnPTenantRestrictedSearchMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantRestrictedSearchMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRestrictedSearchMode.html"
     },
     {
       "name": "Get-PnPRetentionLabel",
@@ -3339,6 +3364,11 @@
       "name": "Set-PnPTenantCdnPolicy",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantCdnPolicy.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantCdnPolicy.html"
+    },
+    {
+      "name": "Set-PnPTenantRestrictedSearchMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTenantRestrictedSearchMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTenantRestrictedSearchMode.html"
     },
     {
       "name": "Set-PnPTenantSite",

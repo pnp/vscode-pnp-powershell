@@ -717,6 +717,41 @@
       ]
     },
     {
+      "title": "Replace owner in all Power Automate flows",
+      "url": "https://pnp.github.io/script-samples/power-automate-replace-owner/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/power-automate-replace-owner/README.md",
+      "description": "Script to replace all the Power Automate flows where someone is owner of",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/power-automate-replace-owner/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Nico De Cleyre",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/35696168?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 entra user get",
+        "m365 pp environment get",
+        "m365 flow list",
+        "m365 flow owner list",
+        "m365 flow owner remove",
+        "m365 flow owner ensure",
+        "Connect-PnPOnline",
+        "Get-PnPPowerPlatformEnvironment",
+        "Get-PnPEntraiduser",
+        "Get-PnPflow",
+        "Get-PnPFlowOwner",
+        "Remove-PnPFlowOwner",
+        "Add-PnPFlowOwner"
+      ]
+    },
+    {
       "title": "Remove delete option on a document library",
       "url": "https://pnp.github.io/script-samples/remove-delete-option-library/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/remove-delete-option-library/README.md",
@@ -3888,6 +3923,33 @@
       ]
     },
     {
+      "title": "Get permissions including unique permissions up to item level including sharing links",
+      "url": "https://pnp.github.io/script-samples/spo-get-permission-audit/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-permission-audit/README.md",
+      "description": "Get M365 Groups, SharePoint Groups, direct permissions and sharing links including unique permissions up to item level",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-permission-audit/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPProperty",
+        "Get-PnPList",
+        "Get-PnPWeb",
+        "Get-PnPContext",
+        "Get-PnPGroupMember",
+        "Get-PnPMicrosoft365GroupOwners",
+        "Get-PnPMicrosoft365GroupMembers"
+      ]
+    },
+    {
       "title": "Get sharing links within the tenant",
       "url": "https://pnp.github.io/script-samples/spo-get-sharinglinks/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharinglinks/README.md",
@@ -4662,6 +4724,28 @@
         "Connect-PnPOnline",
         "Add-PnPOrgAssetsLibrary",
         "Disconnect-PnPOnline"
+      ]
+    },
+    {
+      "title": "Reindex Search index for lists where a specific term is used (when you have renamed the term)",
+      "url": "https://pnp.github.io/script-samples/spo-reindex-list-where-term-is-used/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-list-where-term-is-used/README.md",
+      "description": "Locate all lists where a Term is being used and force a reindex",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-list-where-term-is-used/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPSearchQuery",
+        "Get-PnPList",
+        "PSCustomObject",
+        "Request-PnPReIndexList",
+        "Export-Csv"
       ]
     },
     {

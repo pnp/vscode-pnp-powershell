@@ -966,6 +966,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
     },
     {
+      "name": "Get-PnPFileSensitivityLabelInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSensitivityLabelInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSensitivityLabelInfo.html"
+    },
+    {
       "name": "Get-PnPFileSharingLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSharingLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSharingLink.html"

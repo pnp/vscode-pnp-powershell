@@ -45,6 +45,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://github.com/mkm17.png"
+        },
+        {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
         }
@@ -56,7 +60,11 @@
         "Get-PnPTenantSite",
         "Get-PnPMicrosoft365GroupOwner",
         "Get-PnPMicrosoft365GroupMember",
-        "Add-PnPMicrosoft365GroupMember"
+        "Add-PnPMicrosoft365GroupMember",
+        "m365 login",
+        "m365 spo site list",
+        "m365 entra m365group user list ",
+        "m365 entra m365group user add"
       ]
     },
     {
@@ -3975,6 +3983,26 @@
       ]
     },
     {
+      "title": "Retrieves site id from Microsoft Graph",
+      "url": "https://pnp.github.io/script-samples/spo-get-siteid-from-microsoftgraph/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-siteid-from-microsoftgraph/README.md",
+      "description": "Retrieves a SiteId from Microsoft Graph using PnP PowerShell. This can be particularly useful when making further API calls that require the SiteId.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-siteid-from-microsoftgraph/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Invoke-PnPGraphMethod"
+      ]
+    },
+    {
       "title": "Get membership report of a site",
       "url": "https://pnp.github.io/script-samples/spo-get-sites-membership-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/README.md",
@@ -5805,6 +5833,25 @@
         "Get-PnPStoredCredential",
         "Invoke-WebRequest",
         "Invoke-RestMethod"
+      ]
+    },
+    {
+      "title": "Get All Teams App Descriptions",
+      "url": "https://pnp.github.io/script-samples/teams-list-all-app-descriptions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-all-app-descriptions/README.md",
+      "description": "Get an list of all the app descriptions to determine if your app may clash with others during Copilot development",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-all-app-descriptions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Invoke-PnPGraphMethod"
       ]
     },
     {

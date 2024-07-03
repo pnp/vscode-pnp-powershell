@@ -2300,6 +2300,29 @@
       ]
     },
     {
+      "title": "Deletes sharing links for folder, file and item in SharePoint",
+      "url": "https://pnp.github.io/script-samples/spo-delete-sharinglink-folder-file-item/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-sharinglink-folder-file-item/README.md",
+      "description": "Deletes sharing links for folder, file, and item. This can address oversharing issues during the Copilot for M365 rollout.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-sharinglink-folder-file-item/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPProperty",
+        "Remove-PnPgroup",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Delete SharePoint Online sites that have retention policies",
       "url": "https://pnp.github.io/script-samples/spo-delete-site-with-retention-policy/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-site-with-retention-policy/README.md",
@@ -4808,6 +4831,30 @@
         "m365 spo site list",
         "m365 spo web reindex",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Remove site access requests",
+      "url": "https://pnp.github.io/script-samples/spo-remove-access-requests/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-access-requests/README.md",
+      "description": "As a site owner, delete in bulk all the access requests from a SharePoint site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-access-requests/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Aimery Thomas",
+          "pictureUrl": "https://github.com/a1mery.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "New-PnPBatch",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Remove-PnPListItem",
+        "Invoke-PnPBatch",
+        "Disconnect-PnPOnline"
       ]
     },
     {

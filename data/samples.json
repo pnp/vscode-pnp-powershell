@@ -3492,6 +3492,30 @@
       ]
     },
     {
+      "title": "Find SharePoint Framework (SPFx) Packages in Tenant and Site Collection App Catalogs",
+      "url": "https://pnp.github.io/script-samples/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.md",
+      "description": "Find SharePoint Framework (SPFx) Packages in Tenant and Site Collection App Catalogs which will help maintain oversight of SPFx package installation, ensuring they are up-to-date and compliant.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPSiteCollectionAppCatalog",
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPWeb",
+        "Get-PnPApp"
+      ]
+    },
+    {
       "title": "Find Web Part in Pages e.g., Twitter Web Part",
       "url": "https://pnp.github.io/script-samples/spo-find-web-part-in-pages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-web-part-in-pages/README.md",
@@ -5537,6 +5561,29 @@
       ]
     },
     {
+      "title": "Update SharePoint Site Logo and Thumbnail",
+      "url": "https://pnp.github.io/script-samples/spo-update-branding-sitelogo-thumbnail/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-branding-sitelogo-thumbnail/README.md",
+      "description": "Update SharePoint Site Logo and Thumbnail.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-branding-sitelogo-thumbnail/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Add-PnPFile",
+        "Get-PnPFile",
+        "Set-PnPWebHeader",
+        "Get-PnPHubSiteChild"
+      ]
+    },
+    {
       "title": "How to Hide the 'See All' Button in the Highlighted Content Web Part",
       "url": "https://pnp.github.io/script-samples/spo-update-highlightcontentwebpart-seeall/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/README.md",
@@ -5577,6 +5624,26 @@
         "Get-PnPListItem",
         "Set-PnPListItem",
         "Invoke-PnPBatch"
+      ]
+    },
+    {
+      "title": "Update a SharePoint list item without changing the Modified By and Modified fields",
+      "url": "https://pnp.github.io/script-samples/spo-update-list-item-as-system/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-list-item-as-system/README.md",
+      "description": "Demonstrates how to update a SharePoint list item without changing the Modified By and Modified fields using PnP PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-list-item-as-system/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Guido Zambarda",
+          "pictureUrl": "https://github.com/GuidoZam.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Set-PnPListItem"
       ]
     },
     {

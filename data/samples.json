@@ -4026,7 +4026,8 @@
         "Get-PnPList",
         "Get-PnPWeb",
         "Get-PnPContext",
-        "GetObjectSharingInformation"
+        "Get-PnPFileSharingLink",
+        "Get-PnPFolderSharingLink"
       ]
     },
     {
@@ -5128,6 +5129,34 @@
         "m365 login",
         "m365 spo sitescript list",
         "m365 spo sitescript remove"
+      ]
+    },
+    {
+      "title": "Remove the Teamify link on Group sites",
+      "url": "https://pnp.github.io/script-samples/spo-remove-teamify-link/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-teamify-link/README.md",
+      "description": "Remove the link in the left hand side suggesting to convert a Group Site to a Teams site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-teamify-link/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Set-PnPSite",
+        "Set-PnPPropertyBagValue",
+        "Set-PnPTeamifyPromptHidden"
       ]
     },
     {

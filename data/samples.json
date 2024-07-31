@@ -4005,6 +4005,26 @@
       ]
     },
     {
+      "title": "Get SharePoint Storage Usage Against Allocated Quota",
+      "url": "https://pnp.github.io/script-samples/spo-get-sharepoint-storage-currentquota/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharepoint-storage-currentquota/README.md",
+      "description": "Understand and sharing links activities within your M365 environment is crucial for maintaining security and compliance.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharepoint-storage-currentquota/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Get sharing links within the tenant",
       "url": "https://pnp.github.io/script-samples/spo-get-sharinglinks/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharinglinks/README.md",

@@ -2291,6 +2291,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADServicePrincipalAssignedAppRole.html"
     },
     {
+      "name": "Remove-PnPAzureADUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADUser.html"
+    },
+    {
       "name": "Remove-PnPContainer",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainer.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainer.html"

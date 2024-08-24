@@ -2231,6 +2231,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPAzureADApp.html"
     },
     {
+      "name": "Register-PnPEntraIDAppForInteractiveLogin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPEntraIDAppForInteractiveLogin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPEntraIDAppForInteractiveLogin.html"
+    },
+    {
       "name": "Register-PnPHubSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPHubSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPHubSite.html"

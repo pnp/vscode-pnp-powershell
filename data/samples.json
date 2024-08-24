@@ -3742,6 +3742,31 @@
       ]
     },
     {
+      "title": "Retrieve SPFx Details from Tenant and Site Collection App Catalogs",
+      "url": "https://pnp.github.io/script-samples/spo-get-details-spfx-packages-tenant-sitecollection-appcatalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-details-spfx-packages-tenant-sitecollection-appcatalog/README.md",
+      "description": "Retrieve detailed information about SPFx solutions installed in SharePoint environment, such as API permissions from both the tenant-level and site collection app catalogs.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-details-spfx-packages-tenant-sitecollection-appcatalog/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPTenantAppCatalogUrl",
+        "Get-PnPSiteCollectionAppCatalog",
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPWeb",
+        "Get-PnPApp"
+      ]
+    },
+    {
       "title": "Get (or export) an existing site structure in a SharePoint Online tenant",
       "url": "https://pnp.github.io/script-samples/spo-get-existing-site-structure/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-existing-site-structure/README.md",
@@ -4110,6 +4135,24 @@
         "Connect-PnPOnline",
         "Get-PnPWeb",
         "Get-PnPGroup"
+      ]
+    },
+    {
+      "title": "GET API Permissions for SPFx solutions",
+      "url": "https://pnp.github.io/script-samples/spo-get-spfx-apipermissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-spfx-apipermissions/README.md",
+      "description": "To enhance your tenant's security posture, it's crucial to regularly review the API permissions requested by SPFx solutions",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-spfx-apipermissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kinga Kazala",
+          "pictureUrl": "https://github.com/kkazala.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {

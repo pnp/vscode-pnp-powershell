@@ -68,6 +68,24 @@
       ]
     },
     {
+      "title": "Grant Managed Identity permissions to audit and cleanup SPFx App Principal permissions",
+      "url": "https://pnp.github.io/script-samples/aad-grant-serviceprincipal-api-permissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-grant-serviceprincipal-api-permissions/README.md",
+      "description": "This script can be used to grant System-Managed Identity used by automation (Azure Runbook, Azure Functions) API permissions and access to SPO sites",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-grant-serviceprincipal-api-permissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kinga Kazala",
+          "pictureUrl": "https://github.com/kkazala.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/script-samples/aad-replace-membership-of-selected-groups/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-membership-of-selected-groups/README.md",
@@ -2343,6 +2361,24 @@
       ]
     },
     {
+      "title": "Remove unused API Permissions assigned to SPFx App Principal",
+      "url": "https://pnp.github.io/script-samples/spo-delete-unused-spfx-apipermissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-unused-spfx-apipermissions/README.md",
+      "description": "This script removes unused API permissions assigned to the 'SharePoint Online Client Extensibility Web Application Principal'.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-unused-spfx-apipermissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kinga Kazala",
+          "pictureUrl": "https://github.com/kkazala.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Deploys and Installs SharePoint Framework (SPFx) solutions to Hub Site and Associated Sites",
       "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsite-associatedsites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/README.md",
@@ -2822,6 +2858,26 @@
         "Connect-SPOService",
         "Disconnect-SPOService",
         "Get-SPOSite"
+      ]
+    },
+    {
+      "title": "Ensure all required Content Types are available before Get-PnPSiteTemplate ",
+      "url": "https://pnp.github.io/script-samples/spo-ensure-cts-before-template/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-ensure-cts-before-template/README.md",
+      "description": "This is a Content type pre-burner before extracting a PnP Template",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-ensure-cts-before-template/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPContentType",
+        "Add-PnPContentTypesFromContentTypeHub",
+        "Get-PnPSiteTemplate"
       ]
     },
     {
@@ -3492,6 +3548,24 @@
       ]
     },
     {
+      "title": "Find every page that contains a Modern Script Editor web part",
+      "url": "https://pnp.github.io/script-samples/spo-find-script-editor-webpart-using-search/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-script-editor-webpart-using-search/README.md",
+      "description": "Locate use of Modern Script Editor",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-script-editor-webpart-using-search/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPSearchQuery"
+      ]
+    },
+    {
       "title": "Find SharePoint Framework (SPFx) Packages in Tenant and Site Collection App Catalogs",
       "url": "https://pnp.github.io/script-samples/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.md",
@@ -4073,6 +4147,28 @@
         "Get-PnPContext",
         "Get-PnPFileSharingLink",
         "Get-PnPFolderSharingLink"
+      ]
+    },
+    {
+      "title": "Get SharePoint site sharing Settings",
+      "url": "https://pnp.github.io/script-samples/spo-get-site-sharing-settings/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-site-sharing-settings/README.md",
+      "description": "Get SharePoint site sharing settings including some SharePoint Advanced Management(SAM) settings",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-site-sharing-settings/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPConnection",
+        "Get-PnPTenantSite"
       ]
     },
     {

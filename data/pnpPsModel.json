@@ -1361,6 +1361,16 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchCrawlLog.html"
     },
     {
+      "name": "Get-PnPSearchExternalConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchExternalConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchExternalConnection.html"
+    },
+    {
+      "name": "Get-PnPSearchExternalSchema",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchExternalSchema.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchExternalSchema.html"
+    },
+    {
       "name": "Get-PnPSearchSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchSettings.html"
@@ -2071,6 +2081,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSdnProvider.html"
     },
     {
+      "name": "New-PnPSearchExternalConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSearchExternalConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSearchExternalConnection.html"
+    },
+    {
       "name": "New-PnPSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSite.html"
@@ -2574,6 +2589,11 @@
       "name": "Remove-PnPSearchConfiguration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchConfiguration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Remove-PnPSearchExternalConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchExternalConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchExternalConnection.html"
     },
     {
       "name": "Remove-PnPSiteCollectionAdmin",
@@ -3226,9 +3246,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchConfiguration.html"
     },
     {
+      "name": "Set-PnPSearchExternalConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalConnection.html"
+    },
+    {
       "name": "Set-PnPSearchExternalItem",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalItem.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalItem.html"
+    },
+    {
+      "name": "Set-PnPSearchExternalSchema",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalSchema.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalSchema.html"
     },
     {
       "name": "Set-PnPSearchSettings",

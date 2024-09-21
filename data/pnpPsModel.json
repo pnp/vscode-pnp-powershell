@@ -396,6 +396,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantCdnOrigin.html"
     },
     {
+      "name": "Add-PnPTenantRestrictedSearchAllowedList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantRestrictedSearchAllowedList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantRestrictedSearchAllowedList.html"
+    },
+    {
       "name": "Add-PnPTenantSequence",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSequence.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSequence.html"
@@ -629,6 +634,11 @@
       "name": "Enable-PnPPowerShellTelemetry",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPowerShellTelemetry.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPowerShellTelemetry.html"
+    },
+    {
+      "name": "Enable-PnPPriviledgedIdentityManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPriviledgedIdentityManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPriviledgedIdentityManagement.html"
     },
     {
       "name": "Enable-PnPSiteClassification",
@@ -1171,6 +1181,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListRecordDeclaration.html"
     },
     {
+      "name": "Get-PnPManagedAppId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPManagedAppId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPManagedAppId.html"
+    },
+    {
       "name": "Get-PnPMasterPage",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMasterPage.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMasterPage.html"
@@ -1319,6 +1334,16 @@
       "name": "Get-PnPPowerShellTelemetryEnabled",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerShellTelemetryEnabled.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerShellTelemetryEnabled.html"
+    },
+    {
+      "name": "Get-PnPPriviledgedIdentityManagementEligibleAssignment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPriviledgedIdentityManagementEligibleAssignment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPriviledgedIdentityManagementEligibleAssignment.html"
+    },
+    {
+      "name": "Get-PnPPriviledgedIdentityManagementRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPriviledgedIdentityManagementRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPriviledgedIdentityManagementRole.html"
     },
     {
       "name": "Get-PnPProperty",
@@ -2491,6 +2516,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemVersion.html"
     },
     {
+      "name": "Remove-PnPManagedAppId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPManagedAppId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPManagedAppId.html"
+    },
+    {
       "name": "Remove-PnPMicrosoft365Group",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365Group.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365Group.html"
@@ -2821,6 +2851,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPSyntexClassifyAndExtract.html"
     },
     {
+      "name": "Reset-PnPDocumentId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPDocumentId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPDocumentId.html"
+    },
+    {
       "name": "Reset-PnPFileVersion",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPFileVersion.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPFileVersion.html"
@@ -3131,6 +3166,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListRecordDeclaration.html"
     },
     {
+      "name": "Set-PnPManagedAppId",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPManagedAppId.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPManagedAppId.html"
+    },
+    {
       "name": "Set-PnPMasterPage",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMasterPage.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMasterPage.html"
@@ -3181,6 +3221,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMinimalDownloadStrategy.html"
     },
     {
+      "name": "Set-PnPOrgAssetsLibrary",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPOrgAssetsLibrary.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPOrgAssetsLibrary.html"
+    },
+    {
       "name": "Set-PnPPage",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPage.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPage.html"
@@ -3219,6 +3264,11 @@
       "name": "Set-PnPPlannerUserPolicy",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPlannerUserPolicy.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPlannerUserPolicy.html"
+    },
+    {
+      "name": "Set-PnPPowerAppByPassConsent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPPowerAppByPassConsent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPPowerAppByPassConsent.html"
     },
     {
       "name": "Set-PnPPropertyBagValue",

@@ -2669,6 +2669,24 @@
       ]
     },
     {
+      "title": "Download all files from Document Libarary/Folder",
+      "url": "https://pnp.github.io/script-samples/spo-download-files-from-doclib/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-from-doclib/README.md",
+      "description": "The script will download all files from an SharePoint Document Libraray or Folder",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-from-doclib/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Peter Paul Kirschner",
+          "pictureUrl": "https://github.com/petkir.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Download sppkgs from App Catalog",
       "url": "https://pnp.github.io/script-samples/spo-download-sppkgs/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-sppkgs/README.md",
@@ -4930,6 +4948,25 @@
         "m365 status",
         "m365 login",
         "m365 spo site recyclebinitem list"
+      ]
+    },
+    {
+      "title": "Register and login to SharePoint using an app",
+      "url": "https://pnp.github.io/script-samples/spo-register-app-login-using-app/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-register-app-login-using-app/README.md",
+      "description": "This script sample shows how to register an app in SharePoint and login to SharePoint using the app.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-register-app-login-using-app/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Register-PnPEntraIDApp"
       ]
     },
     {

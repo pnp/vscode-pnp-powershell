@@ -5544,6 +5544,24 @@
       ]
     },
     {
+      "title": "Audit Service Principal Access to SharePoint Sites with Sites.Selected Permissions",
+      "url": "https://pnp.github.io/script-samples/spo-serviceprincipals-sites.selected-permission-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-serviceprincipals-sites.selected-permission-sites/README.md",
+      "description": "This script identifies the SharePoint sites that a Service Principal can access when the sites.selected API permission is granted.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-serviceprincipals-sites.selected-permission-sites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Set Home site for SharePoint online tenant",
       "url": "https://pnp.github.io/script-samples/spo-set-home-site/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-home-site/README.md",

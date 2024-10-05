@@ -3859,6 +3859,31 @@
       ]
     },
     {
+      "title": "Audit 'Everyone' and  'Everyone except external users' claim within a SharePoint site",
+      "url": "https://pnp.github.io/script-samples/spo-get-everyone-everyoneexceptexternalusers/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-everyone-everyoneexceptexternalusers/README.md",
+      "description": "Audit 'Everyone' and  'Everyone except external users' claim within a SharePoint site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-everyone-everyoneexceptexternalusers/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPProperty",
+        "Get-PnPList",
+        "Get-PnPWeb",
+        "Get-PnPContext",
+        "Get-PnPGroupMember"
+      ]
+    },
+    {
       "title": "Get (or export) an existing site structure in a SharePoint Online tenant",
       "url": "https://pnp.github.io/script-samples/spo-get-existing-site-structure/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-existing-site-structure/README.md",
@@ -3905,6 +3930,29 @@
         "Get-PnPListItem",
         "Get-PnPTenant",
         "Get-PnPTenantSite"
+      ]
+    },
+    {
+      "title": "Get Files with Retention or Sensitivity Labels in SharePoint Online",
+      "url": "https://pnp.github.io/script-samples/spo-get-files-retentionlabel-sensitivitylabel/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-retentionlabel-sensitivitylabel/README.md",
+      "description": "Get Files with Retention or Sensitivity Labels in SharePoint Online",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-retentionlabel-sensitivitylabel/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPConnection",
+        "Get-PnPTenantSite",
+        "Get-PnPListItem",
+        "Get-PnPList"
       ]
     },
     {
@@ -4118,7 +4166,8 @@
         "Get-PnPContext",
         "Get-PnPGroupMember",
         "Get-PnPMicrosoft365GroupOwners",
-        "Get-PnPMicrosoft365GroupMembers"
+        "Get-PnPMicrosoft365GroupMembers",
+        "Get-PnPSiteSensitivityLabel"
       ]
     },
     {

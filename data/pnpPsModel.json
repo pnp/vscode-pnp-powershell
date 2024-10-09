@@ -716,11 +716,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPApp.html"
     },
     {
-      "name": "Get-PnPAppAuthAccessToken",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAppAuthAccessToken.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAppAuthAccessToken.html"
-    },
-    {
       "name": "Get-PnPAppErrors",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAppErrors.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAppErrors.html"
@@ -1034,11 +1029,6 @@
       "name": "Get-PnPFooter",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFooter.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFooter.html"
-    },
-    {
-      "name": "Get-PnPGraphAccessToken",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGraphAccessToken.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGraphAccessToken.html"
     },
     {
       "name": "Get-PnPGraphSubscription",
@@ -2824,11 +2814,6 @@
       "name": "Repair-PnPSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Repair-PnPSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Repair-PnPSite.html"
-    },
-    {
-      "name": "Request-PnPAccessToken",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Request-PnPAccessToken.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Request-PnPAccessToken.html"
     },
     {
       "name": "Request-PnPPersonalSite",

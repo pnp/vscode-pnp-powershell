@@ -1442,10 +1442,7 @@
     "body": [
       "Get-PnPAccessToken "
     ],
-    "description": [
-      "Gets the OAuth 2.0 Access Token to consume the Microsoft Graph API. Doesn't work with all Connect-PnPOnline options. To retrieve the SharePoint Online access token, you can also use Get-PnPAppAuthAccessToken.",
-      "Get-PnPAppAuthAccessToken"
-    ]
+    "description": "Gets the OAuth 2.0 Access Token."
   },
   "Get-PnPAlert": {
     "prefix": [
@@ -1470,18 +1467,6 @@
       "Allows to retrieve available apps from the app catalog. In order to get apps from site collection scoped app catalog set Scope option to Site.",
       "Scope",
       "Site"
-    ]
-  },
-  "Get-PnPAppAuthAccessToken": {
-    "prefix": [
-      "Get-PnPAppAuthAccessToken"
-    ],
-    "body": [
-      "Get-PnPAppAuthAccessToken "
-    ],
-    "description": [
-      "Returns the SharePoint Online access token from the current client context. This will only work in the App authentication flow (App+user or App-Only). For the Microsoft Graph access token, use Get-PnPAccessToken instead.",
-      "Get-PnPAccessToken"
     ]
   },
   "Get-PnPAppErrors": {
@@ -2096,15 +2081,6 @@
       "Get-PnPFooter "
     ],
     "description": "Allows the current configuration of the footer in the current web to be retrieved. The footer currently only works on Modern Communication sites."
-  },
-  "Get-PnPGraphAccessToken": {
-    "prefix": [
-      "Get-PnPGraphAccessToken"
-    ],
-    "body": [
-      "Get-PnPGraphAccessToken "
-    ],
-    "description": "Gets the OAuth 2.0 Access Token to consume the Microsoft Graph API"
   },
   "Get-PnPGraphSubscription": {
     "prefix": [
@@ -5561,15 +5537,6 @@
       "The Repair-PnPSite cmdlet runs one or all site collection health checks on the site collection and its contents. This cmdlet will make changes if issues are found and automatically repairable.",
       "The cmdlet reports the health check rules with a summary of the results. The rules might not support automatic repair. Tests without repair mode can be initiated by running the Test-PnPSite cmdlet."
     ]
-  },
-  "Request-PnPAccessToken": {
-    "prefix": [
-      "Request-PnPAccessToken"
-    ],
-    "body": [
-      "Request-PnPAccessToken "
-    ],
-    "description": "Returns an access token using the password grant, using the PnP O365 Management Shell client id by default and the AllSites.FullControl scope by default."
   },
   "Request-PnPPersonalSite": {
     "prefix": [

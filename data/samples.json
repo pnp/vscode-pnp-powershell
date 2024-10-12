@@ -5876,6 +5876,30 @@
       ]
     },
     {
+      "title": "Add document templates to the New dropdown in a document library",
+      "url": "https://pnp.github.io/script-samples/spo-update-document-library-templates/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-document-library-templates/README.md",
+      "description": "Showing how you can add your own document templates to the the New dropdown in a document library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-document-library-templates/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPList",
+        "New-PnPList",
+        "Get-PnPFile",
+        "Copy-PnPFile",
+        "Get-PnPView",
+        "Get-PnPContentType",
+        "Invoke-PnPQuery"
+      ]
+    },
+    {
       "title": "How to Hide the 'See All' Button in the Highlighted Content Web Part",
       "url": "https://pnp.github.io/script-samples/spo-update-highlightcontentwebpart-seeall/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/README.md",
@@ -5916,6 +5940,27 @@
         "Get-PnPListItem",
         "Set-PnPListItem",
         "Invoke-PnPBatch"
+      ]
+    },
+    {
+      "title": "Update list icons & color",
+      "url": "https://pnp.github.io/script-samples/spo-update-list-icons-and-color/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-list-icons-and-color/README.md",
+      "description": "A sample showing you how to change the color or the icon of a list in SharePoint",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-list-icons-and-color/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/6947024?s=40&v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Invoke-PnPQuery"
       ]
     },
     {

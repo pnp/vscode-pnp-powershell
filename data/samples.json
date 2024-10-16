@@ -3659,6 +3659,26 @@
       ]
     },
     {
+      "title": "Generate file count report",
+      "url": "https://pnp.github.io/script-samples/spo-generate-sp-file-count-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-sp-file-count-report/README.md",
+      "description": "Get a full report of the number of files in your environment",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-sp-file-count-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/tanddant.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Report of SharePoint Storage Savings by trimming document versions",
       "url": "https://pnp.github.io/script-samples/spo-generate-sp-storage-savings-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-sp-storage-savings-report/README.md",
@@ -6338,6 +6358,25 @@
         "m365 login",
         "m365 teams team list",
         "m365 teams user list"
+      ]
+    },
+    {
+      "title": "List ownerless teams",
+      "url": "https://pnp.github.io/script-samples/teams-list-ownerless-teams/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-ownerless-teams/README.md",
+      "description": "Easily identify ownerless teams in your tenant",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-ownerless-teams/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/tanddant.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPMicrosoft365Group"
       ]
     },
     {

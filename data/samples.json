@@ -1,6 +1,30 @@
 {
   "samples": [
     {
+      "title": "Prevent Guests from Being Added to a Specific Microsoft 365 Group or Microsoft Teams team",
+      "url": "https://pnp.github.io/script-samples/aad-control-guestaccount-m365-groups-teams/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-control-guestaccount-m365-groups-teams/README.md",
+      "description": "Prevent Guests from Being Added to a Specific Microsoft 365 Group or Microsoft Teams team",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-control-guestaccount-m365-groups-teams/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365GroupSettings",
+        "New-PnPMicrosoft365GroupSettings",
+        "Set-PnPMicrosoft365GroupSettings",
+        "Get-PnPMicrosoft365Group"
+      ]
+    },
+    {
       "title": "Delete all Microsoft 365 groups and SharePoint sites",
       "url": "https://pnp.github.io/script-samples/aad-delete-m365-groups-and-sharepoint-sites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/README.md",
@@ -68,6 +92,28 @@
       ]
     },
     {
+      "title": "Get Tenant ID",
+      "url": "https://pnp.github.io/script-samples/aad-get-tenantid/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-tenantid/README.md",
+      "description": "These are 2 practical scripts to get Tenant ID from either a domain name or from a Subscriptionis ID.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-tenantid/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Daniel Kåven",
+          "pictureUrl": "https://github.com/dkaaven.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Grant Managed Identity permissions to audit and cleanup SPFx App Principal permissions",
       "url": "https://pnp.github.io/script-samples/aad-grant-serviceprincipal-api-permissions/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-grant-serviceprincipal-api-permissions/README.md",
@@ -83,6 +129,29 @@
       ],
       "tags": [
         "<Cmdlets-Used>"
+      ]
+    },
+    {
+      "title": "Automate Renewal of Expiring M365 Groups or or Microsoft Teams teams",
+      "url": "https://pnp.github.io/script-samples/aad-renew-m365-group/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-renew-m365-group/README.md",
+      "description": "Automate Renewal of Expiring M365 Groups or or Microsoft Teams teams",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-renew-m365-group/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365ExpiringGroup",
+        "Reset-PnPMicrosoft365GroupExpiration",
+        "Get-PnPMicrosoft365Group"
       ]
     },
     {
@@ -1703,7 +1772,7 @@
       "authors": [
         {
           "name": "Eilaf Barmare",
-          "pictureUrl": "https://github.com/elaf365.png"
+          "pictureUrl": "https://github.com/EilafBarmare.png"
         }
       ],
       "tags": [
@@ -3501,7 +3570,7 @@
       "authors": [
         {
           "name": "Lewis Baybutt",
-          "pictureUrl": "https://github.com/lowcodelewis.png"
+          "pictureUrl": "https://github.com/lewisdoesdev.png"
         }
       ],
       "tags": []

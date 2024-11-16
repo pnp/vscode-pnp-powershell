@@ -106,6 +106,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileOrganizationalSharingLink.html"
     },
     {
+      "name": "Add-PnPFileSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileSensitivityLabel.html"
+    },
+    {
       "name": "Add-PnPFileSharingInvite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileSharingInvite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileSharingInvite.html"
@@ -974,6 +979,11 @@
       "name": "Get-PnPFileInFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileInFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
+    },
+    {
+      "name": "Get-PnPFileSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSensitivityLabel.html"
     },
     {
       "name": "Get-PnPFileSensitivityLabelInfo",

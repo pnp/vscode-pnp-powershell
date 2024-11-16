@@ -95,11 +95,19 @@
       "title": "Get Tenant ID",
       "url": "https://pnp.github.io/script-samples/aad-get-tenantid/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-tenantid/README.md",
-      "description": "These are 2 practical scripts to get Tenant ID from either a domain name or from a Subscriptionis ID.",
+      "description": "These are 2 practical scripts to get Tenant ID from either a domain name or from a Subscription ID.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-tenantid/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Erwin van Hunen",
+          "pictureUrl": "https://github.com/erwinvanhunen.png"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
@@ -110,7 +118,9 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>"
+        "Invoke-WebRequest",
+        "Connect-PnPOnline",
+        "Get-PnPTenantId"
       ]
     },
     {
@@ -354,6 +364,24 @@
         "m365 spo file checkout",
         "m365 spo list get",
         "m365 spo list set"
+      ]
+    },
+    {
+      "title": "Export data from MS Search",
+      "url": "https://pnp.github.io/script-samples/export-data-from-microsoft-search/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-data-from-microsoft-search/README.md",
+      "description": "Shows how to export data from MS Search, in this case the entityType externalItem ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-data-from-microsoft-search/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod"
       ]
     },
     {
@@ -1599,28 +1627,6 @@
         "m365 status",
         "m365 spo field get",
         "m365 spo field set"
-      ]
-    },
-    {
-      "title": "Sample showing how to apply a custom Form Formatting as part of your Site Provisioning",
-      "url": "https://pnp.github.io/script-samples/spo-apply-custom-form-formatting-json/README.html",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-custom-form-formatting-json/README.md",
-      "description": "Sample showing how to apply a custom Form Formatting as part of your Site Provisioning using an Azure Function",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-custom-form-formatting-json/assets/preview.png",
-      "type": "powershell",
-      "tabTag": "#tab/pnpps",
-      "authors": [
-        {
-          "name": "Kasper Larsen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
-        }
-      ],
-      "tags": [
-        "Connect-PnPOnline",
-        "Get-PnPFile",
-        "Get-PnPContext",
-        "Get-PnPList",
-        "Get-PnPContentType"
       ]
     },
     {
@@ -5036,6 +5042,27 @@
         "Get-PnPPage",
         "Get-PnPWeb",
         "New-PnPList"
+      ]
+    },
+    {
+      "title": "Lock and Unlock a file leveraging Microsoft Graph API",
+      "url": "https://pnp.github.io/script-samples/spo-record-lock-unlock-file/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-record-lock-unlock-file/README.md",
+      "description": "lock and unlock a file which is a record in SharePoint Online using the Microsoft Graph API through PnP PowerShell. The script retrieves the drive id and drive item id before calling the endpoint to lock or unlock a file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-record-lock-unlock-file/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Invoke-PnPGraphMethod",
+        "Get-PnPListItem"
       ]
     },
     {

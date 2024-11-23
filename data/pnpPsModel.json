@@ -1351,6 +1351,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPriviledgedIdentityManagementRole.html"
     },
     {
+      "name": "Get-PnPProfileCardProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPProfileCardProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPProfileCardProperty.html"
+    },
+    {
       "name": "Get-PnPProperty",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPProperty.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPProperty.html"
@@ -2111,6 +2116,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPPlannerPlan.html"
     },
     {
+      "name": "New-PnpProfileCardProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnpProfileCardProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnpProfileCardProperty.html"
+    },
+    {
       "name": "New-PnPSdnProvider",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSdnProvider.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSdnProvider.html"
@@ -2604,6 +2614,11 @@
       "name": "Remove-PnPPlannerTask",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPlannerTask.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerTask.html"
+    },
+    {
+      "name": "Remove-PnPProfileCardProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPProfileCardProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPProfileCardProperty.html"
     },
     {
       "name": "Remove-PnPPropertyBagValue",

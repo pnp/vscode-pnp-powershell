@@ -3963,6 +3963,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "TiloGit",
+          "pictureUrl": "https://github.com/TiloGit.png"
+        },
+        {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
         }
@@ -4342,6 +4346,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ioannis Gianko",
+          "pictureUrl": "https://github.com/IoannisGianko.png"
+        },
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"

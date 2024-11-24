@@ -2698,6 +2698,15 @@
       "Get-PnPPriviledgedIdentityManagementRole"
     ]
   },
+  "Get-PnPProfileCardProperty": {
+    "description": "This cmdlet may be used to retrieve custom properties added to user profile card.",
+    "body": [
+      "Get-PnPProfileCardProperty "
+    ],
+    "prefix": [
+      "Get-PnPProfileCardProperty"
+    ]
+  },
   "Get-PnPProperty": {
     "description": "Will populate properties of an object and optionally, if needed, load the value from the server. If one property is specified its value will be returned to the output.",
     "body": [
@@ -4241,6 +4250,15 @@
       "New-PnPPlannerPlan"
     ]
   },
+  "New-PnpProfileCardProperty": {
+    "description": "This cmdlet may be used to add a property to user profile card. Please note that it may take up to 24 hours to reflect the changes.",
+    "body": [
+      "New-PnpProfileCardProperty -PropertyName $1 -DisplayName $2"
+    ],
+    "prefix": [
+      "New-PnpProfileCardProperty"
+    ]
+  },
   "New-PnPSdnProvider": {
     "description": "This Cmdlet creates a new Software-Defined Networking, and it receives two parameters, the Identity (ID) of the Hive and the License key of the Hive.",
     "body": [
@@ -5155,6 +5173,15 @@
       "Remove-PnPPlannerTask"
     ]
   },
+  "Remove-PnPProfileCardProperty": {
+    "description": "This cmdlet can be used to remove a property from user profile card",
+    "body": [
+      "Remove-PnPProfileCardProperty -PropertyName $1"
+    ],
+    "prefix": [
+      "Remove-PnPProfileCardProperty"
+    ]
+  },
   "Remove-PnPPropertyBagValue": {
     "description": [
       "Removes a value from the property bag. If working with a modern SharePoint Online site or having noscript enabled, you will have to disable this yourself temporarily using Set-PnPTenantSite -Url <url> -NoScriptSite:$false to be able to make the change.",
@@ -5898,7 +5925,10 @@
     ]
   },
   "Send-PnPMail": {
-    "description": "Allows sending an e-mail through SharePoint Online, SMTP or Microsoft Graph. Sending e-mail through Microsoft Graph requires the Mail.Send permission.",
+    "description": [
+      "Allows sending an e-mail through SharePoint Online or Microsoft Graph. Sending e-mail through Microsoft Graph requires the Mail.Send permission.",
+      "Mail.Send"
+    ],
     "body": [
       "Send-PnPMail -From $1 -To $2 -Subject $3 -Body $4"
     ],

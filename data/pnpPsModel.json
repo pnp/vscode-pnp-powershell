@@ -896,6 +896,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContext.html"
     },
     {
+      "name": "Get-PnPCopilotAdminLimitedMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCopilotAdminLimitedMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCopilotAdminLimitedMode.html"
+    },
+    {
       "name": "Get-PnPCustomAction",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCustomAction.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCustomAction.html"
@@ -3061,6 +3066,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContext.html"
     },
     {
+      "name": "Set-PnPCopilotAdminLimitedMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPCopilotAdminLimitedMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPCopilotAdminLimitedMode.html"
+    },
+    {
       "name": "Set-PnPDefaultColumnValues",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDefaultColumnValues.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDefaultColumnValues.html"
@@ -3249,11 +3259,6 @@
       "name": "Set-PnPMicrosoft365GroupSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMicrosoft365GroupSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html"
-    },
-    {
-      "name": "Set-PnPMinimalDownloadStrategy",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMinimalDownloadStrategy.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMinimalDownloadStrategy.html"
     },
     {
       "name": "Set-PnPOrgAssetsLibrary",

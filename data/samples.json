@@ -232,6 +232,27 @@
       ]
     },
     {
+      "title": "Update Global Microsoft 365 Group Settings",
+      "url": "https://pnp.github.io/script-samples/aad-update-m365-global-unified-settings/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-update-m365-global-unified-settings/README.md",
+      "description": "Configuring Microsoft 365 Group settings is essential for ensuring a secure and compliant environment. This script can be utilized to set up different group settings, such as naming policies and guest access.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-update-m365-global-unified-settings/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Invoke-PnPGraphMethod",
+        "Get-PnPMicrosoft365GroupSettings"
+      ]
+    },
+    {
       "title": "Restore large number of items from SharePoint Recycle bin in bulk",
       "url": "https://pnp.github.io/script-samples/bulk-restore-from-recyclebin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/bulk-restore-from-recyclebin/README.md",
@@ -3641,6 +3662,26 @@
       ]
     },
     {
+      "title": "Find Links in Modern Page",
+      "url": "https://pnp.github.io/script-samples/spo-find-links-in-canvas/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-links-in-canvas/README.md",
+      "description": "This script iterates through a list of site URLs provided in 'sites-test.csv'. For each site, it then scans these page contents for embedded href tags using regular expressions.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-links-in-canvas/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPWeb"
+      ]
+    },
+    {
       "title": "Find every page that contains a Modern Script Editor web part",
       "url": "https://pnp.github.io/script-samples/spo-find-script-editor-webpart-using-search/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-script-editor-webpart-using-search/README.md",
@@ -4313,6 +4354,29 @@
         "Get-PnPContext",
         "Get-PnPFileSharingLink",
         "Get-PnPFolderSharingLink"
+      ]
+    },
+    {
+      "title": "Get Site Ids to URL",
+      "url": "https://pnp.github.io/script-samples/spo-get-site-list-ids/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-site-list-ids/README.md",
+      "description": "This script takes an input file containing one or more SharePoint Online Site Collection Object IDs and converts them into the full URLs",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-site-list-ids/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Sam Larson",
+          "pictureUrl": "https://github.com/salarson.png"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Submit-PnPSearchQuery"
       ]
     },
     {

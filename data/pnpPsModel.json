@@ -896,6 +896,16 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContext.html"
     },
     {
+      "name": "Get-PnPCopilotAdminLimitedMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCopilotAdminLimitedMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCopilotAdminLimitedMode.html"
+    },
+    {
+      "name": "Get-PnPCopilotAgent",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCopilotAgent.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCopilotAgent.html"
+    },
+    {
       "name": "Get-PnPCustomAction",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCustomAction.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCustomAction.html"
@@ -1114,11 +1124,6 @@
       "name": "Get-PnPKnowledgeHubSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPKnowledgeHubSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPKnowledgeHubSite.html"
-    },
-    {
-      "name": "Get-PnPLabel",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLabel.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLabel.html"
     },
     {
       "name": "Get-PnPLargeListOperationStatus",
@@ -1381,6 +1386,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRequestAccessEmails.html"
     },
     {
+      "name": "Get-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
+    },
+    {
       "name": "Get-PnPRoleDefinition",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRoleDefinition.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRoleDefinition.html"
@@ -1576,11 +1586,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStructuralNavigationCacheWebState.html"
     },
     {
-      "name": "Get-PnPSubscribeSharePointNewsDigest",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSubscribeSharePointNewsDigest.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSubscribeSharePointNewsDigest.html"
-    },
-    {
       "name": "Get-PnPSubWeb",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSubWeb.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSubWeb.html"
@@ -1731,9 +1736,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRestrictedSearchMode.html"
     },
     {
-      "name": "Get-PnPRetentionLabel",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
+      "name": "Get-PnPTenantRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRetentionLabel.html"
     },
     {
       "name": "Get-PnPTenantSequence",
@@ -2249,11 +2254,6 @@
       "name": "Publish-PnPApp",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPApp.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPApp.html"
-    },
-    {
-      "name": "Publish-PnPCompanyApp",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Publish-PnPCompanyApp.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Publish-PnPCompanyApp.html"
     },
     {
       "name": "Publish-PnPContentType",
@@ -3061,6 +3061,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContext.html"
     },
     {
+      "name": "Set-PnPCopilotAdminLimitedMode",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPCopilotAdminLimitedMode.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPCopilotAdminLimitedMode.html"
+    },
+    {
       "name": "Set-PnPDefaultColumnValues",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDefaultColumnValues.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDefaultColumnValues.html"
@@ -3251,11 +3256,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html"
     },
     {
-      "name": "Set-PnPMinimalDownloadStrategy",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMinimalDownloadStrategy.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMinimalDownloadStrategy.html"
-    },
-    {
       "name": "Set-PnPOrgAssetsLibrary",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPOrgAssetsLibrary.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPOrgAssetsLibrary.html"
@@ -3426,11 +3426,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPStructuralNavigationCacheWebState.html"
     },
     {
-      "name": "Set-PnPSubscribeSharePointNewsDigest",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSubscribeSharePointNewsDigest.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSubscribeSharePointNewsDigest.html"
-    },
-    {
       "name": "Set-PnPTaxonomyFieldValue",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTaxonomyFieldValue.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTaxonomyFieldValue.html"
@@ -3536,11 +3531,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTheme.html"
     },
     {
-      "name": "Set-PnPTraceLog",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTraceLog.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTraceLog.html"
-    },
-    {
       "name": "Set-PnPUserOneDriveQuota",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPUserOneDriveQuota.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPUserOneDriveQuota.html"
@@ -3596,9 +3586,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWikiPageContent.html"
     },
     {
+      "name": "Start-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPTraceLog.html"
+    },
+    {
       "name": "Stop-PnPFlowRun",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPFlowRun.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPFlowRun.html"
+    },
+    {
+      "name": "Stops-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stops-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Stops-PnPTraceLog.html"
     },
     {
       "name": "Submit-PnPSearchQuery",

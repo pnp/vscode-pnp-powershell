@@ -92,6 +92,26 @@
       ]
     },
     {
+      "title": "Identifying Duplicate Microsoft 365 Group Names",
+      "url": "https://pnp.github.io/script-samples/aad-get-duplicate-m365group/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-duplicate-m365group/README.md",
+      "description": "Identifying duplicate M365 Group to ensure each group has a unique name can help to reduce confusion for end users.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-duplicate-m365group/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "get-PnPMicrosoft365Group"
+      ]
+    },
+    {
       "title": "Get Tenant ID",
       "url": "https://pnp.github.io/script-samples/aad-get-tenantid/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-tenantid/README.md",
@@ -2050,6 +2070,29 @@
       ]
     },
     {
+      "title": "Copying a document library between different tenants with resume functionality",
+      "url": "https://pnp.github.io/script-samples/spo-copy-library-across-tenants/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-library-across-tenants/README.md",
+      "description": "This sample shows how to copy a document library including files and folder structure from one tenant to another one. It includes a resume functionality which comes handy for large libraries. Additionally you can specify custom properties which shall also copied to the target.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-library-across-tenants/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Timo Vomstein",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8087836?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Resolve-PnPFolder",
+        "Get-PnPFile",
+        "Add-PnPFile"
+      ]
+    },
+    {
       "title": "Copy library view to another library(ies)",
       "url": "https://pnp.github.io/script-samples/spo-copy-library-view/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-library-view/README.md",
@@ -2734,6 +2777,24 @@
         "Get-PnPList",
         "Get-PnPContentType",
         "Invoke-PnPQuery"
+      ]
+    },
+    {
+      "title": "Download all documents from all document libraries in a site, including version history",
+      "url": "https://pnp.github.io/script-samples/spo-download-all-doclibs/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-all-doclibs/README.md",
+      "description": "This PowerShell function will download all documents from all document libraries in a site, including version history. The documents will be saved in a folder structure that matches the library structure.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-all-doclibs/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Todd Klindt",
+          "pictureUrl": "https://github.com/ToddKlindt.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
@@ -6452,6 +6513,26 @@
         "m365 teams channel get",
         "m365 teams tab list",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Retrieving SharePoint Site URL for Teams Channels",
+      "url": "https://pnp.github.io/script-samples/teams-get-channel-spo-urls/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-get-channel-spo-urls/README.md",
+      "description": "This script can help to identify the SharePoint Urls associated to private and shared channels. For example, eDiscovery when running against 'Specific Locations' or just for reporting purposes",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-get-channel-spo-urls/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTeamsTeam",
+        "Get-PnPTenantSite"
       ]
     },
     {

@@ -991,6 +991,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
     },
     {
+      "name": "Get-PnPFileRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileRetentionLabel.html"
+    },
+    {
       "name": "Get-PnPFileSensitivityLabel",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSensitivityLabel.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSensitivityLabel.html"
@@ -1841,6 +1846,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserOneDriveQuota.html"
     },
     {
+      "name": "Get-PnPUserProfilePhoto",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserProfilePhoto.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserProfilePhoto.html"
+    },
+    {
       "name": "Get-PnPUserProfileProperty",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserProfileProperty.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserProfileProperty.html"
@@ -1854,6 +1864,11 @@
       "name": "Get-PnPVivaConnectionsDashboardACE",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPVivaConnectionsDashboardACE.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Get-PnPVivaEngageCommunity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPVivaEngageCommunity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPVivaEngageCommunity.html"
     },
     {
       "name": "Get-PnPWeb",
@@ -2244,6 +2259,11 @@
       "name": "New-PnPUser",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPUser.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPUser.html"
+    },
+    {
+      "name": "New-PnPVivaEngageCommunity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPVivaEngageCommunity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPVivaEngageCommunity.html"
     },
     {
       "name": "New-PnPWeb",
@@ -2811,6 +2831,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUserProfile.html"
     },
     {
+      "name": "Remove-PnPUserProfilePhoto",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPUserProfilePhoto.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUserProfilePhoto.html"
+    },
+    {
       "name": "Remove-PnPView",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPView.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPView.html"
@@ -2819,6 +2844,11 @@
       "name": "Remove-PnPVivaConnectionsDashboardACE",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPVivaConnectionsDashboardACE.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
+      "name": "Remove-PnPVivaEngageCommunity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPVivaEngageCommunity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPVivaEngageCommunity.html"
     },
     {
       "name": "Remove-PnPWeb",
@@ -3534,6 +3564,11 @@
       "name": "Set-PnPUserOneDriveQuota",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPUserOneDriveQuota.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPUserOneDriveQuota.html"
+    },
+    {
+      "name": "Set-PnPUserProfilePhoto",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPUserProfilePhoto.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPUserProfilePhoto.html"
     },
     {
       "name": "Set-PnPUserProfileProperty",

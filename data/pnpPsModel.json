@@ -1821,6 +1821,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTimeZoneId.html"
     },
     {
+      "name": "Get-PnPTodoList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTodoList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoList.html"
+    },
+    {
       "name": "Get-PnPUnfurlLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnfurlLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnfurlLink.html"
@@ -2249,6 +2254,11 @@
       "name": "New-PnPTermSet",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTermSet.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTermSet.html"
+    },
+    {
+      "name": "New-PnPTodoList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTodoList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTodoList.html"
     },
     {
       "name": "New-PnPUPABulkImportJob",
@@ -2814,6 +2824,11 @@
       "name": "Remove-PnPTermLabel",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTermLabel.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTermLabel.html"
+    },
+    {
+      "name": "Remove-PnPTodoList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTodoList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoList.html"
     },
     {
       "name": "Remove-PnPUser",
@@ -3734,6 +3749,11 @@
       "name": "Update-PnPTeamsUser",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTeamsUser.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTeamsUser.html"
+    },
+    {
+      "name": "Update-PnPTodoList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTodoList.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTodoList.html"
     },
     {
       "name": "Update-PnPUserType",

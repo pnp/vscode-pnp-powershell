@@ -3601,6 +3601,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPVivaConnectionsDashboardACE.html"
     },
     {
+      "name": "Set-PnPVivaEngageCommunity",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPVivaEngageCommunity.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPVivaEngageCommunity.html"
+    },
+    {
       "name": "Set-PnPWeb",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWeb.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html"

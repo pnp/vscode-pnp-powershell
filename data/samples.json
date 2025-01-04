@@ -2421,6 +2421,31 @@
       ]
     },
     {
+      "title": "Deletes company-wide and anonymous sharing links",
+      "url": "https://pnp.github.io/script-samples/spo-delete-companywide-anonymous-sharinglink/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-companywide-anonymous-sharinglink/README.md",
+      "description": "Deletes company-wide and anonymous sharing links for folder, file, and item. This can address oversharing issues during the M365 Copilot rollout.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-companywide-anonymous-sharinglink/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPFileSharingLink",
+        "Get-PnPFolderSharingLink",
+        "Get-PnPList",
+        "Remove-PnPFileSharingLink",
+        "Remove-PnPFolderSharingLink",
+        "invoke-pnpsprestmethod"
+      ]
+    },
+    {
       "title": "Delete orphaned temporary pages from Site Pages",
       "url": "https://pnp.github.io/script-samples/spo-delete-orphaned-temporary-sitepages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-orphaned-temporary-sitepages/README.md",
@@ -4526,6 +4551,28 @@
         "Connect-PnPOnline",
         "Get-PnPWeb",
         "Get-PnPGroup"
+      ]
+    },
+    {
+      "title": "Retrieve & Store SharePoint Site Pages Viewers",
+      "url": "https://pnp.github.io/script-samples/spo-get-sp-site-page-viewers-details/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sp-site-page-viewers-details/README.md",
+      "description": "This script retrieves and stores SharePoint site pages viewers' details.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sp-site-page-viewers-details/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Sandeep P S",
+          "pictureUrl": "https://github.com/Sandeep-FED.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Exchange Online",
+        "Search-UnifiedAuditLog",
+        "Connect-PnPOnline",
+        "Add-PnPListItem"
       ]
     },
     {

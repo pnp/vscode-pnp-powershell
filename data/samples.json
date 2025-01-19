@@ -2446,6 +2446,29 @@
       ]
     },
     {
+      "title": "Deletes expired and older sharing links for folder, file and item in SharePoint",
+      "url": "https://pnp.github.io/script-samples/spo-delete-expired-sharing-link-folder-file-item/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-expired-sharing-link-folder-file-item/README.md",
+      "description": "Deletes expired and older sharing links for folder, file, and item. Currently expired or older sharing links are not automatically deleted",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-expired-sharing-link-folder-file-item/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPProperty",
+        "Remove-PnPgroup",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Delete orphaned temporary pages from Site Pages",
       "url": "https://pnp.github.io/script-samples/spo-delete-orphaned-temporary-sitepages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-orphaned-temporary-sitepages/README.md",
@@ -2675,6 +2698,26 @@
         "Get-PnPTenant",
         "Get-PnPTenantTheme",
         "Get-PnPWeb"
+      ]
+    },
+    {
+      "title": "Creating SharePoint Agents (.agent Files) with PowerShell",
+      "url": "https://pnp.github.io/script-samples/spo-dev-agent-config-creation/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-dev-agent-config-creation/README.md",
+      "description": "Dyanmic creation of SharePoint Agents (.agent files) using PowerShell. Specify instructions, sample prompts and ground on files, folder, libraries or sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-dev-agent-config-creation/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Submit-PnPSearchQuery",
+        "ConvertTo-Json"
       ]
     },
     {

@@ -986,6 +986,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileAnalyticsData.html"
     },
     {
+      "name": "Get-PnPFileCheckedOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileCheckedOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileCheckedOut.html"
+    },
+    {
       "name": "Get-PnPFileInFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileInFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
@@ -3154,6 +3159,11 @@
       "name": "Set-PnPFileCheckedOut",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileCheckedOut.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileCheckedOut.html"
+    },
+    {
+      "name": "Set-PnPFileRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileRetentionLabel.html"
     },
     {
       "name": "Set-PnPFolderPermission",

@@ -951,6 +951,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDocumentSetTemplate.html"
     },
     {
+      "name": "Get-PnPEnterpriseAppInsightsReport",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEnterpriseAppInsightsReport.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEnterpriseAppInsightsReport.html"
+    },
+    {
       "name": "Get-PnPEventReceiver",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEventReceiver.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEventReceiver.html"
@@ -3659,6 +3664,11 @@
       "name": "Set-PnPWikiPageContent",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWikiPageContent.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWikiPageContent.html"
+    },
+    {
+      "name": "Start-PnPEnterpriseAppInsightsReport",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPEnterpriseAppInsightsReport.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPEnterpriseAppInsightsReport.html"
     },
     {
       "name": "Start-PnPTraceLog",

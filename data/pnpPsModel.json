@@ -1266,6 +1266,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupYammerCommunity.html"
     },
     {
+      "name": "Get-PnPMicrosoft365Roadmap",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365Roadmap.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365Roadmap.html"
+    },
+    {
       "name": "Get-PnPNavigationNode",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPNavigationNode.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPNavigationNode.html"
@@ -3439,6 +3444,11 @@
       "name": "Set-PnPSiteDesign",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteDesign.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteDesign.html"
+    },
+    {
+      "name": "Set-PnPSiteDocumentIdPrefix",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteDocumentIdPrefix.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteDocumentIdPrefix.html"
     },
     {
       "name": "Set-PnPSiteGroup",

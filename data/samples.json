@@ -5092,6 +5092,24 @@
       ]
     },
     {
+      "title": "Integrate MailChimp Campaigns API with SPO to create wiki pages based on email sent from MailChimp",
+      "url": "https://pnp.github.io/script-samples/spo-mailchimp-integration/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-mailchimp-integration/README.md",
+      "description": "Demonstrates how to retrieve sent email campaigns from MailChimp, and save them as wiki pages on SPO. The script retrieves the HTML content of the email, downloads all images into a local folder and uploads to a SPO document library, replaces all mccontent image tags to point to SPO, and create and publish a wiki page",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-mailchimp-integration/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "R. Ali",
+          "pictureUrl": "https://github.com/ralisp.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "SharePoint Modern Page Publishing Report",
       "url": "https://pnp.github.io/script-samples/spo-modern-page-publishing-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-modern-page-publishing-report/README.md",

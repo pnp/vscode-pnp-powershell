@@ -2539,6 +2539,15 @@
       "Get-PnPMicrosoft365GroupYammerCommunity -Identity $1"
     ]
   },
+  "Get-PnPMicrosoft365Roadmap": {
+    "prefix": [
+      "Get-PnPMicrosoft365Roadmap"
+    ],
+    "description": "Allows retrieval of the Microsoft 365 Roadmap. Pipe the output to i.e. a Where-Object to filter it down to the desired items. You do not need to be connected to any tenant to utilize this cmdlet.",
+    "body": [
+      "Get-PnPMicrosoft365Roadmap "
+    ]
+  },
   "Get-PnPNavigationNode": {
     "prefix": [
       "Get-PnPNavigationNode"
@@ -3352,8 +3361,7 @@
     ],
     "description": [
       "Returns organization-level site collection properties such as StorageQuota, StorageQuotaAllocated, ResourceQuota, ResourceQuotaAllocated, and SiteCreationMode.",
-      "Currently, there are no parameters for this cmdlet.",
-      "You must have the SharePoint Online admin or Global admin role to run the cmdlet."
+      "If one or more properties cannot be retrieved, such as when a property is not available yet on the tenant due to a new feature rollout, a warning will be shown. Use -Verbose to see detailed information on properties that could not be retrieved."
     ],
     "body": [
       "Get-PnPTenant "
@@ -5818,11 +5826,13 @@
       "Reset-PnPDocumentId"
     ],
     "description": [
-      "This cmdlet allows requesting SharePoint Online to recalculate and reassign the unique document ID of a file. This can be useful if the document ID of a file has been lost, has gotten corrupted or duplicated. The unique document ID will be calculated based on an internal predictable algorithm and will contain parts of the site collection, web, list and listitem. It should only take seconds for it to recalculate and reassign the document ID. If it remains the same after running this cmdlet, it means the assigned document ID is correct. There's no use of running it multiple times on the same file.",
+      "This cmdlet allows requesting SharePoint Online to recalculate and reassign the unique document ID of a specific file or of all files using a specific content type in a document library. This can be useful if the document ID of a file has been lost, has gotten corrupted or duplicated. The unique document ID will be calculated based on an internal predictable algorithm and will contain parts of the site collection, web, list and listitem.",
+      "When applying this to a specific file, it should only take seconds for it to recalculate and reassign the document ID. When applying it to the entire library, it may take up to 24 hours to process the request.",
+      "If the document ID remains the same after running this cmdlet, it means the assigned document ID is correct. There's no use of running it multiple times on the same file.",
       "You need to be connected to the same site collection in which the file on which you wish to perform the operation resides."
     ],
     "body": [
-      "Reset-PnPDocumentId -Identity $1"
+      "Reset-PnPDocumentId -File $1"
     ]
   },
   "Reset-PnPFileVersion": {
@@ -6770,6 +6780,19 @@
     "description": "Allows to update a site design on the current tenant.",
     "body": [
       "Set-PnPSiteDesign -Identity $1"
+    ]
+  },
+  "Set-PnPSiteDocumentIdPrefix": {
+    "prefix": [
+      "Set-PnPSiteDocumentIdPrefix"
+    ],
+    "description": [
+      "This cmdlet allows changing of the document Id prefix that has been assigned to a site. It essentially does what you can also do using the page /_layouts/15/DocIdSettings.aspx in the SharePoint Online web interface.",
+      "It also offers an option to reset the currently assigned document Ids of all files within a site.",
+      "You need to be connected to the sitecollection of which you want to change the document Id prefix."
+    ],
+    "body": [
+      "Set-PnPSiteDocumentIdPrefix -DocumentIdPrefix $1"
     ]
   },
   "Set-PnPSiteGroup": {

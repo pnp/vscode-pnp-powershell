@@ -4290,6 +4290,24 @@
       ]
     },
     {
+      "title": "Scan libraries for webhook and export to csv",
+      "url": "https://pnp.github.io/script-samples/spo-get-libraries-with-webhooks/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-libraries-with-webhooks/README.md",
+      "description": "Scanning document libraries and reporting on those that contains 1 or more webhooks",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-libraries-with-webhooks/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPWebhookSubscription"
+      ]
+    },
+    {
       "title": "SharePoint List Item Version History Retrieval",
       "url": "https://pnp.github.io/script-samples/spo-get-list-item-version-history/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-item-version-history/README.md",

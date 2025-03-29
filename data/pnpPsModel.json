@@ -516,6 +516,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPTenantRecycleBinItem.html"
     },
     {
+      "name": "Clear-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPTraceLog.html"
+    },
+    {
       "name": "Connect-PnPOnline",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Connect-PnPOnline.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Connect-PnPOnline.html"
@@ -564,6 +569,11 @@
       "name": "Copy-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPList.html"
+    },
+    {
+      "name": "Copy-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPPage.html"
     },
     {
       "name": "Copy-PnPTeamsTeam",
@@ -1296,6 +1306,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageComponent.html"
     },
     {
+      "name": "Get-PnPPageCopyProgress",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageCopyProgress.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageCopyProgress.html"
+    },
+    {
       "name": "Get-PnPPageLikedByInformation",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageLikedByInformation.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageLikedByInformation.html"
@@ -1846,6 +1861,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoList.html"
     },
     {
+      "name": "Get-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTraceLog.html"
+    },
+    {
       "name": "Get-PnPUnfurlLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnfurlLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnfurlLink.html"
@@ -2064,6 +2084,11 @@
       "name": "Move-PnPListItemToRecycleBin",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPListItemToRecycleBin.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPListItemToRecycleBin.html"
+    },
+    {
+      "name": "Move-PnPPage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPPage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPPage.html"
     },
     {
       "name": "Move-PnPPageComponent",
@@ -3804,6 +3829,11 @@
       "name": "Update-PnPUserType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPUserType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPUserType.html"
+    },
+    {
+      "name": "Write-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Write-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Write-PnPTraceLog.html"
     }
   ]
 }

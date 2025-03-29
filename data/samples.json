@@ -3949,6 +3949,25 @@
       ]
     },
     {
+      "title": "Get SharePoint Agents",
+      "url": "https://pnp.github.io/script-samples/spo-get-agent-list/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-agent-list/README.md",
+      "description": "Get a list of SharePoint Agents from SharePoint Online site and export agent metadata and contents to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-agent-list/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "ConvertFrom-Json"
+      ]
+    },
+    {
       "title": "Get All Apps From The App Catalog And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-get-all-apps-from-appcatalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-all-apps-from-appcatalog/README.md",

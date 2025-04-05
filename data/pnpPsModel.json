@@ -36,6 +36,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADServicePrincipalAppRole.html"
     },
     {
+      "name": "Add-PnPBrandCenterFont",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPBrandCenterFont.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPBrandCenterFont.html"
+    },
+    {
       "name": "Add-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentType.html"
@@ -839,6 +844,16 @@
       "name": "Get-PnPAzureCertificate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureCertificate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureCertificate.html"
+    },
+    {
+      "name": "Get-PnPBrandCenterConfig",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBrandCenterConfig.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBrandCenterConfig.html"
+    },
+    {
+      "name": "Get-PnPBrandCenterFontPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBrandCenterFontPackage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBrandCenterFontPackage.html"
     },
     {
       "name": "Get-PnPBrowserIdleSignout",
@@ -3829,6 +3844,11 @@
       "name": "Update-PnPUserType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPUserType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPUserType.html"
+    },
+    {
+      "name": "Use-PnPBrandCenterFontPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Use-PnPBrandCenterFontPackage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Use-PnPBrandCenterFontPackage.html"
     },
     {
       "name": "Write-PnPTraceLog",

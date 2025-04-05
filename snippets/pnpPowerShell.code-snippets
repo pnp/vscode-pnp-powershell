@@ -71,6 +71,20 @@
       "Add-PnPAzureADServicePrincipalAppRole -Principal $1 -AppRole $2 -BuiltInType $3"
     ]
   },
+  "Add-PnPBrandCenterFont": {
+    "description": [
+      "This cmdlet allows a font to be uploaded to the tenant Brand Center. The font will be available for use in the tenant and site collection Brand Center.",
+      "Use Use-PnPBrandCenterFont to apply the font to the current site. Use Get-PnPBrandCenterFont to retrieve the available fonts.",
+      "Use-PnPBrandCenterFont",
+      "Get-PnPBrandCenterFont"
+    ],
+    "prefix": [
+      "Add-PnPBrandCenterFont"
+    ],
+    "body": [
+      "Add-PnPBrandCenterFont -Path $1"
+    ]
+  },
   "Add-PnPContentType": {
     "description": "Adds a new content type to a site. To create a content type in the modern Content Type Gallery, first connect to the content type hub site for the tenant.",
     "prefix": [
@@ -1723,6 +1737,24 @@
     ],
     "body": [
       "Get-PnPAzureCertificate -Path $1"
+    ]
+  },
+  "Get-PnPBrandCenterConfig": {
+    "description": "Allows retrieval of the Brand Center configuration for the current tenant. The Brand Center is a centralized location for managing and sharing branding assets, such as logos, colors, and fonts, across Microsoft 365 applications.",
+    "prefix": [
+      "Get-PnPBrandCenterConfig"
+    ],
+    "body": [
+      "Get-PnPBrandCenterConfig "
+    ]
+  },
+  "Get-PnPBrandCenterFontPackage": {
+    "description": "Allows retrieval of the available fonts from the various Brand Centers.",
+    "prefix": [
+      "Get-PnPBrandCenterFontPackage"
+    ],
+    "body": [
+      "Get-PnPBrandCenterFontPackage "
     ]
   },
   "Get-PnPBrowserIdleSignout": {
@@ -7571,6 +7603,15 @@
     ],
     "body": [
       "Update-PnPUserType -LoginName $1"
+    ]
+  },
+  "Use-PnPBrandCenterFontPackage": {
+    "description": "Applies the specified font from the Brand Center to the current site.",
+    "prefix": [
+      "Use-PnPBrandCenterFontPackage"
+    ],
+    "body": [
+      "Use-PnPBrandCenterFontPackage -Identity $1"
     ]
   },
   "Write-PnPTraceLog": {

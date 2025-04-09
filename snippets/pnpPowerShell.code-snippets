@@ -71,6 +71,21 @@
       "Add-PnPAzureADServicePrincipalAppRole -Principal $1 -AppRole $2 -BuiltInType $3"
     ]
   },
+  "Add-PnPBrandCenterFont": {
+    "description": [
+      "This cmdlet allows a font to be uploaded to the tenant Brand Center. The font will be available for use in the tenant and site collection Brand Center.",
+      "Use Use-PnPBrandCenterFontPackage to apply the font to the current site.\r\nUse Get-PnPBrandCenterFontPackage to retrieve the available fonts.",
+      "Use-PnPBrandCenterFontPackage",
+      null,
+      "Get-PnPBrandCenterFontPackage"
+    ],
+    "prefix": [
+      "Add-PnPBrandCenterFont"
+    ],
+    "body": [
+      "Add-PnPBrandCenterFont -Path $1"
+    ]
+  },
   "Add-PnPContentType": {
     "description": "Adds a new content type to a site. To create a content type in the modern Content Type Gallery, first connect to the content type hub site for the tenant.",
     "prefix": [
@@ -1725,6 +1740,24 @@
       "Get-PnPAzureCertificate -Path $1"
     ]
   },
+  "Get-PnPBrandCenterConfig": {
+    "description": "Allows retrieval of the Brand Center configuration for the current tenant. The Brand Center is a centralized location for managing and sharing branding assets, such as logos, colors, and fonts, across Microsoft 365 applications.",
+    "prefix": [
+      "Get-PnPBrandCenterConfig"
+    ],
+    "body": [
+      "Get-PnPBrandCenterConfig "
+    ]
+  },
+  "Get-PnPBrandCenterFontPackage": {
+    "description": "Allows retrieval of the available fonts from the various Brand Centers.",
+    "prefix": [
+      "Get-PnPBrandCenterFontPackage"
+    ],
+    "body": [
+      "Get-PnPBrandCenterFontPackage "
+    ]
+  },
   "Get-PnPBrowserIdleSignout": {
     "description": "Use this cmdlet to retrieve the current configuration values for Idle session sign-out policy, the time at which users are warned and subsequently signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive.",
     "prefix": [
@@ -2228,7 +2261,7 @@
       "Get-PnPGroupPermissions"
     ],
     "body": [
-      "Get-PnPGroupPermissions "
+      "Get-PnPGroupPermissions -Identity $1"
     ]
   },
   "Get-PnPHideDefaultThemes": {
@@ -7571,6 +7604,15 @@
     ],
     "body": [
       "Update-PnPUserType -LoginName $1"
+    ]
+  },
+  "Use-PnPBrandCenterFontPackage": {
+    "description": "Applies the specified font from the Brand Center to the current site.",
+    "prefix": [
+      "Use-PnPBrandCenterFontPackage"
+    ],
+    "body": [
+      "Use-PnPBrandCenterFontPackage -Identity $1"
     ]
   },
   "Write-PnPTraceLog": {

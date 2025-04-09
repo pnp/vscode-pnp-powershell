@@ -3829,6 +3829,26 @@
       ]
     },
     {
+      "title": "Identifying SharePoint Site Creation Sources",
+      "url": "https://pnp.github.io/script-samples/spo-find-site-creationsource/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-site-creationsource/README.md",
+      "description": "Understanding how a SharePoint site was created is crucial for governance, compliance, and troubleshooting. In Microsoft 365, SharePoint sites can be created through various methods, such as Microsoft Teams, Viva Engage, the SharePoint Admin Center, and more. However, identifying the exact creation source can sometimes be challenging.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-site-creationsource/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Find SharePoint Framework (SPFx) Packages in Tenant and Site Collection App Catalogs",
       "url": "https://pnp.github.io/script-samples/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.md",

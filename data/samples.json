@@ -2028,6 +2028,28 @@
       ]
     },
     {
+      "title": "Enabling and Configuring Document ID in SharePoint",
+      "url": "https://pnp.github.io/script-samples/spo-configure-documentid-feature/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-configure-documentid-feature/README.md",
+      "description": "The script enables and configures Document ID within a SharePoint site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-configure-documentid-feature/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Set-PnPSiteDocumentIdPrefix",
+        "Enable-PnPFeature",
+        "Get-PnPList",
+        "Invoke-PnPQuery"
+      ]
+    },
+    {
       "title": "Copy the folder structure of a directory to a SharePoint list",
       "url": "https://pnp.github.io/script-samples/spo-copy-directory-structure-to-sharepoint-list/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-directory-structure-to-sharepoint-list/README.md",
@@ -3829,6 +3851,26 @@
       ]
     },
     {
+      "title": "Identifying SharePoint Site Creation Sources",
+      "url": "https://pnp.github.io/script-samples/spo-find-site-creationsource/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-site-creationsource/README.md",
+      "description": "Understanding how a SharePoint site was created is crucial for governance, compliance, and troubleshooting. In Microsoft 365, SharePoint sites can be created through various methods, such as Microsoft Teams, Viva Engage, the SharePoint Admin Center, and more. However, identifying the exact creation source can sometimes be challenging.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-site-creationsource/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Find SharePoint Framework (SPFx) Packages in Tenant and Site Collection App Catalogs",
       "url": "https://pnp.github.io/script-samples/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-spfx-packages-installed-tenant-sitecollection-appcatalog/README.md",
@@ -5270,6 +5312,27 @@
         "m365 login",
         "m365 spo feature list",
         "m365 spo feature enable"
+      ]
+    },
+    {
+      "title": "Pins Fields to the Filter Pane in SharePoint Libraries",
+      "url": "https://pnp.github.io/script-samples/spo-pin-field-filterpane/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-pin-field-filterpane/README.md",
+      "description": "Pinning Fields to the Filter Pane in SharePoint Libraries.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-pin-field-filterpane/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Set-PnPField"
       ]
     },
     {

@@ -1352,7 +1352,6 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>",
         "Connect-PnPOnline",
         "Get-PnPWeb",
         "Invoke-PnPQuery",
@@ -1707,7 +1706,6 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>",
         "Add-PnPDataRowsToSiteTemplate",
         "Add-PnPFile",
         "Add-PnPFileToSiteTemplate",
@@ -2564,7 +2562,6 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>",
         "Connect-PnPOnline",
         "Remove-PnPTenantSite"
       ]
@@ -3909,7 +3906,6 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>",
         "Connect-PnPOnline",
         "Get-PnPList",
         "Get-PnPListItem",
@@ -5982,6 +5978,37 @@
       ]
     },
     {
+      "title": "Retrieve Effective Permissions of an user within SharePoint Sites",
+      "url": "https://pnp.github.io/script-samples/spo-retrieve-effectivepermissions-user/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-retrieve-effectivepermissions-user/README.md",
+      "description": "Retrieve Effective Permissions of an user within SharePoint Sites",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-retrieve-effectivepermissions-user/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPProperty",
+        "Get-PnPGroupMember",
+        "Get-PnPMicrosoft365GroupOwners",
+        "Get-PnPMicrosoft365GroupMembers",
+        "Get-PnPTenantSite",
+        "Get-PnPWeb",
+        "Get-PnPTenantSite",
+        "Get-PnPContext",
+        "Get-PnPWeb",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Run jobs in parallel using ForEach-Object -Parallel to iterate SharePoint site collections",
       "url": "https://pnp.github.io/script-samples/spo-run-jobs-in-parallel/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-run-jobs-in-parallel/README.md",
@@ -6226,7 +6253,6 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>",
         "Add-PnPFile",
         "Connect-PnPOnline",
         "Get-PnPList",

@@ -5308,6 +5308,27 @@
       ]
     },
     {
+      "title": "Updating Multiline Text Field Properties in SharePoint",
+      "url": "https://pnp.github.io/script-samples/spo-multiline-field-properties/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-multiline-field-properties/README.md",
+      "description": "Updating Multiline Text Field Properties in SharePoint",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-multiline-field-properties/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Set-PnPField"
+      ]
+    },
+    {
       "title": "Open Office documents in the Client",
       "url": "https://pnp.github.io/script-samples/spo-open-doc-in-client/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-open-doc-in-client/README.md",

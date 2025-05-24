@@ -2894,6 +2894,39 @@
       ]
     },
     {
+      "title": "Configure SharePoint Document Set",
+      "url": "https://pnp.github.io/script-samples/spo-documentset-configuration/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-documentset-configuration/README.md",
+      "description": "This script streamlines the setup of Document Sets across multiple libraries by enabling the feature, customisting and integrating into document libraries.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-documentset-configuration/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Set-PnPField",
+        "Invoke-PnPQuery",
+        "Get-PnPView",
+        "Add-PnPDocumentSet",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Set-PnPDefaultContentTypeToList",
+        "Add-PnPContentTypeToList",
+        "Set-PnPList",
+        "Get-PnPList",
+        "Add-PnPFieldToContentType",
+        "Add-PnPContentType",
+        "Enable-PnPFeature"
+      ]
+    },
+    {
       "title": "Download all documents from all document libraries in a site, including version history",
       "url": "https://pnp.github.io/script-samples/spo-download-all-doclibs/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-all-doclibs/README.md",

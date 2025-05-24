@@ -2391,11 +2391,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPHubSite.html"
     },
     {
-      "name": "Register-PnPManagementShellAccess",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPManagementShellAccess.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPManagementShellAccess.html"
-    },
-    {
       "name": "Remove-PnPAdaptiveScopeProperty",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAdaptiveScopeProperty.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAdaptiveScopeProperty.html"

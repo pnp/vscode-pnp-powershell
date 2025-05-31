@@ -2903,6 +2903,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/Tanddant.png"
+        },
+        {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
         }
@@ -3388,6 +3392,24 @@
         "Add-PnPField",
         "Add-PnPListItem",
         "New-PnPList"
+      ]
+    },
+    {
+      "title": "Export duplicate files from SharePoint Online",
+      "url": "https://pnp.github.io/script-samples/spo-export-duplicate-files/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-duplicate-files/README.md",
+      "description": "Export duplicate files from SharePoint Online document libraries.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-duplicate-files/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/Tanddant.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
@@ -6437,6 +6459,25 @@
         "Get-PnPFile",
         "Set-PnPWebHeader",
         "Get-PnPHubSiteChild"
+      ]
+    },
+    {
+      "title": "Update Content type from Hub on sites",
+      "url": "https://pnp.github.io/script-samples/spo-update-contentype-from-hub/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-contentype-from-hub/README.md",
+      "description": "This script will update a specific Content type from the Hub on the sites where it is used",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-contentype-from-hub/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPContentType",
+        "Add-PnPContentTypesFromContentTypeHub"
       ]
     },
     {

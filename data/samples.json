@@ -5986,6 +5986,32 @@
       ]
     },
     {
+      "title": "Renaming a SharePoint Hub Site URL",
+      "url": "https://pnp.github.io/script-samples/spo-rename-hub-siteurl/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-rename-hub-siteurl/README.md",
+      "description": "How to Safely Rename a SharePoint Hub Site URL",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-rename-hub-siteurl/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPHubSite",
+        "Get-PnPHubSiteChild",
+        "Unregister-PnPHubSite",
+        "Rename-PnPTenantSite",
+        "Remove-PnPTenantSite",
+        "Register-PnPHubSite"
+      ]
+    },
+    {
       "title": "Reorder Content Types in SharePoint List",
       "url": "https://pnp.github.io/script-samples/spo-reorder-list-content-type/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reorder-list-content-type/README.md",
@@ -6321,6 +6347,24 @@
       ]
     },
     {
+      "title": "SharePoint Online - Export SharePoint Alerts",
+      "url": "https://pnp.github.io/script-samples/spo-sharepoint-alerts-audit/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-sharepoint-alerts-audit/README.md",
+      "description": "This PowerShell script scans your SharePoint Online environment and exports a list of all classic SharePoint Alerts configured by users across all site collections.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-sharepoint-alerts-audit/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Tanel Vahk",
+          "pictureUrl": "https://github.com/tvahk.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "List of active sites in Tenant with Admins and storage used",
       "url": "https://pnp.github.io/script-samples/spo-tenant-site-inventory/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-tenant-site-inventory/README.md",
@@ -6470,6 +6514,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://github.com/reshmee011.png"
+        },
         {
           "name": "Kasper Larsen",
           "pictureUrl": "https://github.com/kasperbolarsen.png"

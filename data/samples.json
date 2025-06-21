@@ -2489,6 +2489,26 @@
       ]
     },
     {
+      "title": "Delete entire Hub site structure",
+      "url": "https://pnp.github.io/script-samples/spo-delete-hub-and-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-hub-and-sites/README.md",
+      "description": "This script deletes all site in a Hub and finally the Hub site itself",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-hub-and-sites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Remove-PnPTenantSite",
+        "Get-pnpHubSiteChild",
+        "Unregister-PnPHubSite"
+      ]
+    },
+    {
       "title": "Delete orphaned temporary pages from Site Pages",
       "url": "https://pnp.github.io/script-samples/spo-delete-orphaned-temporary-sitepages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-orphaned-temporary-sitepages/README.md",
@@ -2879,6 +2899,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Marc D Anderson",
+          "pictureUrl": "https://github.com/sympmarc.png"
+        },
         {
           "name": "Dan Toft",
           "pictureUrl": "https://github.com/Tanddant.png"
@@ -5205,6 +5229,26 @@
         "Connect-PnPOnline",
         "Get-PnPTenantSite",
         "Invoke-PnPSPRestMethod"
+      ]
+    },
+    {
+      "title": "List all SPFx field customizer",
+      "url": "https://pnp.github.io/script-samples/spo-list-spfx-field-customizer/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-spfx-field-customizer/README.md",
+      "description": "List all SPFx field customizers",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-spfx-field-customizer/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/tanddant.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPField"
       ]
     },
     {

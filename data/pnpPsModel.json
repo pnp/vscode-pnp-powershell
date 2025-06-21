@@ -41,6 +41,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPBrandCenterFont.html"
     },
     {
+      "name": "Add-PnPBrandCenterFontPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPBrandCenterFontPackage.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPBrandCenterFontPackage.html"
+    },
+    {
       "name": "Add-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentType.html"
@@ -849,6 +854,11 @@
       "name": "Get-PnPBrandCenterConfig",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBrandCenterConfig.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBrandCenterConfig.html"
+    },
+    {
+      "name": "Get-PnPBrandCenterFont",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPBrandCenterFont.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPBrandCenterFont.html"
     },
     {
       "name": "Get-PnPBrandCenterFontPackage",

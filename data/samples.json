@@ -6151,6 +6151,24 @@
       ]
     },
     {
+      "title": "SPO Restore Multiple Items",
+      "url": "https://pnp.github.io/script-samples/spo-restore-multiple-items/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-restore-multiple-items/README.md",
+      "description": "Sometimes, there's a need to restore files that were accidentally deleted by users. ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-restore-multiple-items/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Pankaj Badoni",
+          "pictureUrl": "https://github.com/pbadoni.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Retrieve Effective Permissions of an user within SharePoint Sites",
       "url": "https://pnp.github.io/script-samples/spo-retrieve-effectivepermissions-user/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-retrieve-effectivepermissions-user/README.md",

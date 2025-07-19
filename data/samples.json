@@ -4186,6 +4186,29 @@
       ]
     },
     {
+      "title": "Converting SharePoint Sharing Links to Canonical URLs",
+      "url": "https://pnp.github.io/script-samples/spo-get-canonical-url-from-sharinglink/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-canonical-url-from-sharinglink/README.md",
+      "description": "Converting SharePoint Sharing Links to Canonical URLs",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-canonical-url-from-sharinglink/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPFolderSharingLink",
+        "Get-PnPFileSharingLink"
+      ]
+    },
+    {
       "title": "Get Checked Out Files including those with no checked in version",
       "url": "https://pnp.github.io/script-samples/spo-get-checkedoutfiles-nocheckedinversion/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-checkedoutfiles-nocheckedinversion/README.md",

@@ -1692,6 +1692,26 @@
       ]
     },
     {
+      "title": "Apply Out-of-the-Box SharePoint Site Designs to Existing Sites",
+      "url": "https://pnp.github.io/script-samples/spo-apply-OOB-sitedesign/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-OOB-sitedesign/README.md",
+      "description": "Apply Out-of-the-Box SharePoint Site Designs to Existing Sites",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-OOB-sitedesign/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Invoke-PnPSPRestMethod"
+      ]
+    },
+    {
       "title": "Using a PnP Site Template including files and list items",
       "url": "https://pnp.github.io/script-samples/spo-apply-pnptemplate-with-files-and-listitems/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-files-and-listitems/README.md",
@@ -5038,6 +5058,32 @@
       ]
     },
     {
+      "title": "SharePoint List Content Type Migration with Data Preservation",
+      "url": "https://pnp.github.io/script-samples/spo-list-contenttype-migration/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-contenttype-migration/README.md",
+      "description": "Migrate SharePoint list to new content type while preserving all existing data",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-contenttype-migration/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jeppe Spanggaard",
+          "pictureUrl": "https://github.com/jeppesc11.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Get-PnPListItem",
+        "Remove-PnPField",
+        "Invoke-PnPSiteTemplate",
+        "Get-PnPContentType",
+        "Add-PnPContentTypeToList",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Disable Quick property editing (Grid view) from SharePoint list",
       "url": "https://pnp.github.io/script-samples/spo-list-disable-quick-property-editing/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/README.md",
@@ -5499,6 +5545,27 @@
         "Connect-PnPOnline",
         "Get-PnPField",
         "Set-PnPField"
+      ]
+    },
+    {
+      "title": "Exporting and Migrating SharePoint Libraries with Folders",
+      "url": "https://pnp.github.io/script-samples/spo-provision-folders-libraries/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-provision-folders-libraries/README.md",
+      "description": "Exporting and Migrating SharePoint Libraries with Folders.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-provision-folders-libraries/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Add-PnPListFoldersToSiteTemplate"
       ]
     },
     {

@@ -6908,6 +6908,32 @@
       ]
     },
     {
+      "title": "Add a SharePoint Document Library as a Tab in Microsoft Teams",
+      "url": "https://pnp.github.io/script-samples/teams-add-sharepointlibrary-as-tab/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-add-sharepointlibrary-as-tab/README.md",
+      "description": "This script allows you to add a SharePoint Document Library as a Tab in Microsoft Teams.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-add-sharepointlibrary-as-tab/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft Teams",
+        "Governance",
+        "Connect-PnPOnline",
+        "Add-PnPTeamsTab",
+        "m365 login",
+        "m365 teams team get",
+        "m365 teams channel get",
+        "m365 teams tab add",
+        "m365 logout"
+      ]
+    },
+    {
       "title": "Bulk Create Teams with JSON File",
       "url": "https://pnp.github.io/script-samples/teams-bulk-create-teams/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-bulk-create-teams/README.md",

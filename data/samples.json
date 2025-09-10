@@ -2486,6 +2486,33 @@
       ]
     },
     {
+      "title": "Delete Empty Folders in SharePoint Document Library with PnP PowerShell",
+      "url": "https://pnp.github.io/script-samples/spo-delete-empty-folders/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-empty-folders/README.md",
+      "description": "This script identifies and deletes empty folders in a SharePoint document library using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-empty-folders/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPFolderItem",
+        "Get-PnPFolderStorageMetric",
+        "Remove-PnPFolder",
+        "Get-PnPList",
+        "Get-PnPWeb"
+      ]
+    },
+    {
       "title": "Deletes expired and older sharing links for folder, file and item in SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-delete-expired-sharing-link-folder-file-item/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-expired-sharing-link-folder-file-item/README.md",

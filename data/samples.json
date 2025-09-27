@@ -6816,6 +6816,28 @@
       ]
     },
     {
+      "title": "Updates a SharePoint Online lookup column to reference a lookup list",
+      "url": "https://pnp.github.io/script-samples/spo-update-lookup-field/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-lookup-field/README.md",
+      "description": "Updates a SharePoint Online lookup column to reference a lookup list",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-modern-webpart-properties/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Harminder Singh",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/17841313?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPField",
+        "Set-PnPField"
+      ]
+    },
+    {
       "title": "Update web part properties on modern pages",
       "url": "https://pnp.github.io/script-samples/spo-update-modern-webpart-properties/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-modern-webpart-properties/README.md",

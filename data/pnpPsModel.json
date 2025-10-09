@@ -566,6 +566,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFile.html"
     },
     {
+      "name": "Copy-PnPFileMetadata",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPFileMetadata.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFileMetadata.html"
+    },
+    {
       "name": "Copy-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFolder.html"
@@ -2009,6 +2014,11 @@
       "name": "Grant-PnPTenantServicePrincipalPermission",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPTenantServicePrincipalPermission.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPTenantServicePrincipalPermission.html"
+    },
+    {
+      "name": "Import-PnPFlow",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Import-PnPFlow.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Import-PnPFlow.html"
     },
     {
       "name": "Import-PnPTaxonomy",

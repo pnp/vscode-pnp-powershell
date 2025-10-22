@@ -666,9 +666,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPowerShellTelemetry.html"
     },
     {
-      "name": "Enable-PnPPriviledgedIdentityManagement",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPriviledgedIdentityManagement.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPriviledgedIdentityManagement.html"
+      "name": "Enable-PnPPrivilegedIdentityManagement",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPrivilegedIdentityManagement.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPrivilegedIdentityManagement.html"
     },
     {
       "name": "Enable-PnPSiteClassification",
@@ -1416,14 +1416,14 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerShellTelemetryEnabled.html"
     },
     {
-      "name": "Get-PnPPriviledgedIdentityManagementEligibleAssignment",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPriviledgedIdentityManagementEligibleAssignment.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPriviledgedIdentityManagementEligibleAssignment.html"
+      "name": "Get-PnPPrivilegedIdentityManagementEligibleAssignment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPrivilegedIdentityManagementEligibleAssignment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPrivilegedIdentityManagementEligibleAssignment.html"
     },
     {
-      "name": "Get-PnPPriviledgedIdentityManagementRole",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPriviledgedIdentityManagementRole.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPriviledgedIdentityManagementRole.html"
+      "name": "Get-PnPPrivilegedIdentityManagementRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPrivilegedIdentityManagementRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPrivilegedIdentityManagementRole.html"
     },
     {
       "name": "Get-PnPProfileCardProperty",

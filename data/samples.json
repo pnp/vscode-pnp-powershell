@@ -5821,6 +5821,27 @@
       ]
     },
     {
+      "title": "Find all Remote Event Receivers in a SharePoint Online site",
+      "url": "https://pnp.github.io/script-samples/spo-remote-event-receivers/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remote-event-receivers/README.md",
+      "description": "Identify all your Remote Event Receivers in SharePoint Online before they are deprecated.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remote-event-receivers/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/tanddant.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPEventReceiver",
+        "Get-PnPList",
+        "Get-PnPTenantSite",
+        "Connect-PnPOnline"
+      ]
+    },
+    {
       "title": "Remove site access requests",
       "url": "https://pnp.github.io/script-samples/spo-remove-access-requests/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-access-requests/README.md",

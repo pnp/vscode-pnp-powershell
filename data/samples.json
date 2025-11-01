@@ -1763,6 +1763,27 @@
       ]
     },
     {
+      "title": "Apply site theme",
+      "url": "https://pnp.github.io/script-samples/spo-apply-site-theme/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-site-theme/README.md",
+      "description": "Apply a theme to a specific SharePoint site without adding a tenant theme that would be available for all sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-site-theme/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Aimery Thomas",
+          "pictureUrl": "https://github.com/a1mery.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAccessToken",
+        "Invoke-RestMethod",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Associate Multiple Site Collections to Hub Site",
       "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
@@ -1987,6 +2008,24 @@
         "m365 spo web get",
         "m365 spo listitem list",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "SharePoint Clean Comments",
+      "url": "https://pnp.github.io/script-samples/spo-clean-comments/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-clean-comments/README.md",
+      "description": "Removes or disables all comments in a site collection including by user",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-clean-comments/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Andrew Burns",
+          "pictureUrl": "https://github.com/GeorgiaGit.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
@@ -6338,6 +6377,28 @@
       ]
     },
     {
+      "title": "Revoke permissions for a given Entra ID registration",
+      "url": "https://pnp.github.io/script-samples/spo-revoke-app-site-permission/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-revoke-app-site-permission/README.md",
+      "description": "Demonstrates how to audit and revoke Entra ID app permissions across SharePoint site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-revoke-app-site-permission/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://github.com/reshmee011.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAzureADApp",
+        "Get-PnPAzureADAppSitePermission",
+        "Get-PnPTenantSite",
+        "Revoke-PnPAzureADAppSitePermission"
+      ]
+    },
+    {
       "title": "Run jobs in parallel using ForEach-Object -Parallel to iterate SharePoint site collections",
       "url": "https://pnp.github.io/script-samples/spo-run-jobs-in-parallel/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-run-jobs-in-parallel/README.md",
@@ -6975,6 +7036,27 @@
         "m365 status",
         "m365 login",
         "m365 spo userprofile set"
+      ]
+    },
+    {
+      "title": "Maintain and Replace SharePoint List Webhook Subscriptions",
+      "url": "https://pnp.github.io/script-samples/spo-webhook-subscription-maintenance/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-webhook-subscription-maintenance/README.md",
+      "description": "This script checks SharePoint sites and specific list, removes old webhook URLs, and adds or replaces them with updated Power Automate webhook subscriptions.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-webhook-subscription-maintenance/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWebhookSubscription",
+        "Remove-PnPWebhookSubscription",
+        "New-PnPWebhookSubscription"
       ]
     },
     {

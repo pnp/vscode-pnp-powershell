@@ -39,10 +39,7 @@
     ]
   },
   "Add-PnPAzureADGroupMember": {
-    "description": [
-      "Allows to add users to Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group. By specifying -RemoveExisting option it is possible to first clear the group of all existing members.",
-      "-RemoveExisting"
-    ],
+    "description": "Allows to add users to Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group.",
     "prefix": [
       "Add-PnPAzureADGroupMember"
     ],
@@ -51,10 +48,7 @@
     ]
   },
   "Add-PnPAzureADGroupOwner": {
-    "description": [
-      "Allows to add users to owners of an Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group. By specifying -RemoveExisting option it is possible to first clear the group of all existing members.",
-      "-RemoveExisting"
-    ],
+    "description": "Allows to add users to owners of an Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group.",
     "prefix": [
       "Add-PnPAzureADGroupOwner"
     ],

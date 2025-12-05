@@ -2054,7 +2054,6 @@
         "Get-PnPList",
         "Get-PnPField",
         "Remove-PnPField",
-        "m365 status",
         "m365 login",
         "m365 spo contenttype get",
         "m365 spo contenttype field remove",

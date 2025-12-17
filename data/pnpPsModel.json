@@ -2726,6 +2726,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPlannerTask.html"
     },
     {
+      "name": "Remove-PnPPowerAppPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPPowerAppPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPPowerAppPermission.html"
+    },
+    {
       "name": "Remove-PnPProfileCardProperty",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPProfileCardProperty.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPProfileCardProperty.html"

@@ -75,6 +75,10 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
@@ -229,6 +233,10 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
@@ -243,12 +251,10 @@
         "Remove-PnPMicrosoft365Group",
         "Remove-PnPMicrosoft365GroupOwner",
         "m365 login",
-        "m365 status",
         "m365 entra m365group list",
         "m365 entra m365group user list",
         "m365 entra m365group user add",
-        "m365 entra m365group user remove",
-        "m365 logout"
+        "m365 entra m365group user remove"
       ]
     },
     {
@@ -1262,17 +1268,19 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://github.com/Adam-it.png"
         }
       ],
       "tags": [
         "Connect-PnPOnline",
         "Add-PnPFolder",
         "Add-PnPFile",
-        "m365 status",
         "m365 login",
         "m365 spo folder add",
         "m365 spo file add",
-        "m365 logout",
         "Get-ChildItem"
       ]
     },
@@ -1292,6 +1300,10 @@
         {
           "name": "Ahamed Fazil Buhari",
           "pictureUrl": "https://github.com/ahamedfazil.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
@@ -1299,10 +1311,7 @@
         "Get-PnPField",
         "Add-PnPFieldFromXml",
         "Add-PnPFieldToContentType",
-        "m365 status",
-        "m365 login",
-        "m365 logout",
-        "m365 spo field get",
+        "m365 spo field list",
         "m365 spo field add",
         "m365 spo contenttype get",
         "m365 spo contenttype field set"

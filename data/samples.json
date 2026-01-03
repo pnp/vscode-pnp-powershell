@@ -602,6 +602,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
+        {
           "name": "Kasper Larsen",
           "pictureUrl": "https://github.com/kasperbolarsen.png"
         }
@@ -4437,6 +4441,24 @@
       ]
     },
     {
+      "title": "Get Azure AD (Entra ID) Guest Users with Elevated Permissions (M365)",
+      "url": "https://pnp.github.io/script-samples/spo-get-entra-id-guest-users-with-elevated-permissions-m365/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-entra-id-guest-users-with-elevated-permissions-m365/README.md",
+      "description": "Identify guest users within a Microsoft 365 tenant who have elevated permissions across various services such as Entra ID, Microsoft Teams, and SharePoint Online.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-entra-id-guest-users-with-elevated-permissions-m365/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Audit 'Everyone' and  'Everyone except external users' claim within a SharePoint site",
       "url": "https://pnp.github.io/script-samples/spo-get-everyone-everyoneexceptexternalusers/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-everyone-everyoneexceptexternalusers/README.md",
@@ -4705,6 +4727,24 @@
         "m365 login",
         "m365 spo list list",
         "m365 spo list view list"
+      ]
+    },
+    {
+      "title": "Get M365 Users with Direct SharePoint Permissions",
+      "url": "https://pnp.github.io/script-samples/spo-get-m365-users-with-direct-sharepoint-permissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-m365-users-with-direct-sharepoint-permissions/README.md",
+      "description": "This script identifies users who have been granted direct permissions on SharePoint Online sites, rather than receiving access through groups.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-m365-users-with-direct-sharepoint-permissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {

@@ -771,6 +771,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
+        {
           "name": "Matt Maher",
           "pictureUrl": "https://github.com/maher256.png"
         }
@@ -6715,6 +6719,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
         {
           "name": "Diksha Bhura",
           "pictureUrl": "https://github.com/Diksha-Bhura.png"

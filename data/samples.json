@@ -1795,13 +1795,21 @@
         {
           "name": "Aimery Thomas",
           "pictureUrl": "https://github.com/a1mery.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
         "Connect-PnPOnline",
         "Get-PnPAccessToken",
         "Invoke-RestMethod",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 spo theme set",
+        "m365 spo theme apply",
+        "m365 spo theme remove"
       ]
     },
     {
@@ -2103,13 +2111,20 @@
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
         "hash",
         "Connect-PnPOnline",
         "Get-PnPFile",
-        "Get-FileHash"
+        "Get-FileHash",
+        "m365 login",
+        "m365 spo file get",
+        "m365 connection use"
       ]
     },
     {
@@ -3397,6 +3412,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
+        {
           "name": "Chandani Prajapati",
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
@@ -4581,6 +4600,24 @@
         "Connect-PnPOnline",
         "Get-PnPList",
         "Get-PnPListItem"
+      ]
+    },
+    {
+      "title": "Get Inactive SharePoint Sites Report",
+      "url": "https://pnp.github.io/script-samples/spo-get-inactive-sites-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-inactive-sites-report/README.md",
+      "description": "This script identifies SharePoint Online sites that have had no content activity for a defined period (default: 365 days) and generates a CSV report containing site metadata.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-inactive-sites-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite"
       ]
     },
     {
@@ -6708,6 +6745,25 @@
       ],
       "tags": [
         "<Cmdlets-Used>"
+      ]
+    },
+    {
+      "title": "Site Collection Ownership Validation",
+      "url": "https://pnp.github.io/script-samples/spo-site-collection-ownership-validation/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-site-collection-ownership-validation/README.md",
+      "description": "This script audits all SharePoint Online site collections in a Microsoft 365 tenant to validate site ownership.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-site-collection-ownership-validation/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPSiteCollectionAdmin"
       ]
     },
     {

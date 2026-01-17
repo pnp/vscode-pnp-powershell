@@ -6098,7 +6098,7 @@
     ]
   },
   "Restore-PnPRecycleBinItem": {
-    "description": "This cmdlet restores the specified item from the recycle bin to its original location.",
+    "description": "This cmdlet restores the specified item or set of items from the recycle bin to its original location.",
     "prefix": [
       "Restore-PnPRecycleBinItem"
     ],

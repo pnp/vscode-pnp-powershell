@@ -670,6 +670,24 @@
       ]
     },
     {
+      "title": "Export Entra ID User MFA Phone Details (Unmasked) to CSV",
+      "url": "https://pnp.github.io/script-samples/graph-get-mfa-user-number/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-get-mfa-user-number/README.md",
+      "description": "This PowerShell script enumerates users in Microsoft Entra ID (formerly Azure AD) and retrieves their **Multi-Factor Authentication (MFA) / phone authentication methods** using Microsoft Graph.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-get-mfa-user-number/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Divya Akula",
+          "pictureUrl": "https://github.com/divya-akula.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Get Unified log for SharePoint DLP Exchange and Entra",
       "url": "https://pnp.github.io/script-samples/m365-get-unifiedlog-spo-dlp-exchange-entra/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/m365-get-unifiedlog-spo-dlp-exchange-entra/README.md",

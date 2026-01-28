@@ -21,21 +21,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAvailableSiteClassification.html"
     },
     {
-      "name": "Add-PnPAzureADGroupMember",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADGroupMember.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADGroupMember.html"
-    },
-    {
-      "name": "Add-PnPAzureADGroupOwner",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADGroupOwner.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADGroupOwner.html"
-    },
-    {
-      "name": "Add-PnPAzureADServicePrincipalAppRole",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADServicePrincipalAppRole.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADServicePrincipalAppRole.html"
-    },
-    {
       "name": "Add-PnPBrandCenterFont",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPBrandCenterFont.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPBrandCenterFont.html"
@@ -79,6 +64,21 @@
       "name": "Add-PnPDocumentSet",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPDocumentSet.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPDocumentSet.html"
+    },
+    {
+      "name": "Add-PnPEntraIDGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEntraIDGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEntraIDGroupMember.html"
+    },
+    {
+      "name": "Add-PnPEntraIDGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEntraIDGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEntraIDGroupOwner.html"
+    },
+    {
+      "name": "Add-PnPEntraIDServicePrincipalAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEntraIDServicePrincipalAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEntraIDServicePrincipalAppRole.html"
     },
     {
       "name": "Add-PnPEventReceiver",
@@ -481,19 +481,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Approve-PnPTenantServicePrincipalPermissionRequest.html"
     },
     {
-      "name": "Clear-PnPAzureADGroupMember",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPAzureADGroupMember.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPAzureADGroupMember.html"
-    },
-    {
-      "name": "Clear-PnPAzureADGroupOwner",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPAzureADGroupOwner.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPAzureADGroupOwner.html"
-    },
-    {
       "name": "Clear-PnPDefaultColumnValues",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPDefaultColumnValues.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPDefaultColumnValues.html"
+    },
+    {
+      "name": "Clear-PnPEntraIDGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPEntraIDGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPEntraIDGroupMember.html"
+    },
+    {
+      "name": "Clear-PnPEntraIDGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPEntraIDGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPEntraIDGroupOwner.html"
     },
     {
       "name": "Clear-PnPListItemAsRecord",
@@ -791,66 +791,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureACSPrincipal.html"
     },
     {
-      "name": "Get-PnPAzureADActivityReportDirectoryAudit",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportDirectoryAudit.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportDirectoryAudit.html"
-    },
-    {
-      "name": "Get-PnPAzureADActivityReportSignIn",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportSignIn.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportSignIn.html"
-    },
-    {
-      "name": "Get-PnPAzureADApp",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADApp.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADApp.html"
-    },
-    {
-      "name": "Get-PnPAzureADAppPermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADAppPermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADAppPermission.html"
-    },
-    {
-      "name": "Get-PnPAzureADAppSitePermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADAppSitePermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADAppSitePermission.html"
-    },
-    {
-      "name": "Get-PnPAzureADGroup",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroup.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroup.html"
-    },
-    {
-      "name": "Get-PnPAzureADGroupMember",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroupMember.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroupMember.html"
-    },
-    {
-      "name": "Get-PnPAzureADGroupOwner",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroupOwner.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroupOwner.html"
-    },
-    {
-      "name": "Get-PnPAzureADServicePrincipal",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipal.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipal.html"
-    },
-    {
-      "name": "Get-PnPAzureADServicePrincipalAssignedAppRole",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAssignedAppRole.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAssignedAppRole.html"
-    },
-    {
-      "name": "Get-PnPAzureADServicePrincipalAvailableAppRole",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAvailableAppRole.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAvailableAppRole.html"
-    },
-    {
-      "name": "Get-PnPAzureADUser",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADUser.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADUser.html"
-    },
-    {
       "name": "Get-PnPAzureCertificate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureCertificate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureCertificate.html"
@@ -994,6 +934,66 @@
       "name": "Get-PnPEnterpriseAppInsightsReport",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEnterpriseAppInsightsReport.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEnterpriseAppInsightsReport.html"
+    },
+    {
+      "name": "Get-PnPEntraIDActivityReportDirectoryAudit",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDActivityReportDirectoryAudit.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDActivityReportDirectoryAudit.html"
+    },
+    {
+      "name": "Get-PnPEntraIDActivityReportSignIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDActivityReportSignIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDActivityReportSignIn.html"
+    },
+    {
+      "name": "Get-PnPEntraIDApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDApp.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppPermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppSitePermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDGroup.html"
+    },
+    {
+      "name": "Get-PnPEntraIDGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDGroupMember.html"
+    },
+    {
+      "name": "Get-PnPEntraIDGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDGroupOwner.html"
+    },
+    {
+      "name": "Get-PnPEntraIDServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipal.html"
+    },
+    {
+      "name": "Get-PnPEntraIDServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Get-PnPEntraIDServicePrincipalAvailableAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDServicePrincipalAvailableAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipalAvailableAppRole.html"
+    },
+    {
+      "name": "Get-PnPEntraIDUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDUser.html"
     },
     {
       "name": "Get-PnPEventReceiver",
@@ -1996,9 +1996,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWikiPageContent.html"
     },
     {
-      "name": "Grant-PnPAzureADAppSitePermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPAzureADAppSitePermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPAzureADAppSitePermission.html"
+      "name": "Grant-PnPEntraIDAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppSitePermission.html"
     },
     {
       "name": "Grant-PnPHubSiteRights",
@@ -2151,16 +2151,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPTermSet.html"
     },
     {
-      "name": "New-PnPAzureADGroup",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureADGroup.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureADGroup.html"
-    },
-    {
-      "name": "New-PnPAzureADUserTemporaryAccessPass",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureADUserTemporaryAccessPass.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureADUserTemporaryAccessPass.html"
-    },
-    {
       "name": "New-PnPAzureCertificate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureCertificate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureCertificate.html"
@@ -2174,6 +2164,16 @@
       "name": "New-PnPContainerType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPContainerType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPContainerType.html"
+    },
+    {
+      "name": "New-PnPEntraIDGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPEntraIDGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPEntraIDGroup.html"
+    },
+    {
+      "name": "New-PnPEntraIDUserTemporaryAccessPass",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPEntraIDUserTemporaryAccessPass.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPEntraIDUserTemporaryAccessPass.html"
     },
     {
       "name": "New-PnPExtensibilityHandlerObject",
@@ -2401,9 +2401,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPAppCatalogSite.html"
     },
     {
-      "name": "Register-PnPAzureADApp",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPAzureADApp.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPAzureADApp.html"
+      "name": "Register-PnPEntraIDApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Register-PnPEntraIDApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Register-PnPEntraIDApp.html"
     },
     {
       "name": "Register-PnPEntraIDAppForInteractiveLogin",
@@ -2441,36 +2441,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAvailableSiteClassification.html"
     },
     {
-      "name": "Remove-PnPAzureADApp",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADApp.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADApp.html"
-    },
-    {
-      "name": "Remove-PnPAzureADGroup",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroup.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroup.html"
-    },
-    {
-      "name": "Remove-PnPAzureADGroupMember",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroupMember.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroupMember.html"
-    },
-    {
-      "name": "Remove-PnPAzureADGroupOwner",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroupOwner.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroupOwner.html"
-    },
-    {
-      "name": "Remove-PnPAzureADServicePrincipalAssignedAppRole",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADServicePrincipalAssignedAppRole.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADServicePrincipalAssignedAppRole.html"
-    },
-    {
-      "name": "Remove-PnPAzureADUser",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADUser.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADUser.html"
-    },
-    {
       "name": "Remove-PnPContainer",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainer.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainer.html"
@@ -2504,6 +2474,36 @@
       "name": "Remove-PnPDeletedMicrosoft365Group",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPDeletedMicrosoft365Group.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPDeletedMicrosoft365Group.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDApp.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDGroup.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDGroupMember",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDGroupMember.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDGroupMember.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDGroupOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDGroupOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDGroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDUser.html"
     },
     {
       "name": "Remove-PnPEventReceiver",
@@ -3086,9 +3086,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantSite.html"
     },
     {
-      "name": "Revoke-PnPAzureADAppSitePermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPAzureADAppSitePermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPAzureADAppSitePermission.html"
+      "name": "Revoke-PnPEntraIDAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppSitePermission.html"
     },
     {
       "name": "Revoke-PnPHubSiteRights",
@@ -3156,16 +3156,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAvailablePageLayouts.html"
     },
     {
-      "name": "Set-PnPAzureADAppSitePermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAzureADAppSitePermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAzureADAppSitePermission.html"
-    },
-    {
-      "name": "Set-PnPAzureADGroup",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPAzureADGroup.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAzureADGroup.html"
-    },
-    {
       "name": "Set-PnPBrowserIdleSignOut",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignOut.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignOut.html"
@@ -3219,6 +3209,16 @@
       "name": "Set-PnPDocumentSetField",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDocumentSetField.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDocumentSetField.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppSitePermission.html"
+    },
+    {
+      "name": "Set-PnPEntraIDGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDGroup.html"
     },
     {
       "name": "Set-PnPField",

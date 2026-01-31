@@ -6528,6 +6528,10 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://github.com/reshmee011.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
@@ -6535,7 +6539,11 @@
         "Get-PnPAzureADApp",
         "Get-PnPAzureADAppSitePermission",
         "Get-PnPTenantSite",
-        "Revoke-PnPAzureADAppSitePermission"
+        "Revoke-PnPAzureADAppSitePermission",
+        "m365 login",
+        "m365 spo site list",
+        "m365 spo site apppermission list",
+        "m365 spo site apppermission remove"
       ]
     },
     {

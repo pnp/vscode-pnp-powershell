@@ -1956,6 +1956,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWeb.html"
     },
     {
+      "name": "Get-PnPWebAlert",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebAlert.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebAlert.html"
+    },
+    {
       "name": "Get-PnPWebHeader",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebHeader.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebHeader.html"
@@ -2956,6 +2961,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWeb.html"
     },
     {
+      "name": "Remove-PnPWebAlert",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWebAlert.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWebAlert.html"
+    },
+    {
       "name": "Remove-PnPWebhookSubscription",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPWebhookSubscription.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPWebhookSubscription.html"
@@ -3239,6 +3249,11 @@
       "name": "Set-PnPFileRetentionLabel",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileRetentionLabel.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileRetentionLabel.html"
+    },
+    {
+      "name": "Set-PnPFileVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileVersion.html"
     },
     {
       "name": "Set-PnPFolderPermission",

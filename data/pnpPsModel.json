@@ -1491,9 +1491,24 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchExternalSchema.html"
     },
     {
+      "name": "Get-PnPSearchResultType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchResultType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchResultType.html"
+    },
+    {
       "name": "Get-PnPSearchSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchSettings.html"
+    },
+    {
+      "name": "Get-PnPSearchSiteConnection",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchSiteConnection.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchSiteConnection.html"
+    },
+    {
+      "name": "Get-PnPSearchVertical",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSearchVertical.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSearchVertical.html"
     },
     {
       "name": "Get-PnPServiceCurrentHealth",
@@ -2246,6 +2261,21 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSearchExternalConnection.html"
     },
     {
+      "name": "New-PnPSearchResultType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSearchResultType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSearchResultType.html"
+    },
+    {
+      "name": "New-PnPSearchResultTypeRule",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSearchResultTypeRule.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSearchResultTypeRule.html"
+    },
+    {
+      "name": "New-PnPSearchVertical",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSearchVertical.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSearchVertical.html"
+    },
+    {
       "name": "New-PnPSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSite.html"
@@ -2774,6 +2804,16 @@
       "name": "Remove-PnPSearchExternalItem",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchExternalItem.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchExternalItem.html"
+    },
+    {
+      "name": "Remove-PnPSearchResultType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchResultType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchResultType.html"
+    },
+    {
+      "name": "Remove-PnPSearchVertical",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSearchVertical.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSearchVertical.html"
     },
     {
       "name": "Remove-PnPSiteCollectionAdmin",
@@ -3496,9 +3536,24 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalSchema.html"
     },
     {
+      "name": "Set-PnPSearchResultType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchResultType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchResultType.html"
+    },
+    {
       "name": "Set-PnPSearchSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchSettings.html"
+    },
+    {
+      "name": "Set-PnPSearchVertical",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchVertical.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchVertical.html"
+    },
+    {
+      "name": "Set-PnPSearchVerticalOrder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchVerticalOrder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchVerticalOrder.html"
     },
     {
       "name": "Set-PnPSite",

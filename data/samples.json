@@ -6833,13 +6833,21 @@
         {
           "name": "Nick Brattoli",
           "pictureUrl": "https://github.com/nbrattoli.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
         "Add-PnPFile",
         "Connect-PnPOnline",
         "Get-PnPList",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "m365 login",
+        "m365 spo site list",
+        "m365 spo list list",
+        "m365 spo file list"
       ]
     },
     {

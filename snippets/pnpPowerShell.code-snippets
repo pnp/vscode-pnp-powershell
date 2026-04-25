@@ -175,6 +175,17 @@
       "Add-PnPEntraIDServicePrincipalAppRole"
     ]
   },
+  "Add-PnPEntraIDServicePrincipalAppRoleAssignment": {
+    "description": [
+      "Allows assigning an Entra ID user or supported group to an enterprise application represented by a service principal. If the enterprise application exposes one or more user-targeted app roles, provide the app role to assign through `-AppRole`. If it does not expose user-targeted app roles, the cmdlet assigns the default access role automatically. If you pipe in an app role instance retrieved through `Get-PnPEntraIDServicePrincipalAvailableAppRole`, the owning service principal is inferred automatically and you can omit `-Resource`. Supported groups include security-enabled groups and Microsoft 365 groups."
+    ],
+    "body": [
+      "Add-PnPEntraIDServicePrincipalAppRoleAssignment -User $1"
+    ],
+    "prefix": [
+      "Add-PnPEntraIDServicePrincipalAppRoleAssignment"
+    ]
+  },
   "Add-PnPEventReceiver": {
     "description": [
       "This cmdlet adds a new remote event receiver."
@@ -2155,6 +2166,17 @@
       "Get-PnPEntraIDServicePrincipal"
     ]
   },
+  "Get-PnPEntraIDServicePrincipalAppRoleAssignment": {
+    "description": [
+      "Allows retrieval of app role assignments for a specific Entra ID user or group on an enterprise application represented by a service principal. If you pipe in an app role instance retrieved through `Get-PnPEntraIDServicePrincipalAvailableAppRole`, the resource service principal is inferred automatically and you can omit `-Resource`."
+    ],
+    "body": [
+      "Get-PnPEntraIDServicePrincipalAppRoleAssignment -User $1"
+    ],
+    "prefix": [
+      "Get-PnPEntraIDServicePrincipalAppRoleAssignment"
+    ]
+  },
   "Get-PnPEntraIDServicePrincipalAssignedAppRole": {
     "description": [
       "Allows retrieval of currently assigned app roles of a specific service principals/app registration in Entra ID."
@@ -2736,6 +2758,17 @@
     ],
     "prefix": [
       "Get-PnPListRecordDeclaration"
+    ]
+  },
+  "Get-PnPListVersionPolicy": {
+    "description": [
+      "Retrieves the effective version policy settings for a document library. When `-Site` is provided, the cmdlet resolves the library from that site and reads the library version policy through the SharePoint Online admin APIs."
+    ],
+    "body": [
+      "Get-PnPListVersionPolicy -Identity $1"
+    ],
+    "prefix": [
+      "Get-PnPListVersionPolicy"
     ]
   },
   "Get-PnPManagedAppId": {
@@ -5059,6 +5092,17 @@
       "New-PnPSiteGroup"
     ]
   },
+  "New-PnPSiteManageVersionPolicyJob": {
+    "description": [
+      "Starts a site-level job that can trim versions using existing list version policies, synchronize list version policies across libraries, or do both in a single operation. By default, the cmdlet waits for the tenant operation to complete. Use `-NoWait` to return immediately after the job has been queued."
+    ],
+    "body": [
+      "New-PnPSiteManageVersionPolicyJob -Identity $1 -TrimUseListPolicy $2"
+    ],
+    "prefix": [
+      "New-PnPSiteManageVersionPolicyJob"
+    ]
+  },
   "New-PnPSiteTemplate": {
     "description": [
       "Allows to create a new provisioning site template."
@@ -5563,6 +5607,17 @@
     ],
     "prefix": [
       "Remove-PnPEntraIDGroupOwner"
+    ]
+  },
+  "Remove-PnPEntraIDServicePrincipalAppRoleAssignment": {
+    "description": [
+      "Allows removal of one or more app role assignments for a specific Entra ID user or group on an enterprise application represented by a service principal. If `-AppRole` is omitted, all assignments for the selected user or group on the selected enterprise application are removed. Because this is a potentially destructive operation, the cmdlet will prompt for confirmation unless `-Force` is specified. If you pipe in an app role instance retrieved through `Get-PnPEntraIDServicePrincipalAvailableAppRole`, the resource service principal is inferred automatically and you can omit `-Resource`."
+    ],
+    "body": [
+      "Remove-PnPEntraIDServicePrincipalAppRoleAssignment -Identity $1"
+    ],
+    "prefix": [
+      "Remove-PnPEntraIDServicePrincipalAppRoleAssignment"
     ]
   },
   "Remove-PnPEntraIDServicePrincipalAssignedAppRole": {
@@ -7490,6 +7545,17 @@
       "Set-PnPListRecordDeclaration"
     ]
   },
+  "Set-PnPListVersionPolicy": {
+    "description": [
+      "Configures the versioning policy for a document library in the currently connected site. The cmdlet resolves the library from the active SharePoint connection and uses the SharePoint Online admin APIs to apply the requested library version policy action. By default it waits for the tenant operation to complete. Use `-NoWait` to return immediately after the operation has been queued."
+    ],
+    "body": [
+      "Set-PnPListVersionPolicy -Identity $1 -EnableAutoExpirationVersionTrim $2"
+    ],
+    "prefix": [
+      "Set-PnPListVersionPolicy"
+    ]
+  },
   "Set-PnPManagedAppId": {
     "description": [
       "Adds an App Id entry to the Windows Credential Manager or Mac OS Key Chain Entry. PnP PowerShell will check if an App Id is available when you connect using Connect-PnPOnline -Interactive. If it finds a matching URL it will use the associated App Id. You do not need to specify the -ClientId parameter then. If you add a Credential with a name of \"https://yourtenant.sharepoint.com\" it will find a match when you connect to \"https://yourtenant.sharepoint.com\" but also when you connect to \"https://yourtenant.sharepoint.com/sites/demo1\". Of course you can specify more granular entries, allow you to automatically provide App Ids for different URLs."
@@ -8412,6 +8478,17 @@
     ],
     "prefix": [
       "Start-PnPEnterpriseAppInsightsReport"
+    ]
+  },
+  "Start-PnPTenantRename": {
+    "description": [
+      "Schedules a tenant rename job to change the SharePoint Online domain name for the organization. For example, this can change `contoso.sharepoint.com` to `fabrikam.sharepoint.com`. The new domain name must already have been added successfully to Microsoft Entra ID. Specify only the domain prefix, without `.sharepoint.com` or `.onmicrosoft.com`. The scheduled date and time must be at least 24 hours in the future and no more than 30 days in the future. Tenant rename can take several hours to days depending on the number of SharePoint sites and OneDrive accounts in the tenant."
+    ],
+    "body": [
+      "Start-PnPTenantRename -DomainName $1 -ScheduledDateTime $2"
+    ],
+    "prefix": [
+      "Start-PnPTenantRename"
     ]
   },
   "Start-PnPTraceLog": {

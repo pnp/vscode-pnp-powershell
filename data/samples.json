@@ -2118,6 +2118,29 @@
       ]
     },
     {
+      "title": "Cleanup a SPFx Solution from every Site and App Catalog",
+      "url": "https://pnp.github.io/script-samples/spo-cleanup-spfx-solution/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-spfx-solution/README.md",
+      "description": "Remove a SPFx Solution from every Site installed, from Recycle bin and from App Catalog. This is needed if you need a complete cleanup or reinstall.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-spfx-solution/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPApp",
+        "Uninstall-PnPApp",
+        "Remove-PnPApp",
+        "Get-PnPRecycleBinItem",
+        "Clear-PnPRecycleBinItem"
+      ]
+    },
+    {
       "title": "Compare files hash from two different SharePoint tenants",
       "url": "https://pnp.github.io/script-samples/spo-compare-files/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-files/README.md",
@@ -2345,6 +2368,27 @@
       ],
       "tags": [
         "Connect-PnPOnline"
+      ]
+    },
+    {
+      "title": "SharePoint Search versus crawl log",
+      "url": "https://pnp.github.io/script-samples/spo-crawllog-indexed-searchable/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-crawllog-indexed-searchable/README.md",
+      "description": "SharePoint Search versus crawl log",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-crawllog-indexed-searchable/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://github.com/reshmee011.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPSearchCrawlLog",
+        "Submit-PnPSearchQuery"
       ]
     },
     {
@@ -3736,6 +3780,26 @@
       ],
       "tags": [
         "<Cmdlets-Used>"
+      ]
+    },
+    {
+      "title": "Export and Import TermGroups",
+      "url": "https://pnp.github.io/script-samples/spo-export-import-termgroups/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-import-termgroups/README.md",
+      "description": "Export and Import TermGroups between Tenants or save the export as backup.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-import-termgroups/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTermGroup",
+        "Export-PnPTermGroupToXml",
+        "Import-PnPTermGroupFromXml"
       ]
     },
     {

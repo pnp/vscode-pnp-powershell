@@ -81,6 +81,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEntraIDServicePrincipalAppRole.html"
     },
     {
+      "name": "Add-PnPEntraIDServicePrincipalAppRoleAssignment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEntraIDServicePrincipalAppRoleAssignment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEntraIDServicePrincipalAppRoleAssignment.html"
+    },
+    {
       "name": "Add-PnPEventReceiver",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPEventReceiver.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPEventReceiver.html"
@@ -981,6 +986,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipal.html"
     },
     {
+      "name": "Get-PnPEntraIDServicePrincipalAppRoleAssignment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDServicePrincipalAppRoleAssignment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipalAppRoleAssignment.html"
+    },
+    {
       "name": "Get-PnPEntraIDServicePrincipalAssignedAppRole",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDServicePrincipalAssignedAppRole.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDServicePrincipalAssignedAppRole.html"
@@ -1244,6 +1254,11 @@
       "name": "Get-PnPListRecordDeclaration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListRecordDeclaration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListRecordDeclaration.html"
+    },
+    {
+      "name": "Get-PnPListVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListVersionPolicy.html"
     },
     {
       "name": "Get-PnPManagedAppId",
@@ -2301,6 +2316,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteGroup.html"
     },
     {
+      "name": "New-PnPSiteManageVersionPolicyJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteManageVersionPolicyJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteManageVersionPolicyJob.html"
+    },
+    {
       "name": "New-PnPSiteTemplate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteTemplate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteTemplate.html"
@@ -2529,6 +2549,11 @@
       "name": "Remove-PnPEntraIDGroupOwner",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDGroupOwner.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDGroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPEntraIDServicePrincipalAppRoleAssignment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPEntraIDServicePrincipalAppRoleAssignment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPEntraIDServicePrincipalAppRoleAssignment.html"
     },
     {
       "name": "Remove-PnPEntraIDServicePrincipalAssignedAppRole",
@@ -3406,6 +3431,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListRecordDeclaration.html"
     },
     {
+      "name": "Set-PnPListVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPListVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPListVersionPolicy.html"
+    },
+    {
       "name": "Set-PnPManagedAppId",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPManagedAppId.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPManagedAppId.html"
@@ -3824,6 +3854,11 @@
       "name": "Start-PnPEnterpriseAppInsightsReport",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPEnterpriseAppInsightsReport.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPEnterpriseAppInsightsReport.html"
+    },
+    {
+      "name": "Start-PnPTenantRename",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPTenantRename.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPTenantRename.html"
     },
     {
       "name": "Start-PnPTraceLog",

@@ -386,9 +386,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsChannel.html"
     },
     {
-      "name": "Add-PnPTeamsChannelUser",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTeamsChannelUser.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTeamsChannelUser.html"
+      "name": "Add-PnpTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnpTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnpTeamsChannelUser.html"
     },
     {
       "name": "Add-PnPTeamsTab",
@@ -511,9 +511,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPMicrosoft365GroupOwner.html"
     },
     {
-      "name": "Clear-PnPRecycleBinItem",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnPRecycleBinItem.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnPRecycleBinItem.html"
+      "name": "Clear-PnpRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Clear-PnpRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Clear-PnpRecycleBinItem.html"
     },
     {
       "name": "Clear-PnPTenantAppCatalogUrl",
@@ -2156,9 +2156,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPPageComponent.html"
     },
     {
-      "name": "Move-PnPRecycleBinItem",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPRecycleBinItem.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPRecycleBinItem.html"
+      "name": "Move-PnpRecycleBinItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnpRecycleBinItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnpRecycleBinItem.html"
     },
     {
       "name": "Move-PnPTerm",
@@ -3206,9 +3206,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAvailablePageLayouts.html"
     },
     {
-      "name": "Set-PnPBrowserIdleSignOut",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignOut.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignOut.html"
+      "name": "Set-PnPBrowserIdleSignout",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignout.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignout.html"
     },
     {
       "name": "Set-PnPBuiltInDesignPackageVisibility",
@@ -3276,6 +3276,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPField.html"
     },
     {
+      "name": "Set-PnPFileArchiveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileArchiveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileArchiveState.html"
+    },
+    {
       "name": "Set-PnPFileCheckedIn",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileCheckedIn.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileCheckedIn.html"
@@ -3294,6 +3299,11 @@
       "name": "Set-PnPFileVersion",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFileVersion.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFileVersion.html"
+    },
+    {
+      "name": "Set-PnPFolderArchiveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPFolderArchiveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFolderArchiveState.html"
     },
     {
       "name": "Set-PnPFolderPermission",
@@ -3651,9 +3661,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsChannel.html"
     },
     {
-      "name": "Set-PnPTeamsChannelUser",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsChannelUser.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsChannelUser.html"
+      "name": "Set-PnpTeamsChannelUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnpTeamsChannelUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnpTeamsChannelUser.html"
     },
     {
       "name": "Set-PnPTeamsTab",
@@ -3826,9 +3836,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPFlowRun.html"
     },
     {
-      "name": "Stops-PnPTraceLog",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stops-PnPTraceLog.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Stops-PnPTraceLog.html"
+      "name": "Stop-PnPTraceLog",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPTraceLog.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPTraceLog.html"
     },
     {
       "name": "Submit-PnPSearchQuery",

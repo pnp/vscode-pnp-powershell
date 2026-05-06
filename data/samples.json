@@ -331,6 +331,28 @@
       ]
     },
     {
+      "title": "Upload Cowork Skills to your OneDrive",
+      "url": "https://pnp.github.io/script-samples/cowork-skills-upload/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/cowork-skills-upload/README.md",
+      "description": "Uploads a custom SKILL.md file to the Cowork/skills folder in a user's OneDrive Agent Assets library using PnP PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/cowork-skills-upload/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPUserProfileProperty",
+        "Get-PnPList",
+        "Resolve-PnPFolder",
+        "Add-PnPFile"
+      ]
+    },
+    {
       "title": "Create Modern Sites as alternative primary language",
       "url": "https://pnp.github.io/script-samples/create-comm-sites-specific-locale/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/create-comm-sites-specific-locale/README.md",
@@ -511,11 +533,16 @@
         {
           "name": "Luise Freese",
           "pictureUrl": "https://avatars.githubusercontent.com/u/49960482?v=4"
+        },
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
         }
       ],
       "tags": [
         "Export-PnPFlow",
-        "Get-PnPFlow"
+        "Get-PnPFlow",
+        "Get-PnPPowerPlatformEnvironment"
       ]
     },
     {
@@ -1648,6 +1675,28 @@
         "m365 spo listitem add",
         "m365 spo listitem set",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Upload SharePoint AI Skills to Agent Assets",
+      "url": "https://pnp.github.io/script-samples/spo-ai-skills-upload/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-ai-skills-upload/README.md",
+      "description": "Upload a SKILL.md file into the SharePoint Agent Assets > Skills folder for a target site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-ai-skills-upload/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPFeature",
+        "Get-PnPList",
+        "Resolve-PnPFolder",
+        "Add-PnPFile"
       ]
     },
     {
@@ -3310,6 +3359,24 @@
       ]
     },
     {
+      "title": "Enable AI skills in SharePoint Online",
+      "url": "https://pnp.github.io/script-samples/spo-enable-ai-skills/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-ai-skills/README.md",
+      "description": "This script enables AI skills in SharePoint Online by activating the Agent Assets site collection feature",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-ai-skills/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Enable and Disable App Bar in SharePoint Online",
       "url": "https://pnp.github.io/script-samples/spo-enable-disable-app-bar/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-app-bar/README.md",
@@ -4813,7 +4880,7 @@
         "Disconnect-PnPOnline",
         "m365 login",
         "m365 spo list get",
-        "m365 spo group user list",
+        "m365 spo group member list",
         "m365 status",
         "Get-PnPGroup",
         "Get-PnPGroupMember",
@@ -7283,6 +7350,28 @@
         "m365 status",
         "m365 login",
         "m365 spo userprofile set"
+      ]
+    },
+    {
+      "title": "Set SharePoint File Versions to Never Expire",
+      "url": "https://pnp.github.io/script-samples/spo-update-version-expirydate/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-version-expirydate/README.md",
+      "description": "How to Set SharePoint File Versions to Never Expire Using PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-version-expirydate/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Governance",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Invoke-PnPSPRestMethod",
+        "Set-PnPFileVersion"
       ]
     },
     {

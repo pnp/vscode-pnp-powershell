@@ -6845,6 +6845,28 @@
       ]
     },
     {
+      "title": "Set available languages for a SharePoint site",
+      "url": "https://pnp.github.io/script-samples/spo-set-site-available-languages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-site-available-languages/README.md",
+      "description": "Updates a SharePoint site's available languages by keeping only the specified languages enabled.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-site-available-languages/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Invoke-PnPQuery",
+        "sharepoint-online",
+        "multilingual"
+      ]
+    },
+    {
       "title": "Setup example site",
       "url": "https://pnp.github.io/script-samples/spo-setup-example-site/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-setup-example-site/README.md",

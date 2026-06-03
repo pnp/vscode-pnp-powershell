@@ -2463,6 +2463,17 @@
       "Get-PnPFooter"
     ]
   },
+  "Get-PnPGeoMoveCrossCompatibilityStatus": {
+    "description": [
+      "Returns the compatibility between source and destination data locations for site moves in a multi-geo SharePoint Online tenant. The returned status can be `Compatible`, `Incompatible`, `Warning`, or `Error`."
+    ],
+    "body": [
+      "Get-PnPGeoMoveCrossCompatibilityStatus "
+    ],
+    "prefix": [
+      "Get-PnPGeoMoveCrossCompatibilityStatus"
+    ]
+  },
   "Get-PnPGraphSubscription": {
     "description": [
       ""
@@ -2773,7 +2784,7 @@
   },
   "Get-PnPManagedAppId": {
     "description": [
-      "Returns an associated App Id from the Windows Credential Manager or Mac OS Key Chain Entry."
+      "Returns an associated App Id from the Windows Credential Manager, macOS Keychain, Linux Secret Service, or a default vault configured through Microsoft.PowerShell.SecretManagement."
     ],
     "body": [
       "Get-PnPManagedAppId -Url $1"
@@ -2912,6 +2923,17 @@
     ],
     "prefix": [
       "Get-PnPMicrosoft365Roadmap"
+    ]
+  },
+  "Get-PnPMultiGeoCompanyAllowedDataLocation": {
+    "description": [
+      "Returns the SharePoint Online multi-geo data locations configured for the tenant, including each location code, the associated domain, and whether the location is the default location."
+    ],
+    "body": [
+      "Get-PnPMultiGeoCompanyAllowedDataLocation "
+    ],
+    "prefix": [
+      "Get-PnPMultiGeoCompanyAllowedDataLocation"
     ]
   },
   "Get-PnPNavigationNode": {
@@ -4287,6 +4309,17 @@
     ],
     "prefix": [
       "Get-PnPUser"
+    ]
+  },
+  "Get-PnPUserAndContentMoveState": {
+    "description": [
+      "Returns status information for SharePoint Online multi-geo user and OneDrive content move jobs. You can retrieve one move job by user principal name or OneDrive move ID, or retrieve a move report filtered by state, direction, time window, and limit."
+    ],
+    "body": [
+      "Get-PnPUserAndContentMoveState "
+    ],
+    "prefix": [
+      "Get-PnPUserAndContentMoveState"
     ]
   },
   "Get-PnPUserOneDriveQuota": {
@@ -5952,7 +5985,7 @@
   },
   "Remove-PnPManagedAppId": {
     "description": [
-      "Removes an App Id from the Credential Manager"
+      "Removes an App Id from the Windows Credential Manager, macOS Keychain, Linux Secret Service, or a default vault configured through Microsoft.PowerShell.SecretManagement."
     ],
     "body": [
       "Remove-PnPManagedAppId -Url $1"
@@ -6766,7 +6799,7 @@
   },
   "Request-PnPReIndexWeb": {
     "description": [
-      "This cmdlet marks the web for full indexing during the next incremental crawl."
+      "This cmdlet marks the web for full indexing during the next incremental crawl. Note: This cmdlet does not increase the `vti_searchversion` property bag value of the web (unlike manually triggering the search)."
     ],
     "body": [
       "Request-PnPReIndexWeb "
@@ -7558,7 +7591,7 @@
   },
   "Set-PnPManagedAppId": {
     "description": [
-      "Adds an App Id entry to the Windows Credential Manager or Mac OS Key Chain Entry. PnP PowerShell will check if an App Id is available when you connect using Connect-PnPOnline -Interactive. If it finds a matching URL it will use the associated App Id. You do not need to specify the -ClientId parameter then. If you add a Credential with a name of \"https://yourtenant.sharepoint.com\" it will find a match when you connect to \"https://yourtenant.sharepoint.com\" but also when you connect to \"https://yourtenant.sharepoint.com/sites/demo1\". Of course you can specify more granular entries, allow you to automatically provide App Ids for different URLs."
+      "Adds an App Id entry to the Windows Credential Manager, macOS Keychain, Linux Secret Service, or a default vault configured through Microsoft.PowerShell.SecretManagement. PnP PowerShell will check if an App Id is available when you connect using Connect-PnPOnline -Interactive. If it finds a matching URL it will use the associated App Id. You do not need to specify the -ClientId parameter then. If you add a Credential with a name of \"https://yourtenant.sharepoint.com\" it will find a match when you connect to \"https://yourtenant.sharepoint.com\" but also when you connect to \"https://yourtenant.sharepoint.com/sites/demo1\". Of course you can specify more granular entries, allow you to automatically provide App Ids for different URLs."
     ],
     "body": [
       "Set-PnPManagedAppId -Url $1 -AppId $2"

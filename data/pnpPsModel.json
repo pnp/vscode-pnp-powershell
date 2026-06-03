@@ -1121,6 +1121,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFooter.html"
     },
     {
+      "name": "Get-PnPGeoMoveCrossCompatibilityStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGeoMoveCrossCompatibilityStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGeoMoveCrossCompatibilityStatus.html"
+    },
+    {
       "name": "Get-PnPGraphSubscription",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGraphSubscription.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGraphSubscription.html"
@@ -1324,6 +1329,11 @@
       "name": "Get-PnPMicrosoft365Roadmap",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365Roadmap.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365Roadmap.html"
+    },
+    {
+      "name": "Get-PnPMultiGeoCompanyAllowedDataLocation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMultiGeoCompanyAllowedDataLocation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMultiGeoCompanyAllowedDataLocation.html"
     },
     {
       "name": "Get-PnPNavigationNode",
@@ -1949,6 +1959,11 @@
       "name": "Get-PnPUser",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUser.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUser.html"
+    },
+    {
+      "name": "Get-PnPUserAndContentMoveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserAndContentMoveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserAndContentMoveState.html"
     },
     {
       "name": "Get-PnPUserOneDriveQuota",

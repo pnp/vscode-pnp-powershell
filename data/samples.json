@@ -2550,6 +2550,26 @@
       ]
     },
     {
+      "title": "Create library using Out-of-the-Box SharePoint Library template",
+      "url": "https://pnp.github.io/script-samples/spo-create-from-oob-library-template/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-from-oob-library-template/README.md",
+      "description": "Create library using Out-of-the-Box SharePoint Library template",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-from-oob-library-template/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Invoke-PnPSPRestMethod"
+      ]
+    },
+    {
       "title": "Create Library and add custom Content Type",
       "url": "https://pnp.github.io/script-samples/spo-create-library-add-contenttype/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/README.md",
@@ -3552,6 +3572,31 @@
       "tags": [
         "Connect-PnPOnline",
         "Get-PnPListItem"
+      ]
+    },
+    {
+      "title": "Export all term groups with translation labels",
+      "url": "https://pnp.github.io/script-samples/spo-export-all-term-groups-with-translation-labels/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-term-groups-with-translation-labels/README.md",
+      "description": "Exports SharePoint Term Store groups, sets, terms, and multilingual labels to CSV, JSON, or both.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-term-groups-with-translation-labels/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTermGroup",
+        "Get-PnPTermSet",
+        "Get-PnPTerm",
+        "Get-PnPTermLabel",
+        "Term Store",
+        "taxonomy",
+        "translation labels"
       ]
     },
     {

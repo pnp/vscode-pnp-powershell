@@ -956,6 +956,21 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDApp.html"
     },
     {
+      "name": "Get-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppListPermission.html"
+    },
+    {
       "name": "Get-PnPEntraIDAppPermission",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppPermission.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppPermission.html"
@@ -2044,6 +2059,21 @@
       "name": "Get-PnPWikiPageContent",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWikiPageContent.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWikiPageContent.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppListPermission.html"
     },
     {
       "name": "Grant-PnPEntraIDAppSitePermission",
@@ -3176,6 +3206,21 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantSite.html"
     },
     {
+      "name": "Revoke-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Revoke-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Revoke-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppListPermission.html"
+    },
+    {
       "name": "Revoke-PnPEntraIDAppSitePermission",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppSitePermission.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppSitePermission.html"
@@ -3299,6 +3344,21 @@
       "name": "Set-PnPDocumentSetField",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDocumentSetField.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDocumentSetField.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppListPermission.html"
     },
     {
       "name": "Set-PnPEntraIDAppSitePermission",

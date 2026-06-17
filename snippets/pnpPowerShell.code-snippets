@@ -978,6 +978,17 @@
       "Add-PnPTermToTerm"
     ]
   },
+  "Add-PnPTodoTaskFileAttachment": {
+    "description": [
+      "Use the cmdlet to add a small file attachment to a Todo task."
+    ],
+    "body": [
+      "Add-PnPTodoTaskFileAttachment "
+    ],
+    "prefix": [
+      "Add-PnPTodoTaskFileAttachment"
+    ]
+  },
   "Add-PnPView": {
     "description": [
       "Allows to add a new view to a list."
@@ -1002,7 +1013,7 @@
   },
   "Add-PnPVivaConnectionsDashboardACE": {
     "description": [
-      "Allows to add a new an Adaptive card extension in the Viva Home dashboard page. Before running the command it is required you are connect to a SharePoint Home site and have configured the Viva connections page."
+      "Allows you to add a new Adaptive card extension in the Viva Connections dashboard page. Before running the command, you must be connected to a SharePoint Team site or Communication site and have configured the Viva connections page."
     ],
     "body": [
       "Add-PnPVivaConnectionsDashboardACE "
@@ -2098,6 +2109,39 @@
     ],
     "prefix": [
       "Get-PnPEntraIDApp"
+    ]
+  },
+  "Get-PnPEntraIDAppFilePermission": {
+    "description": [
+      "This cmdlet returns app permissions for a file in a document library. It is used in conjunction with the Entra ID SharePoint application permission `Files.SelectedOperations.Selected`. The file can be identified by either: - `-Path`: the path to the file relative to the document library root (e.g. `Folder/SubFolder/file.docx`) - `-FileId`: the Graph drive item ID of the file Exactly one of `-Path` or `-FileId` must be specified."
+    ],
+    "body": [
+      "Get-PnPEntraIDAppFilePermission -List $1"
+    ],
+    "prefix": [
+      "Get-PnPEntraIDAppFilePermission"
+    ]
+  },
+  "Get-PnPEntraIDAppListItemPermission": {
+    "description": [
+      "This cmdlet returns app permissions for a list item in either the current or a given site. It is used in conjunction with the Entra ID SharePoint application permission `ListItems.SelectedOperations.Selected`. The `-ListItem` parameter accepts the integer item ID. Use `Get-PnPListItem` to look up the ID if needed."
+    ],
+    "body": [
+      "Get-PnPEntraIDAppListItemPermission -List $1 -ListItem $2"
+    ],
+    "prefix": [
+      "Get-PnPEntraIDAppListItemPermission"
+    ]
+  },
+  "Get-PnPEntraIDAppListPermission": {
+    "description": [
+      "This cmdlet returns app permissions for a list in either the current or a given site. The list can be identified by its GUID or display name."
+    ],
+    "body": [
+      "Get-PnPEntraIDAppListPermission -List $1"
+    ],
+    "prefix": [
+      "Get-PnPEntraIDAppListPermission"
     ]
   },
   "Get-PnPEntraIDAppPermission": {
@@ -4247,13 +4291,57 @@
   },
   "Get-PnPTodoList": {
     "description": [
-      "Use the cmdlet to retrieve all Todo lists or a specific Todo list."
+      "Use the cmdlet to retrieve all Todo lists or a specific Todo list by Id or display name."
     ],
     "body": [
       "Get-PnPTodoList "
     ],
     "prefix": [
       "Get-PnPTodoList"
+    ]
+  },
+  "Get-PnPTodoTask": {
+    "description": [
+      "Use the cmdlet to retrieve all Todo tasks from a Todo list or a specific Todo task. The Todo list can be specified by Id or display name."
+    ],
+    "body": [
+      "Get-PnPTodoTask "
+    ],
+    "prefix": [
+      "Get-PnPTodoTask"
+    ]
+  },
+  "Get-PnPTodoTaskChecklistItem": {
+    "description": [
+      "Use the cmdlet to retrieve checklist items from a Todo task."
+    ],
+    "body": [
+      "Get-PnPTodoTaskChecklistItem "
+    ],
+    "prefix": [
+      "Get-PnPTodoTaskChecklistItem"
+    ]
+  },
+  "Get-PnPTodoTaskFileAttachment": {
+    "description": [
+      "Use the cmdlet to retrieve file attachments from a Todo task."
+    ],
+    "body": [
+      "Get-PnPTodoTaskFileAttachment "
+    ],
+    "prefix": [
+      "Get-PnPTodoTaskFileAttachment"
+    ]
+  },
+  "Get-PnPTodoTaskLinkedResource": {
+    "description": [
+      "Use the cmdlet to retrieve linked resources from a Todo task."
+    ],
+    "body": [
+      "Get-PnPTodoTaskLinkedResource "
+    ],
+    "prefix": [
+      "Get-PnPTodoTaskLinkedResource"
     ]
   },
   "Get-PnPTraceLog": {
@@ -4313,7 +4401,7 @@
   },
   "Get-PnPUserAndContentMoveState": {
     "description": [
-      "Returns status information for SharePoint Online multi-geo user and OneDrive content move jobs. You can retrieve one move job by user principal name or OneDrive move ID, or retrieve a move report filtered by state, direction, time window, and limit."
+      "Returns status information for SharePoint Online multi-geo user and OneDrive content move jobs. You can retrieve one move job by user principal name or OneDrive move ID, or retrieve a move report filtered by state, direction, time window, and limit. When no move state or direction is specified, all states and directions are returned."
     ],
     "body": [
       "Get-PnPUserAndContentMoveState "
@@ -4496,6 +4584,39 @@
     ],
     "prefix": [
       "Get-PnPWikiPageContent"
+    ]
+  },
+  "Grant-PnPEntraIDAppFilePermission": {
+    "description": [
+      "This cmdlet adds permissions for a given Entra ID application registration on a file in a document library. It is used in conjunction with the Entra ID SharePoint application permission `Files.SelectedOperations.Selected`. The file can be identified by either: - `-Path`: the path to the file relative to the document library root (e.g. `Folder/SubFolder/file.docx`) - `-FileId`: the Graph drive item ID of the file Exactly one of `-Path` or `-FileId` must be specified."
+    ],
+    "body": [
+      "Grant-PnPEntraIDAppFilePermission -AppId $1 -DisplayName $2 -Permissions $3 -List $4"
+    ],
+    "prefix": [
+      "Grant-PnPEntraIDAppFilePermission"
+    ]
+  },
+  "Grant-PnPEntraIDAppListItemPermission": {
+    "description": [
+      "This cmdlet adds permissions for a given Entra ID application registration on a list item. It is used in conjunction with the Entra ID SharePoint application permission `ListItems.SelectedOperations.Selected`. The `-ListItem` parameter accepts the integer item ID. Use `Get-PnPListItem` to look up the ID if needed."
+    ],
+    "body": [
+      "Grant-PnPEntraIDAppListItemPermission -AppId $1 -DisplayName $2 -Permissions $3 -List $4 -ListItem $5"
+    ],
+    "prefix": [
+      "Grant-PnPEntraIDAppListItemPermission"
+    ]
+  },
+  "Grant-PnPEntraIDAppListPermission": {
+    "description": [
+      "This cmdlet adds permissions for a given Entra ID application registration on a list. The list can be identified by its GUID or display name."
+    ],
+    "body": [
+      "Grant-PnPEntraIDAppListPermission -AppId $1 -DisplayName $2 -Permissions $3 -List $4"
+    ],
+    "prefix": [
+      "Grant-PnPEntraIDAppListPermission"
     ]
   },
   "Grant-PnPEntraIDAppSitePermission": {
@@ -5310,6 +5431,39 @@
     ],
     "prefix": [
       "New-PnPTodoList"
+    ]
+  },
+  "New-PnPTodoTask": {
+    "description": [
+      "Use the cmdlet to create a Todo task in a Todo list."
+    ],
+    "body": [
+      "New-PnPTodoTask "
+    ],
+    "prefix": [
+      "New-PnPTodoTask"
+    ]
+  },
+  "New-PnPTodoTaskChecklistItem": {
+    "description": [
+      "Use the cmdlet to create a checklist item on a Todo task."
+    ],
+    "body": [
+      "New-PnPTodoTaskChecklistItem "
+    ],
+    "prefix": [
+      "New-PnPTodoTaskChecklistItem"
+    ]
+  },
+  "New-PnPTodoTaskLinkedResource": {
+    "description": [
+      "Use the cmdlet to create a linked resource on a Todo task."
+    ],
+    "body": [
+      "New-PnPTodoTaskLinkedResource "
+    ],
+    "prefix": [
+      "New-PnPTodoTaskLinkedResource"
     ]
   },
   "New-PnPUPABulkImportJob": {
@@ -6599,6 +6753,50 @@
       "Remove-PnPTodoList"
     ]
   },
+  "Remove-PnPTodoTask": {
+    "description": [
+      "Use the cmdlet to delete a Todo task from a Todo list."
+    ],
+    "body": [
+      "Remove-PnPTodoTask "
+    ],
+    "prefix": [
+      "Remove-PnPTodoTask"
+    ]
+  },
+  "Remove-PnPTodoTaskChecklistItem": {
+    "description": [
+      "Use the cmdlet to delete a checklist item from a Todo task."
+    ],
+    "body": [
+      "Remove-PnPTodoTaskChecklistItem "
+    ],
+    "prefix": [
+      "Remove-PnPTodoTaskChecklistItem"
+    ]
+  },
+  "Remove-PnPTodoTaskFileAttachment": {
+    "description": [
+      "Use the cmdlet to delete a file attachment from a Todo task."
+    ],
+    "body": [
+      "Remove-PnPTodoTaskFileAttachment "
+    ],
+    "prefix": [
+      "Remove-PnPTodoTaskFileAttachment"
+    ]
+  },
+  "Remove-PnPTodoTaskLinkedResource": {
+    "description": [
+      "Use the cmdlet to delete a linked resource from a Todo task."
+    ],
+    "body": [
+      "Remove-PnPTodoTaskLinkedResource "
+    ],
+    "prefix": [
+      "Remove-PnPTodoTaskLinkedResource"
+    ]
+  },
   "Remove-PnPUser": {
     "description": [
       "This command will allow the removal of a specific user from the User Information List"
@@ -6984,6 +7182,39 @@
       "Restore-PnPTenantSite"
     ]
   },
+  "Revoke-PnPEntraIDAppFilePermission": {
+    "description": [
+      "This cmdlet revokes an existing permission for an Entra ID application registration on a file in a document library. It is used in conjunction with the Entra ID SharePoint application permission `Files.SelectedOperations.Selected`. Use Get-PnPEntraIDAppFilePermission to retrieve the `PermissionId` required by this cmdlet. The file can be identified by either: - `-Path`: the path to the file relative to the document library root (e.g. `Folder/SubFolder/file.docx`) - `-FileId`: the Graph drive item ID of the file Exactly one of `-Path` or `-FileId` must be specified."
+    ],
+    "body": [
+      "Revoke-PnPEntraIDAppFilePermission -PermissionId $1 -List $2"
+    ],
+    "prefix": [
+      "Revoke-PnPEntraIDAppFilePermission"
+    ]
+  },
+  "Revoke-PnPEntraIDAppListItemPermission": {
+    "description": [
+      "This cmdlet revokes an existing permission for an Entra ID application registration on a list item. It is used in conjunction with the Entra ID SharePoint application permission `ListItems.SelectedOperations.Selected`. Use Get-PnPEntraIDAppListItemPermission to retrieve the `PermissionId` required by this cmdlet. The `-ListItem` parameter accepts the integer item ID. Use `Get-PnPListItem` to look up the ID if needed."
+    ],
+    "body": [
+      "Revoke-PnPEntraIDAppListItemPermission -PermissionId $1 -List $2 -ListItem $3"
+    ],
+    "prefix": [
+      "Revoke-PnPEntraIDAppListItemPermission"
+    ]
+  },
+  "Revoke-PnPEntraIDAppListPermission": {
+    "description": [
+      "This cmdlet revokes an existing permission for an Entra ID application registration on a list. Use Get-PnPEntraIDAppListPermission to retrieve the `PermissionId` required by this cmdlet."
+    ],
+    "body": [
+      "Revoke-PnPEntraIDAppListPermission -PermissionId $1 -List $2"
+    ],
+    "prefix": [
+      "Revoke-PnPEntraIDAppListPermission"
+    ]
+  },
   "Revoke-PnPEntraIDAppSitePermission": {
     "description": [
       "This cmdlets revokes permissions for a given app in a site."
@@ -7257,6 +7488,39 @@
     ],
     "prefix": [
       "Set-PnPDocumentSetField"
+    ]
+  },
+  "Set-PnPEntraIDAppFilePermission": {
+    "description": [
+      "This cmdlet updates an existing permission for an Entra ID application registration on a file in a document library. It is used in conjunction with the Entra ID SharePoint application permission `Files.SelectedOperations.Selected`. Use Get-PnPEntraIDAppFilePermission to retrieve the `PermissionId` required by this cmdlet. The file can be identified by either: - `-Path`: the path to the file relative to the document library root (e.g. `Folder/SubFolder/file.docx`) - `-FileId`: the Graph drive item ID of the file Exactly one of `-Path` or `-FileId` must be specified."
+    ],
+    "body": [
+      "Set-PnPEntraIDAppFilePermission -PermissionId $1 -Permissions $2 -List $3"
+    ],
+    "prefix": [
+      "Set-PnPEntraIDAppFilePermission"
+    ]
+  },
+  "Set-PnPEntraIDAppListItemPermission": {
+    "description": [
+      "This cmdlet updates an existing permission for an Entra ID application registration on a list item. It is used in conjunction with the Entra ID SharePoint application permission `ListItems.SelectedOperations.Selected`. Use Get-PnPEntraIDAppListItemPermission to retrieve the `PermissionId` required by this cmdlet. The `-ListItem` parameter accepts the integer item ID. Use `Get-PnPListItem` to look up the ID if needed."
+    ],
+    "body": [
+      "Set-PnPEntraIDAppListItemPermission -PermissionId $1 -Permissions $2 -List $3 -ListItem $4"
+    ],
+    "prefix": [
+      "Set-PnPEntraIDAppListItemPermission"
+    ]
+  },
+  "Set-PnPEntraIDAppListPermission": {
+    "description": [
+      "This cmdlet updates an existing permission for an Entra ID application registration on a list. Use Get-PnPEntraIDAppListPermission to retrieve the `PermissionId` required by this cmdlet."
+    ],
+    "body": [
+      "Set-PnPEntraIDAppListPermission -PermissionId $1 -Permissions $2 -List $3"
+    ],
+    "prefix": [
+      "Set-PnPEntraIDAppListPermission"
     ]
   },
   "Set-PnPEntraIDAppSitePermission": {
@@ -8535,6 +8799,17 @@
       "Start-PnPTraceLog"
     ]
   },
+  "Start-PnPUserAndContentMove": {
+    "description": [
+      "Starts a SharePoint Online multi-geo move job for a user and the user's OneDrive content to the specified destination data location. Use `-ValidationOnly` to validate whether the user and content can be moved without starting the move. Use `Get-PnPUserAndContentMoveState` to retrieve move job status after the job has been created."
+    ],
+    "body": [
+      "Start-PnPUserAndContentMove "
+    ],
+    "prefix": [
+      "Start-PnPUserAndContentMove"
+    ]
+  },
   "Stop-PnPFlowRun": {
     "description": [
       "This cmdlet cancels a running Power Automate flow run."
@@ -8786,6 +9061,28 @@
     ],
     "prefix": [
       "Update-PnPTodoList"
+    ]
+  },
+  "Update-PnPTodoTask": {
+    "description": [
+      "Use the cmdlet to update properties of a Todo task in a Todo list."
+    ],
+    "body": [
+      "Update-PnPTodoTask "
+    ],
+    "prefix": [
+      "Update-PnPTodoTask"
+    ]
+  },
+  "Update-PnPTodoTaskChecklistItem": {
+    "description": [
+      "Use the cmdlet to update a checklist item on a Todo task."
+    ],
+    "body": [
+      "Update-PnPTodoTaskChecklistItem "
+    ],
+    "prefix": [
+      "Update-PnPTodoTaskChecklistItem"
     ]
   },
   "Update-PnPUserType": {

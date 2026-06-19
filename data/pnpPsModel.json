@@ -446,6 +446,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTermToTerm.html"
     },
     {
+      "name": "Add-PnPTodoTaskFileAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTodoTaskFileAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTodoTaskFileAttachment.html"
+    },
+    {
       "name": "Add-PnPView",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPView.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPView.html"
@@ -954,6 +959,21 @@
       "name": "Get-PnPEntraIDApp",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDApp.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDApp.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Get-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPEntraIDAppListPermission.html"
     },
     {
       "name": "Get-PnPEntraIDAppPermission",
@@ -1936,6 +1956,26 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoList.html"
     },
     {
+      "name": "Get-PnPTodoTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTodoTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoTask.html"
+    },
+    {
+      "name": "Get-PnPTodoTaskChecklistItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTodoTaskChecklistItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoTaskChecklistItem.html"
+    },
+    {
+      "name": "Get-PnPTodoTaskFileAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTodoTaskFileAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoTaskFileAttachment.html"
+    },
+    {
+      "name": "Get-PnPTodoTaskLinkedResource",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTodoTaskLinkedResource.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTodoTaskLinkedResource.html"
+    },
+    {
       "name": "Get-PnPTraceLog",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTraceLog.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTraceLog.html"
@@ -2044,6 +2084,21 @@
       "name": "Get-PnPWikiPageContent",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWikiPageContent.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWikiPageContent.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Grant-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Grant-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Grant-PnPEntraIDAppListPermission.html"
     },
     {
       "name": "Grant-PnPEntraIDAppSitePermission",
@@ -2414,6 +2469,21 @@
       "name": "New-PnPTodoList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTodoList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTodoList.html"
+    },
+    {
+      "name": "New-PnPTodoTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTodoTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTodoTask.html"
+    },
+    {
+      "name": "New-PnPTodoTaskChecklistItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTodoTaskChecklistItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTodoTaskChecklistItem.html"
+    },
+    {
+      "name": "New-PnPTodoTaskLinkedResource",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPTodoTaskLinkedResource.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPTodoTaskLinkedResource.html"
     },
     {
       "name": "New-PnPUPABulkImportJob",
@@ -3001,6 +3071,26 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoList.html"
     },
     {
+      "name": "Remove-PnPTodoTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTodoTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoTask.html"
+    },
+    {
+      "name": "Remove-PnPTodoTaskChecklistItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTodoTaskChecklistItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoTaskChecklistItem.html"
+    },
+    {
+      "name": "Remove-PnPTodoTaskFileAttachment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTodoTaskFileAttachment.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoTaskFileAttachment.html"
+    },
+    {
+      "name": "Remove-PnPTodoTaskLinkedResource",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTodoTaskLinkedResource.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTodoTaskLinkedResource.html"
+    },
+    {
       "name": "Remove-PnPUser",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPUser.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPUser.html"
@@ -3176,6 +3266,21 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantSite.html"
     },
     {
+      "name": "Revoke-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Revoke-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Revoke-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppListPermission.html"
+    },
+    {
       "name": "Revoke-PnPEntraIDAppSitePermission",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPEntraIDAppSitePermission.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPEntraIDAppSitePermission.html"
@@ -3299,6 +3404,21 @@
       "name": "Set-PnPDocumentSetField",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPDocumentSetField.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPDocumentSetField.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppFilePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppFilePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppFilePermission.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppListItemPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppListItemPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppListItemPermission.html"
+    },
+    {
+      "name": "Set-PnPEntraIDAppListPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPEntraIDAppListPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPEntraIDAppListPermission.html"
     },
     {
       "name": "Set-PnPEntraIDAppSitePermission",
@@ -3881,6 +4001,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPTraceLog.html"
     },
     {
+      "name": "Start-PnPUserAndContentMove",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPUserAndContentMove.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPUserAndContentMove.html"
+    },
+    {
       "name": "Stop-PnPFlowRun",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPFlowRun.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPFlowRun.html"
@@ -3994,6 +4119,16 @@
       "name": "Update-PnPTodoList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTodoList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTodoList.html"
+    },
+    {
+      "name": "Update-PnPTodoTask",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTodoTask.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTodoTask.html"
+    },
+    {
+      "name": "Update-PnPTodoTaskChecklistItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPTodoTaskChecklistItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPTodoTaskChecklistItem.html"
     },
     {
       "name": "Update-PnPUserType",

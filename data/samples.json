@@ -6050,6 +6050,29 @@
       ]
     },
     {
+      "title": "SharePoint Online Recycle Bin Capacity and Retention Report (All Sites)",
+      "url": "https://pnp.github.io/script-samples/spo-recycle-bin-capacity-and-retention-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recycle-bin-capacity-and-retention-report/README.md",
+      "description": "Generates a tenant-wide report of first and second stage recycle bin usage, retention windows, and upcoming purge dates across SharePoint Online site collections.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recycle-bin-capacity-and-retention-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPContext",
+        "Get-PnPTenantSite",
+        "Get-PnPRecycleBinItem",
+        "Set-PnPContext",
+        "Export-Csv"
+      ]
+    },
+    {
       "title": "Get SharePoint Site Recycle Bin Items And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-recyclebin-items-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recyclebin-items-to-csv/README.md",

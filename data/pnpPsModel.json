@@ -1146,6 +1146,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGeoMoveCrossCompatibilityStatus.html"
     },
     {
+      "name": "Get-PnPGeoStorageQuota",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGeoStorageQuota.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGeoStorageQuota.html"
+    },
+    {
       "name": "Get-PnPGraphSubscription",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPGraphSubscription.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPGraphSubscription.html"
@@ -1354,6 +1359,11 @@
       "name": "Get-PnPMultiGeoCompanyAllowedDataLocation",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMultiGeoCompanyAllowedDataLocation.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMultiGeoCompanyAllowedDataLocation.html"
+    },
+    {
+      "name": "Get-PnPMultiGeoExperience",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMultiGeoExperience.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMultiGeoExperience.html"
     },
     {
       "name": "Get-PnPNavigationNode",
@@ -1604,6 +1614,11 @@
       "name": "Get-PnPSiteCollectionTermStore",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteCollectionTermStore.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteCollectionTermStore.html"
+    },
+    {
+      "name": "Get-PnPSiteContentMoveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteContentMoveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteContentMoveState.html"
     },
     {
       "name": "Get-PnPSiteDesign",
@@ -1989,6 +2004,11 @@
       "name": "Get-PnPUnifiedAuditLog",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnifiedAuditLog.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnifiedAuditLog.html"
+    },
+    {
+      "name": "Get-PnPUnifiedGroupMoveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnifiedGroupMoveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnifiedGroupMoveState.html"
     },
     {
       "name": "Get-PnPUPABulkImportStatus",
@@ -3476,6 +3496,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPFooter.html"
     },
     {
+      "name": "Set-PnPGeoStorageQuota",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPGeoStorageQuota.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPGeoStorageQuota.html"
+    },
+    {
       "name": "Set-PnPGraphSubscription",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPGraphSubscription.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPGraphSubscription.html"
@@ -3619,6 +3644,16 @@
       "name": "Set-PnPMicrosoft365GroupSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMicrosoft365GroupSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html"
+    },
+    {
+      "name": "Set-PnPMultiGeoCompanyAllowedDataLocation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMultiGeoCompanyAllowedDataLocation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMultiGeoCompanyAllowedDataLocation.html"
+    },
+    {
+      "name": "Set-PnPMultiGeoExperience",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPMultiGeoExperience.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPMultiGeoExperience.html"
     },
     {
       "name": "Set-PnPOrgAssetsLibrary",
@@ -3991,6 +4026,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPEnterpriseAppInsightsReport.html"
     },
     {
+      "name": "Start-PnPSiteContentMove",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPSiteContentMove.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPSiteContentMove.html"
+    },
+    {
       "name": "Start-PnPTenantRename",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPTenantRename.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPTenantRename.html"
@@ -3999,6 +4039,11 @@
       "name": "Start-PnPTraceLog",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPTraceLog.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPTraceLog.html"
+    },
+    {
+      "name": "Start-PnPUnifiedGroupMove",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Start-PnPUnifiedGroupMove.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Start-PnPUnifiedGroupMove.html"
     },
     {
       "name": "Start-PnPUserAndContentMove",
@@ -4011,9 +4056,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPFlowRun.html"
     },
     {
+      "name": "Stop-PnPSiteContentMove",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPSiteContentMove.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPSiteContentMove.html"
+    },
+    {
       "name": "Stop-PnPTraceLog",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPTraceLog.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPTraceLog.html"
+    },
+    {
+      "name": "Stop-PnPUserAndContentMove",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Stop-PnPUserAndContentMove.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Stop-PnPUserAndContentMove.html"
     },
     {
       "name": "Submit-PnPSearchQuery",

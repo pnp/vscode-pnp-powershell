@@ -2518,6 +2518,17 @@
       "Get-PnPGeoMoveCrossCompatibilityStatus"
     ]
   },
+  "Get-PnPGeoStorageQuota": {
+    "description": [
+      "Returns SharePoint Online storage quota details for the local geo location by default. Use `-AllLocations` to return storage quota details for all multi-geo locations."
+    ],
+    "body": [
+      "Get-PnPGeoStorageQuota "
+    ],
+    "prefix": [
+      "Get-PnPGeoStorageQuota"
+    ]
+  },
   "Get-PnPGraphSubscription": {
     "description": [
       ""
@@ -2978,6 +2989,17 @@
     ],
     "prefix": [
       "Get-PnPMultiGeoCompanyAllowedDataLocation"
+    ]
+  },
+  "Get-PnPMultiGeoExperience": {
+    "description": [
+      "Returns the SharePoint Online multi-geo experience mode for the current geo location."
+    ],
+    "body": [
+      "Get-PnPMultiGeoExperience "
+    ],
+    "prefix": [
+      "Get-PnPMultiGeoExperience"
     ]
   },
   "Get-PnPNavigationNode": {
@@ -3528,6 +3550,17 @@
     ],
     "prefix": [
       "Get-PnPSiteCollectionTermStore"
+    ]
+  },
+  "Get-PnPSiteContentMoveState": {
+    "description": [
+      "Returns status information for SharePoint Online multi-geo site content move jobs. You can retrieve one move job by source site URL or site move ID, or retrieve a move report filtered by state, direction, time window, and limit. When no move state or direction is specified, all states and directions are returned."
+    ],
+    "body": [
+      "Get-PnPSiteContentMoveState "
+    ],
+    "prefix": [
+      "Get-PnPSiteContentMoveState"
     ]
   },
   "Get-PnPSiteDesign": {
@@ -4375,6 +4408,17 @@
     ],
     "prefix": [
       "Get-PnPUnifiedAuditLog"
+    ]
+  },
+  "Get-PnPUnifiedGroupMoveState": {
+    "description": [
+      "Returns status information for a SharePoint Online multi-geo Microsoft 365 group move job by group alias."
+    ],
+    "body": [
+      "Get-PnPUnifiedGroupMoveState "
+    ],
+    "prefix": [
+      "Get-PnPUnifiedGroupMoveState"
     ]
   },
   "Get-PnPUPABulkImportStatus": {
@@ -7644,6 +7688,17 @@
       "Set-PnPFooter"
     ]
   },
+  "Set-PnPGeoStorageQuota": {
+    "description": [
+      "Sets the allocated storage quota, in megabytes, for a SharePoint Online multi-geo location."
+    ],
+    "body": [
+      "Set-PnPGeoStorageQuota -GeoLocation $1 -StorageQuotaMB $2"
+    ],
+    "prefix": [
+      "Set-PnPGeoStorageQuota"
+    ]
+  },
   "Set-PnPGraphSubscription": {
     "description": [
       "Allows to update an existing Microsoft Graph subscription."
@@ -7961,6 +8016,28 @@
     ],
     "prefix": [
       "Set-PnPMicrosoft365GroupSettings"
+    ]
+  },
+  "Set-PnPMultiGeoCompanyAllowedDataLocation": {
+    "description": [
+      "Starts setting up an allowed SharePoint Online multi-geo data location for the tenant."
+    ],
+    "body": [
+      "Set-PnPMultiGeoCompanyAllowedDataLocation "
+    ],
+    "prefix": [
+      "Set-PnPMultiGeoCompanyAllowedDataLocation"
+    ]
+  },
+  "Set-PnPMultiGeoExperience": {
+    "description": [
+      "Upgrades the tenant multi-geo experience to include SharePoint Online Multi-Geo. This operation is not reversible and prompts for confirmation before it starts. The upgrade operation takes some time to take effect."
+    ],
+    "body": [
+      "Set-PnPMultiGeoExperience "
+    ],
+    "prefix": [
+      "Set-PnPMultiGeoExperience"
     ]
   },
   "Set-PnPOrgAssetsLibrary": {
@@ -8777,6 +8854,17 @@
       "Start-PnPEnterpriseAppInsightsReport"
     ]
   },
+  "Start-PnPSiteContentMove": {
+    "description": [
+      "Starts a SharePoint Online multi-geo move job for a site collection. The move can target a destination data location or a destination site URL. Use `-ValidationOnly` to validate whether the site content can be moved without starting the move."
+    ],
+    "body": [
+      "Start-PnPSiteContentMove "
+    ],
+    "prefix": [
+      "Start-PnPSiteContentMove"
+    ]
+  },
   "Start-PnPTenantRename": {
     "description": [
       "Schedules a tenant rename job to change the SharePoint Online domain name for the organization. For example, this can change `contoso.sharepoint.com` to `fabrikam.sharepoint.com`. The new domain name must already have been added successfully to Microsoft Entra ID. Specify only the domain prefix, without `.sharepoint.com` or `.onmicrosoft.com`. The scheduled date and time must be at least 24 hours in the future and no more than 30 days in the future. Tenant rename can take several hours to days depending on the number of SharePoint sites and OneDrive accounts in the tenant."
@@ -8797,6 +8885,17 @@
     ],
     "prefix": [
       "Start-PnPTraceLog"
+    ]
+  },
+  "Start-PnPUnifiedGroupMove": {
+    "description": [
+      "Starts a SharePoint Online multi-geo move job for a Microsoft 365 unified group to the specified destination data location. Use `-ValidationOnly` to validate whether the group can be moved without starting the move."
+    ],
+    "body": [
+      "Start-PnPUnifiedGroupMove "
+    ],
+    "prefix": [
+      "Start-PnPUnifiedGroupMove"
     ]
   },
   "Start-PnPUserAndContentMove": {
@@ -8821,6 +8920,17 @@
       "Stop-PnPFlowRun"
     ]
   },
+  "Stop-PnPSiteContentMove": {
+    "description": [
+      "Stops a SharePoint Online multi-geo site content move job for the specified source site URL."
+    ],
+    "body": [
+      "Stop-PnPSiteContentMove "
+    ],
+    "prefix": [
+      "Stop-PnPSiteContentMove"
+    ]
+  },
   "Stop-PnPTraceLog": {
     "description": [
       "Stops PnP PowerShell tracelogging to specific targets. By default, all logging is stopped. You can use the parameters to stop specific logging targets only. You can turn on the trace log with Start-PnPTraceLog. You can look at the logged data using Get-PnPTraceLog."
@@ -8830,6 +8940,17 @@
     ],
     "prefix": [
       "Stop-PnPTraceLog"
+    ]
+  },
+  "Stop-PnPUserAndContentMove": {
+    "description": [
+      "Stops a SharePoint Online multi-geo move job for a user and the user's OneDrive content."
+    ],
+    "body": [
+      "Stop-PnPUserAndContentMove "
+    ],
+    "prefix": [
+      "Stop-PnPUserAndContentMove"
     ]
   },
   "Submit-PnPSearchQuery": {

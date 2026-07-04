@@ -715,6 +715,31 @@
       ]
     },
     {
+      "title": "Group-Connected SharePoint Sites and Microsoft Teams Relationship Report",
+      "url": "https://pnp.github.io/script-samples/group-connected-sharepoint-sites-and-microsoft-teams-relationship-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/group-connected-sharepoint-sites-and-microsoft-teams-relationship-report/README.md",
+      "description": "Generate a tenant-wide CSV report of Microsoft 365 Group-connected SharePoint sites, ownership, and Microsoft Teams linkage.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/group-connected-sharepoint-sites-and-microsoft-teams-relationship-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPMicrosoft365GroupOwners",
+        "Get-PnPTeamsTeam",
+        "Export-Csv",
+        "SharePoint Online",
+        "Microsoft 365 Groups",
+        "Microsoft Teams",
+        "Governance"
+      ]
+    },
+    {
       "title": "Get Unified log for SharePoint DLP Exchange and Entra",
       "url": "https://pnp.github.io/script-samples/m365-get-unifiedlog-spo-dlp-exchange-entra/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/m365-get-unifiedlog-spo-dlp-exchange-entra/README.md",
@@ -4166,6 +4191,25 @@
       ]
     },
     {
+      "title": "Export TopNavBar Structure and Translations.",
+      "url": "https://pnp.github.io/script-samples/spo-export-topnavbar-including-translations/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-topnavbar-including-translations/README.md",
+      "description": "Export TopNavBar Nodes with Childrens and Title Translations.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-topnavbar-including-translations/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPContext",
+        "Get-PnPNavigationNode"
+      ]
+    },
+    {
       "title": "Export User Profiles to csv",
       "url": "https://pnp.github.io/script-samples/spo-export-upa-accounts/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-upa-accounts/README.md",
@@ -5264,6 +5308,28 @@
         "Get-PnPListItem",
         "Get-PnPRecycleBinItem",
         "Get-PnPTenantSite"
+      ]
+    },
+    {
+      "title": "Find Teams and Channels associated with a SharePoint URL",
+      "url": "https://pnp.github.io/script-samples/spo-get-team-channel-hub-from-siteurl/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-team-channel-hub-from-siteurl/README.md",
+      "description": "Find Teams and Channels associated with a SharePoint URL",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-team-channel-hub-from-siteurl/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPHubSite",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPSite"
       ]
     },
     {

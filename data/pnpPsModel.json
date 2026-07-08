@@ -2036,6 +2036,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserAndContentMoveState.html"
     },
     {
+      "name": "Get-PnPUserOneDriveLocation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserOneDriveLocation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserOneDriveLocation.html"
+    },
+    {
       "name": "Get-PnPUserOneDriveQuota",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUserOneDriveQuota.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUserOneDriveQuota.html"

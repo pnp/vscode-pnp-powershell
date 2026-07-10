@@ -3587,7 +3587,7 @@
   },
   "Get-PnPSiteDesign": {
     "description": [
-      "Retrieve Site Designs that have been registered on the current tenant. When providing a name with -Identity, it returns all site designs with that name."
+      "Retrieve Site Designs that have been registered on the current tenant. When providing a name with -Identity, it returns all site designs with that name. Use the -BuiltIn switch to instead return the built-in Microsoft site designs (e.g. Event, Department, Human Resources) which are available from the SharePoint site template store."
     ],
     "body": [
       "Get-PnPSiteDesign "
@@ -4476,6 +4476,17 @@
       "Get-PnPUserAndContentMoveState"
     ]
   },
+  "Get-PnPUserOneDriveLocation": {
+    "description": [
+      "Returns the SharePoint Online multi-geo location, OneDrive personal site URL, site ID, and user principal name for the specified user."
+    ],
+    "body": [
+      "Get-PnPUserOneDriveLocation -UserPrincipalName $1"
+    ],
+    "prefix": [
+      "Get-PnPUserOneDriveLocation"
+    ]
+  },
   "Get-PnPUserOneDriveQuota": {
     "description": [
       "This command allows you to request the quota set on the OneDrive for Business site of a specific user."
@@ -4830,7 +4841,7 @@
   },
   "Invoke-PnPSiteDesign": {
     "description": [
-      "Applies the Site Design provided through Identity to an existing site. When providing a site design name and multiple site designs exist with the same name, all of them will be invoked."
+      "Applies a Site Design to an existing site. Use `-Identity` to apply a tenant-registered site design by Id or name. When a name matches multiple designs, all of them will be invoked. Use `-Template` to apply one of the built-in Microsoft site designs (e.g. Event, Department, Human Resources) directly by name, without needing to look up the design Id first. This calls the SharePoint SiteScriptUtility REST API against the built-in template store (store 1)."
     ],
     "body": [
       "Invoke-PnPSiteDesign "

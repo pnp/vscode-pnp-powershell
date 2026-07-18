@@ -331,6 +331,27 @@
       ]
     },
     {
+      "title": "How to Copy SharePoint List Columns Between Lists Using PowerShell",
+      "url": "https://pnp.github.io/script-samples/copy-sharepoint-list-columns-between-lists/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/copy-sharepoint-list-columns-between-lists/README.md",
+      "description": "This script copies selected SharePoint list fields from a source list to a destination list using PnP PowerShell and certificate-based authentication.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/copy-sharepoint-list-columns-between-lists/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Add-PnPFieldFromXml",
+        "Export-Csv"
+      ]
+    },
+    {
       "title": "Upload Cowork Skills to your OneDrive",
       "url": "https://pnp.github.io/script-samples/cowork-skills-upload/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/cowork-skills-upload/README.md",
@@ -635,10 +656,15 @@
         {
           "name": "Kasper Larsen",
           "pictureUrl": "https://github.com/kasperbolarsen.png"
+        },
+        {
+          "name": "juandresrodca",
+          "pictureUrl": "https://github.com/juandresrodca.png"
         }
       ],
       "tags": [
-        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod"
+        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod",
+        "m365 request,m365 spo search"
       ]
     },
     {
@@ -1939,6 +1965,28 @@
       ]
     },
     {
+      "title": "Create Hub Navigation from Teams and Channels",
+      "url": "https://pnp.github.io/script-samples/spo-build-hierarchical-team-channel-navigation/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-build-hierarchical-team-channel-navigation/README.md",
+      "description": "Create Hub Navigation from Teams and Channels",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-build-hierarchical-team-channel-navigation/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPNavigationNode",
+        "Add-PnPNavigationNode",
+        "Get-PnPProperty"
+      ]
+    },
+    {
       "title": "Creation of SharePoint Online sites from CSV",
       "url": "https://pnp.github.io/script-samples/spo-bulk-creation-sharepoint-sites-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/README.md",
@@ -2103,6 +2151,27 @@
         "Get-PnPListItem",
         "Set-PnPList",
         "Set-PnPListItem"
+      ]
+    },
+    {
+      "title": "Check the Site Pages translations config and correct.",
+      "url": "https://pnp.github.io/script-samples/spo-check-and-correct-translation-config/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-and-correct-translation-config/README.md",
+      "description": "Validates the multilingual translation metadata (_SPTranslatedLanguages, _SPTranslationLanguage, _SPTranslationSourceItemId, _SPIsTranslation) of every page in the Site Pages library and optionally corrects clear-cut misconfigurations.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-and-correct-translation-config/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline"
       ]
     },
     {
@@ -6563,6 +6632,26 @@
       ]
     },
     {
+      "title": "Get and Remove Site Admins after providing Support.",
+      "url": "https://pnp.github.io/script-samples/spo-remove-sitecollection-admins-after-providing-support/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-sitecollection-admins-after-providing-support/README.md",
+      "description": "Find site collection administrators granted for support cases and remove them once support is complete",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-sitecollection-admins-after-providing-support/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPSiteCollectionAdmin",
+        "Remove-PnPSiteCollectionAdmin"
+      ]
+    },
+    {
       "title": "Remove the Teamify link on Group sites",
       "url": "https://pnp.github.io/script-samples/spo-remove-teamify-link/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-teamify-link/README.md",
@@ -6706,6 +6795,40 @@
       ]
     },
     {
+      "title": "Generate File version report and trim on specific Teams",
+      "url": "https://pnp.github.io/script-samples/spo-report-version-expiration-and-trim/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-version-expiration-and-trim/README.md",
+      "description": "Reports on file version history across Microsoft Teams sites and private channels, calculates storage savings, and trims expired versions using SharePoint's automatic versioning policy.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-version-expiration-and-trim/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Fabian Hutzli",
+          "pictureUrl": "https://github.com/fabianhutzli.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPTeamsTeam",
+        "Get-PnPTeamsChannel",
+        "Get-PnPTeamsPrimaryChannel",
+        "Get-PnPTeamsChannelFilesFolder",
+        "Get-PnPTeamsChannelUser",
+        "Get-PnPTenantSite",
+        "Get-PnPList",
+        "New-PnPList",
+        "Set-PnPList",
+        "Get-PnPFile",
+        "Get-PnPSiteFileVersionExpirationReportJobStatus",
+        "New-PnPSiteFileVersionExpirationReportJob",
+        "Get-PnPSiteFileVersionBatchDeleteJobStatus",
+        "New-PnPSiteFileVersionBatchDeleteJob",
+        "Set-PnPSiteVersionPolicy"
+      ]
+    },
+    {
       "title": "Request Reindex of SharePoint User Profile Properties",
       "url": "https://pnp.github.io/script-samples/spo-request-pnp-reindex-user-profile/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-request-pnp-reindex-user-profile/README.md",
@@ -6714,6 +6837,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Juan Andres Rodriguez",
+          "pictureUrl": "https://github.com/juandresrodca.png"
+        },
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://avatars.githubusercontent.com/ValerasNarbutas"

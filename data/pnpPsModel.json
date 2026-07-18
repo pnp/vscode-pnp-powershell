@@ -426,6 +426,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantRestrictedSearchAllowedList.html"
     },
     {
+      "name": "Add-PnPTenantSearchCrawledProperty",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSearchCrawledProperty.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSearchCrawledProperty.html"
+    },
+    {
       "name": "Add-PnPTenantSequence",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPTenantSequence.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPTenantSequence.html"

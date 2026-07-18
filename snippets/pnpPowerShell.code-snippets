@@ -934,6 +934,17 @@
       "Add-PnPTenantRestrictedSearchAllowedList"
     ]
   },
+  "Add-PnPTenantSearchCrawledProperty": {
+    "description": [
+      "Creates a tenant-level crawled property by importing an additive search schema configuration package. This cmdlet must be run against the tenant admin site. Most SharePoint crawled properties should use one of these property sets: SharePointDefault, SharePointTaxonomy, SharePointStructured, or SharePointRich. Other supported property sets can be specified by GUID for advanced scenarios, but the cmdlet will ask for confirmation unless -Force is specified. This cmdlet is additive only. SharePoint Online does not expose a supported PnP PowerShell command to delete crawled properties created in error or to move an existing crawled property to a different property set. Verify the crawled property name and property set before running this cmdlet in a production tenant. If this cmdlet is used to make an implicit crawled property explicit, SharePoint Online will stop automatically creating an implicit managed property for that crawled property going forward. This cmdlet supports PowerShell's standard -WhatIf and -Confirm parameters. Because creating a tenant crawled property is difficult to undo, the cmdlet asks for confirmation by default. Use -WhatIf to preview the operation or -Confirm:$false to suppress the standard confirmation prompt."
+    ],
+    "body": [
+      "Add-PnPTenantSearchCrawledProperty -Name $1 -PropertySet $2"
+    ],
+    "prefix": [
+      "Add-PnPTenantSearchCrawledProperty"
+    ]
+  },
   "Add-PnPTenantSequence": {
     "description": [
       "Allows to add a tenant sequence object to a tenant template."

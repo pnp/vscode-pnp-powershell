@@ -3016,6 +3016,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteScript.html"
     },
     {
+      "name": "Remove-PnPSiteSensitivityLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteSensitivityLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteSensitivityLabel.html"
+    },
+    {
       "name": "Remove-PnPSiteUserInvitations",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteUserInvitations.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteUserInvitations.html"

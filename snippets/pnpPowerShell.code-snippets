@@ -837,7 +837,7 @@
   },
   "Add-PnPStoredCredential": {
     "description": [
-      "Adds an entry to the Windows Credential Manager or Mac OS Key Chain Entry. If you add an entry in the form of the URL of your tenant/server PnP PowerShell will check if that entry is available when you connect using Connect-PnPOnline. If it finds a matching URL it will use the associated credentials. If you add a Credential with a name of \"https://yourtenant.sharepoint.com\" it will find a match when you connect to \"https://yourtenant.sharepoint.com\" but also when you connect to \"https://yourtenant.sharepoint.com/sites/demo1\". Of course you can specify more granular entries, allow you to automatically provide credentials for different URLs."
+      "Adds an entry to the credential store of your platform. If a default vault has been registered through `Microsoft.PowerShell.SecretManagement`, the credential is stored in that vault. If not, it is stored in the credential store native to the operating system: the Windows Credential Manager on Windows, the Keychain on macOS and the Secret Service on Linux. Storing a credential on Linux without a default vault requires a Secret Service provider such as GNOME Keyring or KWallet to be installed and unlocked; if none is available, the cmdlet will report that it could not store the credential rather than silently discarding it. See Credential Management for the details. If you add an entry in the form of the URL of your tenant/server PnP PowerShell will check if that entry is available when you connect using Connect-PnPOnline. If it finds a matching URL it will use the associated credentials. If you add a Credential with a name of \"https://yourtenant.sharepoint.com\" it will find a match when you connect to \"https://yourtenant.sharepoint.com\" but also when you connect to \"https://yourtenant.sharepoint.com/sites/demo1\". Of course you can specify more granular entries, allow you to automatically provide credentials for different URLs."
     ],
     "body": [
       "Add-PnPStoredCredential -Name $1 -Username $2"
@@ -1867,6 +1867,17 @@
     ],
     "prefix": [
       "Get-PnPChangeLog"
+    ]
+  },
+  "Get-PnPCommandPermission": {
+    "description": [
+      "Returns the delegated and application API permission sets required to run a PnP PowerShell cmdlet, together with the minimum SharePoint rights the calling user needs to hold. Permissions within one set are all required, while multiple sets are alternatives to each other. The alternatives are listed in the order they are declared on the cmdlet, which by convention starts with the least privileged one. Use this cmdlet to determine up front which permissions to grant to an Entra ID app registration, rather than discovering it from a failed call. The `PermissionSource` property states how reliable the returned information is: | PermissionSource | Meaning | |------------------|---------| | `Declared` | The permissions are declared on the cmdlet through its permission attributes and are authoritative. Check `Guidance`, as a cmdlet can additionally require permissions that depend on how it is invoked. | | `DeclaredAndInferred` | Part declared, part derived, in one of two ways. Either the cmdlet uses SharePoint CSOM **next to** the API it declares permissions for, i.e. `Set-PnPList`, in which case the derived SharePoint permission is added to each declared alternative and is required on top of them. Or the cmdlet reaches its goal **either** through the declared API **or** through SharePoint, i.e. `Send-PnPMail`, in which case the derived SharePoint permission is listed as a separate alternative. Read `Guidance` to see which of the two applies before granting anything. | | `Inferred` | The permissions have been derived from the type of cmdlet and the operation it performs. They are a least privilege estimate and may need to be raised for specific operations. | | `ResourceDependent` | The permissions follow from the resource the cmdlet is pointed at at runtime and cannot be stated up front, i.e. `New-PnPGraphSubscription` or `Invoke-PnPGraphMethod`. The `Guidance` property names the parameter involved and links to the relevant documentation. | | `NotApplicable` | The cmdlet requires no permissions on the Entra ID application registration used to connect with PnP PowerShell. That covers cmdlets which perform no request at all, i.e. `Get-PnPContext`, cmdlets which call an API that needs no permissions, i.e. `Get-PnPChangeLog` which reads the release notes from GitHub, and cmdlets which authenticate separately and can still require rights of their own, i.e. `Register-PnPEntraIDApp`. `Guidance` states which applies. | | `Unknown` | No permissions are declared on the cmdlet and they could not be derived. Consult the documentation of that cmdlet. | Omitting `-CommandName` returns the permission information of every cmdlet in the module, which allows the full permission surface to be audited. This cmdlet does not require a connection."
+    ],
+    "body": [
+      "Get-PnPCommandPermission "
+    ],
+    "prefix": [
+      "Get-PnPCommandPermission"
     ]
   },
   "Get-PnPCompatibleHubContentTypes": {
@@ -3807,7 +3818,7 @@
   },
   "Get-PnPStoredCredential": {
     "description": [
-      "Returns a stored credential from the Windows Credential Manager or Mac OS Key Chain Entry."
+      "Returns a stored credential. If a default vault has been registered through `Microsoft.PowerShell.SecretManagement`, the credential is read from that vault. If not, it is read from the credential store native to the operating system: the Windows Credential Manager on Windows, the Keychain on macOS and the Secret Service on Linux. Reading a credential from the Linux Secret Service requires a provider such as GNOME Keyring or KWallet to be installed and unlocked. See Credential Management for the details."
     ],
     "body": [
       "Get-PnPStoredCredential -Name $1"
@@ -6667,7 +6678,7 @@
   },
   "Remove-PnPStoredCredential": {
     "description": [
-      "Removes a stored credential from the Credential Manager"
+      "Removes a stored credential. If a default vault has been registered through `Microsoft.PowerShell.SecretManagement`, the credential is removed from that vault. If not, it is removed from the credential store native to the operating system: the Windows Credential Manager on Windows, the Keychain on macOS and the Secret Service on Linux. See Credential Management for the details."
     ],
     "body": [
       "Remove-PnPStoredCredential -Name $1"
@@ -9072,6 +9083,17 @@
     ],
     "prefix": [
       "Sync-PnPSharePointUserProfilesFromAzureActiveDirectory"
+    ]
+  },
+  "Test-PnPConnectionPermission": {
+    "description": [
+      "Acquires the access tokens needed by the specified cmdlet and compares their `scp` or `roles` claims with the cmdlet's permission metadata as reported by Get-PnPCommandPermission. Returns `$true` when the connection holds one complete permission set and `$false` when it does not. A required permission is satisfied by the very same scope, but also by any scope which is more privileged. `Sites.FullControl.All` therefore satisfies a required `Sites.Read.All`, and the delegated notation and the application notation of the same SharePoint level are treated as equivalent, so `AllSites.FullControl` satisfies a required `Sites.ReadWrite.All`. This matters because the permission metadata reports the least privileged scope which suffices rather than the exact scope to hold. `Sites.Selected` is deliberately excluded from this: it grants access only to the sites the application has explicitly been granted access to, so it neither covers nor is covered by the tenant wide scopes. When permissions are missing the cmdlet returns `$false` and writes a non-terminating `RequiredPermissionMissing` error which names each missing permission and preserves the `AND` and `OR` relationship between permission sets. Because the error is non-terminating, the cmdlet fits all three common usages: | Usage | Behaviour | |---|---| | `if (Test-PnPConnectionPermission ...)` | Branch on the result, with the missing permissions reported on the error stream | | `-ErrorAction SilentlyContinue` | Return the boolean without writing the error | | `-ErrorAction Stop` | Terminate the script, for use as a preflight check in unattended runs | Where the requirement cannot be established, the cmdlet writes a non-terminating `PermissionRequirementsIndeterminate` error and returns nothing at all rather than `$false`. Reporting `$false` would state that the connection does not hold the permissions, while in these cases the check could not be performed. This covers cmdlets whose permissions depend on the resource they are pointed at or on how they are invoked, cmdlets for which no permissions are declared for the token type in use, and resources for which no access token could be acquired. The check validates API permissions only. SharePoint permission levels, `Sites.Selected` site grants and the additional roles reported by `Get-PnPCommandPermission` cannot be inferred from an access token and are not tested. A `$true` result therefore confirms the token claims, not every authorization requirement of the target resource. Validation is supported for Microsoft Graph, SharePoint Online, Azure Resource Manager, Power Apps and Graph Connector Service access tokens. The Dynamics CRM audience used by `Get-PnPPowerPlatformSolution` depends on the selected environment and cannot be determined from a cmdlet name, so that permission set is reported as indeterminate. Connections made with an ACS app only token are also reported as indeterminate, as such a token cannot be exchanged for a token carrying permission scopes. A connection made with `Connect-PnPOnline -AccessToken` holds one fixed token and returns it whatever resource is asked for. The audience of every token is therefore verified before its scopes are used, and a token issued for another API is reported as indeterminate rather than compared against the requirement. In practice this means such a connection can only be tested for cmdlets which use the API the token was issued for. Testing a SharePoint permission requires a connection created with a SharePoint site URL, because that URL determines the access token audience. Permissions with a source of `Inferred` or `DeclaredAndInferred` remain estimates. This cmdlet tests the estimate returned by `Get-PnPCommandPermission`; it cannot make inferred metadata authoritative."
+    ],
+    "body": [
+      "Test-PnPConnectionPermission "
+    ],
+    "prefix": [
+      "Test-PnPConnectionPermission"
     ]
   },
   "Test-PnPListItemIsRecord": {

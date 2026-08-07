@@ -851,6 +851,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPChangeLog.html"
     },
     {
+      "name": "Get-PnPCommandPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCommandPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCommandPermission.html"
+    },
+    {
       "name": "Get-PnPCompatibleHubContentTypes",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPCompatibleHubContentTypes.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPCompatibleHubContentTypes.html"
@@ -4124,6 +4129,11 @@
       "name": "Sync-PnPSharePointUserProfilesFromAzureActiveDirectory",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Sync-PnPSharePointUserProfilesFromAzureActiveDirectory.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Sync-PnPSharePointUserProfilesFromAzureActiveDirectory.html"
+    },
+    {
+      "name": "Test-PnPConnectionPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Test-PnPConnectionPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPConnectionPermission.html"
     },
     {
       "name": "Test-PnPListItemIsRecord",

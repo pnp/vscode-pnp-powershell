@@ -672,7 +672,7 @@
   },
   "Add-PnPPlannerRoster": {
     "description": [
-      "Creates a new Microsoft Planner Roster"
+      "Creates a new Microsoft Planner Roster The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Add-PnPPlannerRoster "
@@ -683,7 +683,7 @@
   },
   "Add-PnPPlannerRosterMember": {
     "description": [
-      "Adds a user to an existing Microsoft Planner Roster"
+      "Adds a user to an existing Microsoft Planner Roster The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Add-PnPPlannerRosterMember -Identity $1 -User $2"
@@ -868,15 +868,15 @@
       "Add-PnPTeamsChannel"
     ]
   },
-  "Add-PnpTeamsChannelUser": {
+  "Add-PnPTeamsChannelUser": {
     "description": [
       "Allows to add a user to a private channel in Microsoft Teams."
     ],
     "body": [
-      "Add-PnpTeamsChannelUser -Team $1 -Channel $2 -User $3 -Role $4"
+      "Add-PnPTeamsChannelUser -Team $1 -Channel $2 -User $3 -Role $4"
     ],
     "prefix": [
-      "Add-PnpTeamsChannelUser"
+      "Add-PnPTeamsChannelUser"
     ]
   },
   "Add-PnPTeamsTab": {
@@ -1165,15 +1165,15 @@
       "Clear-PnPMicrosoft365GroupOwner"
     ]
   },
-  "Clear-PnpRecycleBinItem": {
+  "Clear-PnPRecycleBinItem": {
     "description": [
       "Allows to permanently delete items from recycle bin. By default the command will delete all items but it is allowed to specify the items by using the `Identity` or `RowLimit` options."
     ],
     "body": [
-      "Clear-PnpRecycleBinItem "
+      "Clear-PnPRecycleBinItem "
     ],
     "prefix": [
-      "Clear-PnpRecycleBinItem"
+      "Clear-PnPRecycleBinItem"
     ]
   },
   "Clear-PnPTenantAppCatalogUrl": {
@@ -1269,7 +1269,7 @@
       ""
     ],
     "body": [
-      "ConvertTo-PnPPage -Identity $1"
+      "ConvertTo-PnPPage "
     ],
     "prefix": [
       "ConvertTo-PnPPage"
@@ -1649,6 +1649,17 @@
       "Find-PnPFile"
     ]
   },
+  "Format-PnPTraceLog": {
+    "description": [
+      "This cmdlet takes a single tab separated line as written to a trace log file by Start-PnPTraceLog and returns it as an object with the time stamp, source, thread id, level, message, elapsed milliseconds and correlation id available as separate properties. This allows a log file to be filtered, sorted and grouped in the same way as the in memory log stream returned by Get-PnPTraceLog. Use this cmdlet when reading a log file that is still in use for writing, which Get-PnPTraceLog cannot open. Log lines are read from the pipeline, so an entire file can be piped through it in one go."
+    ],
+    "body": [
+      "Format-PnPTraceLog "
+    ],
+    "prefix": [
+      "Format-PnPTraceLog"
+    ]
+  },
   "Get-PnPAccessToken": {
     "description": [
       "Returns the OAuth 2.0 Access Token."
@@ -1746,6 +1757,17 @@
     ],
     "prefix": [
       "Get-PnPAvailableLanguage"
+    ]
+  },
+  "Get-PnPAvailablePageComponents": {
+    "description": [
+      "This cmdlet returns the client side web parts that are available to be added to the specified page, which includes the web parts deployed to the site through the app catalog. Use it to look up the identifier of a component before adding it with Add-PnPPageWebPart. To retrieve the components that are already placed on a page instead, use Get-PnPPageComponent."
+    ],
+    "body": [
+      "Get-PnPAvailablePageComponents "
+    ],
+    "prefix": [
+      "Get-PnPAvailablePageComponents"
     ]
   },
   "Get-PnPAvailableSensitivityLabel": {
@@ -3169,7 +3191,7 @@
   },
   "Get-PnPPlannerRosterMember": {
     "description": [
-      "This cmdlet will return the current members of a Microsoft Planner Roster"
+      "This cmdlet will return the current members of a Microsoft Planner Roster The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Get-PnPPlannerRosterMember -Identity $1"
@@ -3180,7 +3202,7 @@
   },
   "Get-PnPPlannerRosterPlan": {
     "description": [
-      "This cmdlet returns Microsoft Planner roster plans for a specific Microsoft Planner Roster or a specific user"
+      "This cmdlet returns Microsoft Planner roster plans for a specific Microsoft Planner Roster or a specific user The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Get-PnPPlannerRosterPlan "
@@ -4522,7 +4544,7 @@
   },
   "Get-PnPUserProfilePhoto": {
     "description": [
-      "This cmdlet downloads the user profile photo to the specified path and filename. If no filename has been specified it will default to the Display Name of the user with the either the extension .png or .jpeg depending on the format of the file."
+      "This cmdlet downloads the user profile photo to the specified path and filename. If no filename has been specified it will default to the Display Name of the user with either the extension .jpg or .png depending on the format of the photo. On a connection which can read the photo but not the user behind it, such as one holding `ProfilePhoto.Read.All` only, the identifier provided through -Identity is used in place of the display name."
     ],
     "body": [
       "Get-PnPUserProfilePhoto -Identity $1"
@@ -5026,15 +5048,15 @@
       "Move-PnPPageComponent"
     ]
   },
-  "Move-PnpRecycleBinItem": {
+  "Move-PnPRecycleBinItem": {
     "description": [
       ""
     ],
     "body": [
-      "Move-PnpRecycleBinItem "
+      "Move-PnPRecycleBinItem "
     ],
     "prefix": [
-      "Move-PnpRecycleBinItem"
+      "Move-PnPRecycleBinItem"
     ]
   },
   "Move-PnPTerm": {
@@ -5204,7 +5226,7 @@
   },
   "New-PnPPersonalSite": {
     "description": [
-      "Creates a OneDrive For Business site for the provided user(s) If you want to use this cmdlet in an automated script not requiring manual authentication, you *must* assign the following permission to your application registration from either Azure Active Directory or done through https://tenant-admin.sharepoint.com/_layouts/appregnew.aspx with the following permission through https://tenant-admin.sharepoint.com/_layouts/appinv.aspx: ` <AppPermissionRequests AllowAppOnlyPolicy=\"true\"> <AppPermissionRequest Scope=\"http://sharepoint/social/tenant\" Right=\"FullControl\" /> </AppPermissionRequests> ` You then *must* connect using: ` Connect-PnPOnline -Url https://tenant-admin.sharepoint.com -ClientId <clientid> -ClientSecret <clientsecret> ` Authenticating using a certificate is *not* possible and will throw an unauthorized exception. It does not require assigning any permissions in Azure Active Directory. If you want to run this cmdlet using an interactive login, you *must* connect using: ` Connect-PnPOnline -Url https://tenant-admin.sharepoint.com -UseWebLogin `"
+      "Creates a OneDrive For Business site for the provided user(s). The site is enqueued and actually created by a Timer Job later, so it will not exist yet when this cmdlet returns. If a user already has a OneDrive for Business site, the request for that user is silently ignored. > [!NOTE] > • The account or application running this cmdlet must be assigned at least the SharePoint Administrator role and must have a SharePoint Online license. The users the sites are provisioned for must also have a SharePoint license assigned.<br/><br/>• This only works for users who are allowed to sign in. Requests for users whose sign in is blocked do not result in a OneDrive for Business site being created.<br/><br/>• When pre-provisioning for a large number of users, it might take multiple days for the OneDrive locations to be created."
     ],
     "body": [
       "New-PnPPersonalSite "
@@ -5224,15 +5246,15 @@
       "New-PnPPlannerPlan"
     ]
   },
-  "New-PnpProfileCardProperty": {
+  "New-PnPProfileCardProperty": {
     "description": [
       "This cmdlet may be used to add a property to user profile card. Please note that it may take up to 24 hours to reflect the changes."
     ],
     "body": [
-      "New-PnpProfileCardProperty -PropertyName $1 -DisplayName $2"
+      "New-PnPProfileCardProperty -PropertyName $1 -DisplayName $2"
     ],
     "prefix": [
-      "New-PnpProfileCardProperty"
+      "New-PnPProfileCardProperty"
     ]
   },
   "New-PnPSdnProvider": {
@@ -6403,7 +6425,7 @@
   },
   "Remove-PnPPlannerRoster": {
     "description": [
-      "Removes a Microsoft Planner Roster"
+      "Removes a Microsoft Planner Roster The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Remove-PnPPlannerRoster -Identity $1"
@@ -6414,7 +6436,7 @@
   },
   "Remove-PnPPlannerRosterMember": {
     "description": [
-      "Removes a member from a Microsoft Planner Roster."
+      "Removes a member from a Microsoft Planner Roster. The Microsoft Planner Roster APIs this cmdlet uses are only available through the beta endpoint of Microsoft Graph. Microsoft can change the permissions they require without notice, so verify the permissions above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Remove-PnPPlannerRosterMember -Identity $1"
@@ -7088,7 +7110,7 @@
       "This cmdlet starts a rename of a site on a SharePoint Online site. You can change the URL, and optionally the site title along with changing the URL. This will not work between Multi-geo environments."
     ],
     "body": [
-      "Rename-PnPTenantSite "
+      "Rename-PnPTenantSite -Identity $1 -NewSiteUrl $2"
     ],
     "prefix": [
       "Rename-PnPTenantSite"
@@ -7107,7 +7129,7 @@
   },
   "Request-PnPPersonalSite": {
     "description": [
-      "The Request-PnPPersonalSite cmdlet requests that the users specified be enqueued so that a Personal Site be created for each. The actual OneDrive for Business site is created by a Timer Job later. > [!NOTE] > • You must specify a string array of user logins that contains one or more valid user email (logins) and cannot contain any empty fields. The command will stop if it encounters any empty strings in the array. A maximum of 200 users can be specified. <br/><br/>• The actor executing this cmdlet must be at least assigned the SharePoint Online administrator role and have been assigned a SharePoint Online license to be able to provision the OneDrive for Business sites. The users who the sites will be provisioned for must also have a SharePoint license assigned. <br/><br/>• This cmdlet is NOT OneDrive Multi-Geo aware. If you need to request Personal Sites for Multi-Geo enabled tenants, you must run this cmdlet for users in the region their data is to be hosted in. To retrieve users with a specific PDL, use the following sample: `Get-MSOLUser | Where {$_.PreferredDataLocation -eq \"EUR\"}`<br/><br/>• If you want to use this cmdlet in an automated script not requiring manual authentication, you *must* assign the following permission to your application registration from either Azure Active Directory or done through https://tenant-admin.sharepoint.com/_layouts/appregnew.aspx with the following permission through https://tenant-admin.sharepoint.com/_layouts/appinv.aspx:<br/><br/> ` <AppPermissionRequests AllowAppOnlyPolicy=\"true\"> <AppPermissionRequest Scope=\"http://sharepoint/social/tenant\" Right=\"FullControl\" /> </AppPermissionRequests>`<br/><br/>You then *must* connect using<br/> `Connect-PnPOnline -Url https://tenant-admin.sharepoint.com -ClientId <clientid> -ClientSecret <clientsecret>`<br/>Authenticating using a certificate is *not* possible and will throw an unauthorized exception. It does not require assigning any permissions in Azure Active Directory.<br/><br/>If you want to run this cmdlet using an interactive login, you *must* connect using:<br/>`Connect-PnPOnline -Url https://tenant-admin.sharepoint.com -UseWebLogin`"
+      "The Request-PnPPersonalSite cmdlet requests that the users specified be enqueued so that a Personal Site be created for each. The actual OneDrive for Business site is created by a Timer Job later. If a user already has a Personal Site, the request for that user is silently ignored. > [!NOTE] > • A maximum of 200 users can be specified and none of the entries may be empty. The cmdlet stops if it encounters an empty string in the array.<br/><br/>• The account or application running this cmdlet must be assigned at least the SharePoint Administrator role and must have a SharePoint Online license. The users the sites are provisioned for must also have a SharePoint license assigned.<br/><br/>• This only works for users who are allowed to sign in. Requests for users whose sign in is blocked do not result in a Personal Site being created.<br/><br/>• This cmdlet is NOT OneDrive Multi-Geo aware. On Multi-Geo enabled tenants you must run it for users in the region their data is to be hosted in. To retrieve users with a specific PDL, use: `Get-PnPEntraIDUser | Where {$_.PreferredDataLocation -eq \"EUR\"}`"
     ],
     "body": [
       "Request-PnPPersonalSite -UserEmails $1"
@@ -7506,7 +7528,7 @@
       "Use this cmdlet to set the current configuration values for Idle session sign-out, the time at which users are warned and subsequently signed out of Microsoft 365 after a period of browser inactivity in SharePoint Online and OneDrive."
     ],
     "body": [
-      "Set-PnPBrowserIdleSignout -Enabled $1 -WarnAfter $2 -SignOutAfter $3"
+      "Set-PnPBrowserIdleSignout -Enabled $1 -WarnAfter $2 -SignoutAfter $3"
     ],
     "prefix": [
       "Set-PnPBrowserIdleSignout"
@@ -7558,7 +7580,7 @@
   },
   "Set-PnPCopilotAdminLimitedMode": {
     "description": [
-      "Represents a setting that controls whether Microsoft 365 Copilot in Teams Meetings users can receive responses to sentiment-related prompts. If this setting is enabled, Copilot in Teams Meetings doesn't respond to sentiment-related prompts and questions asked by the user. If the setting is disabled, Copilot in Teams Meetings responds to sentiment-related prompts and questions asked by the user. Copilot in Teams Meetings currently honors this setting. By default, the setting is disabled."
+      "Represents a setting that controls whether Microsoft 365 Copilot in Teams Meetings users can receive responses to sentiment-related prompts. If this setting is enabled, Copilot in Teams Meetings doesn't respond to sentiment-related prompts and questions asked by the user. If the setting is disabled, Copilot in Teams Meetings responds to sentiment-related prompts and questions asked by the user. Copilot in Teams Meetings currently honors this setting. By default, the setting is disabled. This cmdlet uses the beta endpoint of Microsoft Graph. Microsoft can change the permissions it requires without notice, so verify the permission above against Microsoft Learn if a call is unexpectedly denied."
     ],
     "body": [
       "Set-PnPCopilotAdminLimitedMode -IsEnabledForGroup $1 -GroupId $2"
@@ -8579,15 +8601,15 @@
       "Set-PnPTeamsChannel"
     ]
   },
-  "Set-PnpTeamsChannelUser": {
+  "Set-PnPTeamsChannelUser": {
     "description": [
       "Allows to update the role of a user in an existing Microsoft Teams private channel."
     ],
     "body": [
-      "Set-PnpTeamsChannelUser -Team $1 -Channel $2 -Identity $3 -Role $4"
+      "Set-PnPTeamsChannelUser -Team $1 -Channel $2 -Identity $3 -Role $4"
     ],
     "prefix": [
-      "Set-PnpTeamsChannelUser"
+      "Set-PnPTeamsChannelUser"
     ]
   },
   "Set-PnPTeamsTab": {
@@ -9127,6 +9149,17 @@
     ],
     "prefix": [
       "Test-PnPSite"
+    ]
+  },
+  "Test-PnPSiteTemplate": {
+    "description": [
+      "Validates a PnP site template without applying it and without making a request to SharePoint. Use it to catch structural problems in a template, for example in a pull request or a release pipeline, before it ever reaches a site. One result is returned per template found in the source. Every finding is a structured issue carrying a `Code`, `Severity`, `Message` and `Location`, at one of three severities. | Severity | Meaning | |---|---| | `Error` | The template is broken and should not be applied, for example a duplicate identifier, an unreadable package, an unsupported schema, or a referenced file that is not present. This is the only severity that sets `IsValid` to `$false`. | | `Warning` | The template can be applied but may not behave as intended, for example an older provisioning schema, or an attribute that has been removed from the latest schema. | | `Information` | Something the target site or term store has to provide, or something that could not be checked in advance. Out of the box content types and site columns are never declared inside a template, so these appear on almost every template and are grouped into a single issue per location. | How much can be checked depends on what the source provides, which the result states explicitly rather than leaving you to guess. | Property | Meaning | |---|---| | `IsValid` | `$false` only when an `Error` severity issue was found. | | `ResourcesChecked` | `$true` when the template carried a file connector, so referenced files, localizations, directories, data row attachments, workflow definitions, publishing design packages, document set default documents, app packages, site scripts and relative site logos could be resolved. `$false` for an in-memory template without a connector, meaning none of those were looked at. | | `SchemaChecked` | `$true` when the source XML was available, so the schema version and removed-element checks could run. `$false` for a template received through the pipeline. | | `SchemaVersion` | The provisioning schema namespace found in the source, when available. | The provisioning schema versions 2019/03 through 2022/09 are recognised. Anything else is reported as an `UnsupportedSchema` error, because the provisioning engine falls back to the latest deserializer for a namespace it does not know, which quietly produces an empty template rather than failing. Server relative paths and absolute URLs are resolved at the moment the template is applied, so they are not looked for among the template's own files. A path counts as tokenized when it starts with a token or names a parameter, and one that cannot be found is then reported as `UnverifiedResourcePath` at `Information` severity rather than as missing, because only the target site can expand it. A source that merely contains `_api` or a brace in a folder name is checked normally. A resource reference that is present but empty is an error in its own right, because the provisioning engine reads every one of them without checking first. This includes a design package or a document set default document whose source path is blank, which is what `Get-PnPSiteTemplate` produces for default documents when it runs without `-PersistBrandingFiles`. `XInclude` references are resolved before anything else, so a template that lives in an included fragment is validated and can be selected with `-TemplateId` like any other. Each `href` is read from the root of the source, matching how the provisioning engine resolves it, and a fragment pulled in by an include is not validated a second time on its own. When the source is a package, templates stored in a folder inside it are validated as well as those at its root, and an issue in one member names that member in its `Location`. Passing `-TemplateId` reports only the issues belonging to the template that was asked for. The cmdlet never compares the template against a site, so it cannot confirm whether the content types, fields, term sets or hub sites it reports as dependencies actually exist there."
+    ],
+    "body": [
+      "Test-PnPSiteTemplate "
+    ],
+    "prefix": [
+      "Test-PnPSiteTemplate"
     ]
   },
   "Test-PnPTenantTemplate": {

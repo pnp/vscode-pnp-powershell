@@ -4180,6 +4180,27 @@
       ]
     },
     {
+      "title": "SharePoint Online - Export Sites with Custom Script Enabled",
+      "url": "https://pnp.github.io/script-samples/spo-export-sites-with-custom-script-enabled/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sites-with-custom-script-enabled/README.md",
+      "description": "This PowerShell script connects to the SharePoint Online Admin Center using certificate-based authentication and audits all SharePoint Online site collections to identify sites where Custom Script is enabled. The results are exported to a timestamped CSV report for audit purposes.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sites-with-custom-script-enabled/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Custom Script",
+        "DenyAddAndCustomizePages",
+        "Audit"
+      ]
+    },
+    {
       "title": "Extract Space content type page as template and save to SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-export-space-page-as-template-and-save-to-sharepoint/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-space-page-as-template-and-save-to-sharepoint/README.md",

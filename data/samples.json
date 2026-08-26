@@ -457,6 +457,29 @@
       ]
     },
     {
+      "title": "Disable the SharePoint Online Add Shortcut to OneDrive Feature",
+      "url": "https://pnp.github.io/script-samples/disable-the-sharepoint-online-add-shortcut-to-onedrive-feature/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/disable-the-sharepoint-online-add-shortcut-to-onedrive-feature/README.md",
+      "description": "Disable the Add Shortcut to OneDrive feature at the SharePoint Online tenant level using certificate-based authentication.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/disable-the-sharepoint-online-add-shortcut-to-onedrive-feature/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Add Shortcut to OneDrive",
+        "Connect-PnPOnline",
+        "Set-PnPTenant",
+        "DisableAddToOneDrive",
+        "certificate authentication"
+      ]
+    },
+    {
       "title": "Export data from MS Search",
       "url": "https://pnp.github.io/script-samples/export-data-from-microsoft-search/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-data-from-microsoft-search/README.md",
@@ -516,6 +539,28 @@
         "Connect-PnPOnline",
         "Get-SPOSite",
         "Get-PnPTenantSite"
+      ]
+    },
+    {
+      "title": "Export SharePoint Access Request Settings",
+      "url": "https://pnp.github.io/script-samples/export-spo-access-request-settings/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-spo-access-request-settings/README.md",
+      "description": "Audit SharePoint Online access request settings across site collections and subsites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-spo-access-request-settings/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPSubWeb",
+        "Get-PnPTenantSite",
+        "Get-PnPGroup",
+        "Export-Csv"
       ]
     },
     {
@@ -4180,6 +4225,27 @@
       ]
     },
     {
+      "title": "SharePoint Online - Export Sites with Custom Script Enabled",
+      "url": "https://pnp.github.io/script-samples/spo-export-sites-with-custom-script-enabled/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sites-with-custom-script-enabled/README.md",
+      "description": "This PowerShell script connects to the SharePoint Online Admin Center using certificate-based authentication and audits all SharePoint Online site collections to identify sites where Custom Script is enabled. The results are exported to a timestamped CSV report for audit purposes.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sites-with-custom-script-enabled/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Custom Script",
+        "DenyAddAndCustomizePages",
+        "Audit"
+      ]
+    },
+    {
       "title": "Extract Space content type page as template and save to SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-export-space-page-as-template-and-save-to-sharepoint/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-space-page-as-template-and-save-to-sharepoint/README.md",
@@ -7208,6 +7274,24 @@
       "tags": [
         "Get-PnPTenantSite",
         "Get-PnPSiteCollectionAdmin"
+      ]
+    },
+    {
+      "title": "Generate SharePoint Site Inventory Report",
+      "url": "https://pnp.github.io/script-samples/spo-site-inventory-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-site-inventory-report/README.md",
+      "description": "Generate an inventory report for a SharePoint site including lists, libraries, pages and storage information",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-site-inventory-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Antonio Villarruel",
+          "pictureUrl": "https://github.com/a-villarruel.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {

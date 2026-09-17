@@ -1976,6 +1976,32 @@
       ]
     },
     {
+      "title": "SharePoint Online ASPX Page Type Audit",
+      "url": "https://pnp.github.io/script-samples/spo-aspx-page-type-audit/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-aspx-page-type-audit/README.md",
+      "description": "Audits SharePoint Online page libraries and classifies ASPX pages as Modern or Classic.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-aspx-page-type-audit/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Modern",
+        "Classic",
+        "Pages",
+        "ASPX",
+        "Audit",
+        "PnP.PowerShell",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Export-Csv"
+      ]
+    },
+    {
       "title": "Associate Multiple Site Collections to Hub Site",
       "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
@@ -2007,6 +2033,53 @@
         "m365 spo hubsite get",
         "m365 spo site hubsite connect",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Find and risk-rate SharePoint sharing links (spot oversharing before Copilot)",
+      "url": "https://pnp.github.io/script-samples/spo-audit-sharing-links/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-audit-sharing-links/README.md",
+      "description": "Finds every sharing link on a SharePoint Online site through the hidden SharingLinks groups, resolves them to files, and risk-rates each one (Anonymous / Organization / Users, View / Edit, expiry, password) so you can spot oversharing before Search and Copilot surface it.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-audit-sharing-links/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Vijay Kumar G",
+          "pictureUrl": "https://github.com/gvijaikumar9.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPGroup",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPFileSharingLink",
+        "Get-PnPFolderSharingLink",
+        "Get-PnPWeb"
+      ]
+    },
+    {
+      "title": "Report SharePoint site access and flag oversharing (by site or by user)",
+      "url": "https://pnp.github.io/script-samples/spo-audit-user-and-site-access/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-audit-user-and-site-access/README.md",
+      "description": "Report who can reach a SharePoint Online site and how, or what a given user can reach, classifying every route as Granted or Overshared (Everyone claims and sharing links).",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-audit-user-and-site-access/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Vijay Kumar G",
+          "pictureUrl": "https://github.com/gvijaikumar9.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Get-PnPContext",
+        "Get-PnPProperty",
+        "Get-PnPGroupMember",
+        "Get-PnPUser"
       ]
     },
     {
@@ -5537,6 +5610,30 @@
         "m365 login",
         "m365 spo list set",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "SharePoint Hub Site Governance Report",
+      "url": "https://pnp.github.io/script-samples/spo-hub-site-governance-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hub-site-governance-report/README.md",
+      "description": "Generate a tenant-wide report of SharePoint Hub Sites, associated sites, site collection administrators, and execution audit details using certificate-based PnP PowerShell authentication.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hub-site-governance-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Hub Site",
+        "Get-PnPHubSite",
+        "Get-PnPHubSiteChild",
+        "Get-PnPSiteCollectionAdmin",
+        "Connect-PnPOnline",
+        "Export-Csv"
       ]
     },
     {

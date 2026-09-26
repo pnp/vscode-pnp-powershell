@@ -3156,6 +3156,17 @@
       "Get-PnPPageSchedulingEnabled"
     ]
   },
+  "Get-PnPPersistedLogin": {
+    "description": [
+      "Returns the SharePoint tenant URL, client ID and authentication type for every login registered to use the local token cache by `Connect-PnPOnline -PersistLogin`. The encrypted tokens themselves are not returned. The `AuthenticationType` property identifies delegated and certificate-based app-only logins. The `Enabled` property is `True` for every returned registration; disabled registrations are not returned. An empty result means no persisted logins are registered for the current operating-system user."
+    ],
+    "body": [
+      "Get-PnPPersistedLogin "
+    ],
+    "prefix": [
+      "Get-PnPPersistedLogin"
+    ]
+  },
   "Get-PnPPlannerBucket": {
     "description": [
       "This cmdlets returns all or a specific bucket in a Planner plan."

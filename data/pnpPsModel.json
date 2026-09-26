@@ -1436,6 +1436,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageSchedulingEnabled.html"
     },
     {
+      "name": "Get-PnPPersistedLogin",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPersistedLogin.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPersistedLogin.html"
+    },
+    {
       "name": "Get-PnPPlannerBucket",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPlannerBucket.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerBucket.html"

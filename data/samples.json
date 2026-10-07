@@ -4704,11 +4704,19 @@
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        },
+        {
+          "name": "Elliot Margot",
+          "pictureUrl": "https://github.com/OwnOptic.png"
         }
       ],
       "tags": [
         "Connect-PnPOnline",
-        "ConvertFrom-Json"
+        "ConvertFrom-Json",
+        "m365 login",
+        "m365 spo list list",
+        "m365 spo listitem list",
+        "m365 spo file get"
       ]
     },
     {

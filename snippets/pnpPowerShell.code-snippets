@@ -4456,7 +4456,7 @@
   },
   "Get-PnPTraceLog": {
     "description": [
-      "This cmdlet returns the logged messages during the execution of PnP PowerShell cmdlets. It can return the messages from an in memory log stream or from a file. Note that you cannot read from a log file if it is currently in use to write to. In this case, you would first have to stop logging to it using Stop-PnPTraceLog and then read the log file. The in memory log stream is always available. You can use Start-PnPTraceLog to start logging to a file and/or to an in memory stream."
+      "This cmdlet returns the logged messages during the execution of PnP PowerShell cmdlets. It can return the messages from an in memory log stream or from a file. Note that you cannot read from a log file if it is currently in use to write to. In this case, you would first have to stop logging to it using Stop-PnPTraceLog and then read the log file. The in memory log stream is only available after starting it with `Start-PnPTraceLog -WriteToLogStream`. You can use Start-PnPTraceLog to start logging to a file and/or to an in memory stream."
     ],
     "body": [
       "Get-PnPTraceLog -Path $1"
@@ -4478,7 +4478,7 @@
   },
   "Get-PnPUnifiedAuditLog": {
     "description": [
-      "Allows to retrieve unified audit logs from the Office 365 Management API. ### Prerequisites Your Entra app registration must have one or more of the following delegated or application permissions from the Office 365 Management API. To add this permission using Azure CLI: ```bash # ActivityFeed.Read - Read activity data for your organization az ad app permission add --id <your-app-id> --api c5393580-f805-4401-95e8-94b7a6ef2fc2 --api-permissions 594c1fb6-4f81-4475-ae41-0c394909246c=Scope az ad app permission admin-consent --id <your-app-id> ``` The API ID `c5393580-f805-4401-95e8-94b7a6ef2fc2` represents the Office 365 Management API. Depending on your content type requirements, you may need additional permissions: - **ActivityFeed.ReadDlp** - For DLP content - **ServiceHealth.Read** - For service health information - **ActivityReports.Read** - For activity reports - **ThreatIntelligence.Read** - For threat intelligence data For application (app-only) permissions, replace `=Scope` with `=Role` in the command above."
+      "Allows to retrieve unified audit logs from the Office 365 Management API. The cmdlet calls the Office 365 Management API of the cloud you connected to with `Connect-PnPOnline -AzureEnvironment`: `manage-gcc.office.com` for `USGovernment`, `manage.office365.us` for `USGovernmentHigh`, `manage.protection.apps.mil` for `USGovernmentDoD`, and `manage.office.com` for any other value. ### Prerequisites Your Entra app registration must have one or more of the following delegated or application permissions from the Office 365 Management API. To add this permission using Azure CLI: ```bash # ActivityFeed.Read - Read activity data for your organization az ad app permission add --id <your-app-id> --api c5393580-f805-4401-95e8-94b7a6ef2fc2 --api-permissions 594c1fb6-4f81-4475-ae41-0c394909246c=Scope az ad app permission admin-consent --id <your-app-id> ``` The API ID `c5393580-f805-4401-95e8-94b7a6ef2fc2` represents the Office 365 Management API. Depending on your content type requirements, you may need additional permissions: - **ActivityFeed.ReadDlp** - For DLP content - **ServiceHealth.Read** - For service health information - **ActivityReports.Read** - For activity reports - **ThreatIntelligence.Read** - For threat intelligence data For application (app-only) permissions, replace `=Scope` with `=Role` in the command above."
     ],
     "body": [
       "Get-PnPUnifiedAuditLog "
@@ -5024,6 +5024,17 @@
     ],
     "prefix": [
       "Move-PnPFolder"
+    ]
+  },
+  "Move-PnPItemProxy": {
+    "description": [
+      "**This cmdlet stands in for the `Move-Item` cmdlet that is natively available with PowerShell.** When a SharePoint drive is created, for instance with `Connect-PnPOnline -CreateDrive`, PnP PowerShell points the `Move-Item` alias to `Move-PnPItemProxy` for the session. Removing the last SharePoint drive removes the alias again, and a drive created with `New-PSDrive -PSProvider SharePoint -NoProxyCmdLets` leaves it alone. Paths on the drive are server relative: on a drive named SPO, the library at https://contoso.sharepoint.com/sites/project/Shared%20Documents is `SPO:\\sites\\project\\Shared Documents`. When items are moved from the file system to a SharePoint drive or from a SharePoint drive to the file system, folders are moved with all of their content, and the source is removed once everything has been copied. A file or folder removed from SharePoint this way is deleted permanently, not sent to the recycle bin, and without `-Force` that includes a file that was not downloaded because a file with the same name already existed locally. Any other move, including one between two locations in SharePoint, is passed on to `Move-Item`. > [!WARNING] > A move between the file system and a SharePoint drive removes the whole source, also the parts it did not copy: > > - from a SharePoint folder holding more than 5,000 items, only the first 100 are copied > - hidden files in a local folder are not copied > - a local source given as a UNC path, or on a drive other than a drive letter such as `Temp:`, is not copied at all > - without `-Force`, a file that already exists locally is not downloaded > - `-LiteralPath` expands wildcard characters, so `-LiteralPath \"file[1].txt\"` moves `file1.txt` > > To keep the source until you have checked the result, copy with `Copy-PnPItemProxy` and remove the source afterwards. For more information on `Move-Item`, please refer to the official PowerShell documentation here."
+    ],
+    "body": [
+      "Move-PnPItemProxy "
+    ],
+    "prefix": [
+      "Move-PnPItemProxy"
     ]
   },
   "Move-PnPListItemToRecycleBin": {
@@ -9054,7 +9065,7 @@
   },
   "Stop-PnPTraceLog": {
     "description": [
-      "Stops PnP PowerShell tracelogging to specific targets. By default, all logging is stopped. You can use the parameters to stop specific logging targets only. You can turn on the trace log with Start-PnPTraceLog. You can look at the logged data using Get-PnPTraceLog."
+      "Stops PnP PowerShell tracelogging to specific targets. By default, all logging is stopped, also when you only provide one of the parameters, as each of them defaults to `$true`. To keep logging to a target, set its parameter to `$false`, i.e. `-StopLogStreamLogging:$false`. You can turn on the trace log with Start-PnPTraceLog. You can look at the logged data using Get-PnPTraceLog."
     ],
     "body": [
       "Stop-PnPTraceLog "
@@ -9376,7 +9387,7 @@
       "This cmdlet allows logging of your own messages in line with the PnPTraceLog cmdlets that allow logging what happens behind the scenes of the execution of PnP PowerShell cmdlets. This allows you to inject your own custom logging along with the built in logging to get a complete and chronoligal log of the execution of the cmdlets in your scripts. Look at Start-PnPTraceLog to see how to start logging to a file and/or to an in memory stream. You can use Get-PnPTraceLog to read from the log file or the in memory stream."
     ],
     "body": [
-      "Write-PnPTraceLog -Path $1"
+      "Write-PnPTraceLog "
     ],
     "prefix": [
       "Write-PnPTraceLog"

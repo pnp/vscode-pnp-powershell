@@ -2286,6 +2286,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPFolder.html"
     },
     {
+      "name": "Move-PnPItemProxy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPItemProxy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPItemProxy.html"
+    },
+    {
       "name": "Move-PnPListItemToRecycleBin",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPListItemToRecycleBin.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPListItemToRecycleBin.html"

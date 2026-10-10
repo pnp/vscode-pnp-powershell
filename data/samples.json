@@ -8130,11 +8130,17 @@
         {
           "name": "Paul Bullock",
           "pictureUrl": "https://github.com/pkbullock.png"
+        },
+        {
+          "name": "Elliot Margot",
+          "pictureUrl": "https://github.com/OwnOptic.png"
         }
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Invoke-PnPGraphMethod"
+        "Invoke-PnPGraphMethod",
+        "m365 login",
+        "m365 request"
       ]
     },
     {

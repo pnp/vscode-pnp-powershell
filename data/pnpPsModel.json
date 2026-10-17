@@ -31,6 +31,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPBrandCenterFontPackage.html"
     },
     {
+      "name": "Add-PnPContainerUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContainerUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContainerUser.html"
+    },
+    {
       "name": "Add-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentType.html"
@@ -666,6 +671,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPCommSite.html"
     },
     {
+      "name": "Enable-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPContainer.html"
+    },
+    {
       "name": "Enable-PnPFeature",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPFeature.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPFeature.html"
@@ -881,6 +891,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainer.html"
     },
     {
+      "name": "Get-PnPContainerApplication",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerApplication.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerApplication.html"
+    },
+    {
       "name": "Get-PnPContainerType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerType.html"
@@ -889,6 +904,11 @@
       "name": "Get-PnPContainerTypeConfiguration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerTypeConfiguration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerTypeConfiguration.html"
+    },
+    {
+      "name": "Get-PnPContainerUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerUser.html"
     },
     {
       "name": "Get-PnPContentType",
@@ -2331,6 +2351,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPBatch.html"
     },
     {
+      "name": "New-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPContainer.html"
+    },
+    {
       "name": "New-PnPContainerType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPContainerType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPContainerType.html"
@@ -2656,6 +2681,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainerType.html"
     },
     {
+      "name": "Remove-PnPContainerUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainerUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainerUser.html"
+    },
+    {
       "name": "Remove-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContentType.html"
@@ -2674,6 +2704,11 @@
       "name": "Remove-PnPCustomAction",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPCustomAction.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPCustomAction.html"
+    },
+    {
+      "name": "Remove-PnPDeletedContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPDeletedContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPDeletedContainer.html"
     },
     {
       "name": "Remove-PnPDeletedMicrosoft365Group",
@@ -3444,6 +3479,36 @@
       "name": "Set-PnPBuiltInSiteTemplateSettings",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBuiltInSiteTemplateSettings.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBuiltInSiteTemplateSettings.html"
+    },
+    {
+      "name": "Set-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainer.html"
+    },
+    {
+      "name": "Set-PnPContainerApplication",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainerApplication.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainerApplication.html"
+    },
+    {
+      "name": "Set-PnPContainerApplicationPermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainerApplicationPermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainerApplicationPermission.html"
+    },
+    {
+      "name": "Set-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainerType.html"
+    },
+    {
+      "name": "Set-PnPContainerTypeConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainerTypeConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainerTypeConfiguration.html"
+    },
+    {
+      "name": "Set-PnPContainerUser",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPContainerUser.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPContainerUser.html"
     },
     {
       "name": "Set-PnPContentType",

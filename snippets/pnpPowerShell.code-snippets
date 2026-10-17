@@ -65,6 +65,17 @@
       "Add-PnPBrandCenterFontPackage"
     ]
   },
+  "Add-PnPContainerUser": {
+    "description": [
+      "Gives the user the specified role on the Container. A user who already has a role on the Container cannot be added again; use Set-PnPContainerUser to change their role instead. Such a failure is reported for that Container only, so other Containers piped in are still processed."
+    ],
+    "body": [
+      "Add-PnPContainerUser -LoginName $1 -Role $2"
+    ],
+    "prefix": [
+      "Add-PnPContainerUser"
+    ]
+  },
   "Add-PnPContentType": {
     "description": [
       "Adds a new content type to a site. To create a content type in the modern Content Type Gallery, first connect to the content type hub site for the tenant."
@@ -1462,6 +1473,17 @@
       "Enable-PnPCommSite"
     ]
   },
+  "Enable-PnPContainer": {
+    "description": [
+      "A Container is created inactive and is deleted automatically if it is not activated within 24 hours after its creation. This cmdlet activates it through Microsoft Graph."
+    ],
+    "body": [
+      "Enable-PnPContainer "
+    ],
+    "prefix": [
+      "Enable-PnPContainer"
+    ]
+  },
   "Enable-PnPFeature": {
     "description": [
       "Allows to enable to feature."
@@ -1926,7 +1948,7 @@
   },
   "Get-PnPContainer": {
     "description": [
-      ""
+      "Returns the Containers of every SharePoint Embedded application in the tenant, the Containers of one application when `-OwningApplicationId` is given, or a single Container when `-Identity` is given. As an application owns exactly one container type, `-OwningApplicationId` also returns the Containers of one container type."
     ],
     "body": [
       "Get-PnPContainer "
@@ -1935,9 +1957,20 @@
       "Get-PnPContainer"
     ]
   },
+  "Get-PnPContainerApplication": {
+    "description": [
+      "Returns the SharePoint Embedded applications of every publisher registered in the tenant. With `-OwningApplicationId`, returns the details of one application: the guest applications with permissions on it and its sharing settings. Adding `-ApplicationId` returns the permissions of that guest application on the owning application. **Known issue:** without `-OwningApplicationId`, and with `-ApplicationId`, the cmdlet can fail with \"The type of data at position ... is different than the one expected.\" SharePoint Online returns an empty version limit for an application that has none set, which the SharePoint client library cannot read. `Get-SPOApplication` in the SharePoint Online Management Shell is affected the same way. Until an updated SharePoint client library fixes this, use `-OwningApplicationId` without `-ApplicationId` to return the details of each application."
+    ],
+    "body": [
+      "Get-PnPContainerApplication "
+    ],
+    "prefix": [
+      "Get-PnPContainerApplication"
+    ]
+  },
   "Get-PnPContainerType": {
     "description": [
-      ""
+      "Returns every Container Type created in the tenant, or a single Container Type when `-Identity` is given."
     ],
     "body": [
       "Get-PnPContainerType "
@@ -1955,6 +1988,17 @@
     ],
     "prefix": [
       "Get-PnPContainerTypeConfiguration"
+    ]
+  },
+  "Get-PnPContainerUser": {
+    "description": [
+      "Returns one entry for every user with the Owner, Manager, Writer or Reader role on the Container."
+    ],
+    "body": [
+      "Get-PnPContainerUser "
+    ],
+    "prefix": [
+      "Get-PnPContainerUser"
     ]
   },
   "Get-PnPContentType": {
@@ -5125,12 +5169,23 @@
       "New-PnPBatch"
     ]
   },
-  "New-PnPContainerType": {
+  "New-PnPContainer": {
     "description": [
-      "Enables the creation of either a trial or standard SharePoint Container Type. Use the `TrialContainerType` switch parameter to designate the container type as a trial."
+      "Creates a Container of the specified Container Type through Microsoft Graph and returns it. The Container Type must be registered in the tenant, and the application you connect with must have been granted permission on it, for example with Set-PnPContainerApplicationPermission. When connected on behalf of a user, that user becomes the owner of the Container. A Container is created inactive and is deleted automatically if it is not activated within 24 hours. Use `-Activate` to activate it straight away, or Enable-PnPContainer later. Adding content to the Container or changing it also activates it. When the Container is created but cannot be activated, it is still returned, together with an error, so it can be activated later rather than created a second time."
     ],
     "body": [
-      "New-PnPContainerType -ContainerTypeName $1 -OwningApplicationId $2 -TrialContainerType $3"
+      "New-PnPContainer -ContainerTypeId $1"
+    ],
+    "prefix": [
+      "New-PnPContainer"
+    ]
+  },
+  "New-PnPContainerType": {
+    "description": [
+      "Creates a trial, standard or pass-through billing SharePoint Container Type. Use the `-TrialContainerType` switch parameter to create a trial Container Type, and the `-IsPassThroughBilling` switch parameter to have the consuming tenant pay. Without either, a standard Container Type is created, billed to your tenant. The billing of a standard Container Type is not set up by this cmdlet. Set it up separately, for example with `Add-SPOContainerTypeBilling` in the SharePoint Online Management Shell. An application can own only one Container Type, and the billing model of a Container Type cannot be changed after it has been created."
+    ],
+    "body": [
+      "New-PnPContainerType -ContainerTypeName $1 -OwningApplicationId $2"
     ],
     "prefix": [
       "New-PnPContainerType"
@@ -5820,7 +5875,7 @@
   },
   "Remove-PnPContainer": {
     "description": [
-      ""
+      "When admins delete a Container, it is moved into the Recycle Bin. A deleted Container can be restored from the Recycle Bin within 93 days. If a Container is deleted from the Recycle Bin, or it exceeds the 93-day retention period, it is permanently deleted. Deleting a Container deletes everything within it, including all documents and files. You can view all deleted Containers in the Recycle Bin with the Get-PnPDeletedContainer cmdlet. Use `-SkipRecycleBin` to permanently delete the Container straight away. It then cannot be restored."
     ],
     "body": [
       "Remove-PnPContainer "
@@ -5838,6 +5893,17 @@
     ],
     "prefix": [
       "Remove-PnPContainerType"
+    ]
+  },
+  "Remove-PnPContainerUser": {
+    "description": [
+      "Removes the specified role of the user from the Container. Use Get-PnPContainerUser to see the role a user has; the users it returns can be piped in. Asks for confirmation for every user unless `-Confirm:$false` is used. SharePoint Online does not let you remove your own role from a Container."
+    ],
+    "body": [
+      "Remove-PnPContainerUser -LoginName $1 -Role $2"
+    ],
+    "prefix": [
+      "Remove-PnPContainerUser"
     ]
   },
   "Remove-PnPContentType": {
@@ -5882,6 +5948,17 @@
     ],
     "prefix": [
       "Remove-PnPCustomAction"
+    ]
+  },
+  "Remove-PnPDeletedContainer": {
+    "description": [
+      "Permanently deletes a Container that has been moved to the Recycle Bin, together with everything in it. It then cannot be restored. Asks for confirmation unless `-Force` is used. Use Get-PnPDeletedContainer to see the Containers in the Recycle Bin. Only Containers that are in the Recycle Bin are deleted. Any other id, such as that of an active Container, is reported as an error and left alone, so the Containers returned by other cmdlets cannot be deleted by accident when piped in."
+    ],
+    "body": [
+      "Remove-PnPDeletedContainer "
+    ],
+    "prefix": [
+      "Remove-PnPDeletedContainer"
     ]
   },
   "Remove-PnPDeletedMicrosoft365Group": {
@@ -7275,7 +7352,7 @@
       ""
     ],
     "body": [
-      "Restore-PnPDeletedContainer -Identity $1"
+      "Restore-PnPDeletedContainer "
     ],
     "prefix": [
       "Restore-PnPDeletedContainer"
@@ -7576,6 +7653,72 @@
     ],
     "prefix": [
       "Set-PnPBuiltInSiteTemplateSettings"
+    ]
+  },
+  "Set-PnPContainer": {
+    "description": [
+      "Changes only the properties for the parameters that are passed in, on the active Container identified by `-Identity`. Each parameter set changes one group of properties; `-InformationBarriersMode` can be combined with any of them, except the Container properties parameter set. For the settings changed through the SharePoint Online admin API, the Container is always read from the server first, so a Container object passed in is not modified and its values are not written back. Some parameters reset related properties: - `-ConditionalAccessPolicy` other than `AllowLimitedAccess` turns off `ReadOnlyForUnmanagedDevices`; other than `AuthenticationContext` it clears the authentication context name; and `AllowFullAccess` allows editing. - `-BlockDownloadPolicy` resets `ExcludeBlockDownloadPolicyContainerOwners` and `ReadOnlyForBlockDownloadPolicy` to the values passed in, or to `$false`. The name, description, optical character recognition and versioning settings are changed through Microsoft Graph, which needs different permissions but no access to the SharePoint Online Admin Center, so the application owning the Container can change them. For these, specify the Container by its id or its api url. Changing them also activates an inactive Container. They cannot be combined with `-InformationBarriersMode`. All other settings are changed through the SharePoint Online admin API. The cmdlet fails for an archived Container. Transferring the principal owner is only supported for Containers that are owned by a user. Always wait for a principal owner transfer to finish before running the cmdlet again, as running it concurrently or too early can lead to incomplete or invalid ownership changes."
+    ],
+    "body": [
+      "Set-PnPContainer "
+    ],
+    "prefix": [
+      "Set-PnPContainer"
+    ]
+  },
+  "Set-PnPContainerApplication": {
+    "description": [
+      "Changes only the settings for the parameters that are passed in, on the SharePoint Embedded application given with `-OwningApplicationId`. At least one setting has to be passed."
+    ],
+    "body": [
+      "Set-PnPContainerApplication "
+    ],
+    "prefix": [
+      "Set-PnPContainerApplication"
+    ]
+  },
+  "Set-PnPContainerApplicationPermission": {
+    "description": [
+      "Grants an application permissions on the Containers of a Container Type registered in the tenant, through Microsoft Graph, and returns the resulting grant. Only the permissions passed in are changed: when the application already has a grant, leaving out `-AppOnlyPermissions` or `-DelegatedPermissions` keeps its permissions of that kind; when it has none yet, it gets no permissions of the kind left out. A change can take up to an hour to take effect. With `FileStorageContainerTypeReg.Selected`, only the application that owns the Container Type can change its permissions."
+    ],
+    "body": [
+      "Set-PnPContainerApplicationPermission "
+    ],
+    "prefix": [
+      "Set-PnPContainerApplicationPermission"
+    ]
+  },
+  "Set-PnPContainerType": {
+    "description": [
+      "Changes only the settings for the parameters that are passed in, and returns the Container Type. At least one setting has to be passed. The billing of a standard Container Type is not changed by this cmdlet."
+    ],
+    "body": [
+      "Set-PnPContainerType "
+    ],
+    "prefix": [
+      "Set-PnPContainerType"
+    ]
+  },
+  "Set-PnPContainerTypeConfiguration": {
+    "description": [
+      "Changes only the settings for the parameters that are passed in, on a Container Type created under a SharePoint Embedded application, and returns the resulting configuration. At least one setting has to be passed."
+    ],
+    "body": [
+      "Set-PnPContainerTypeConfiguration "
+    ],
+    "prefix": [
+      "Set-PnPContainerTypeConfiguration"
+    ]
+  },
+  "Set-PnPContainerUser": {
+    "description": [
+      "Changes the role the user has on the Container. Users returned by Get-PnPContainerUser can be piped in."
+    ],
+    "body": [
+      "Set-PnPContainerUser -LoginName $1 -Role $2"
+    ],
+    "prefix": [
+      "Set-PnPContainerUser"
     ]
   },
   "Set-PnPContentType": {

@@ -2155,6 +2155,29 @@
       ]
     },
     {
+      "title": "SharePoint Bulk File Rename Script",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-file-rename-script/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-file-rename-script/README.md",
+      "description": "Bulk rename SharePoint Online files from a CSV and create an audit report.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-file-rename-script/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Bulk Rename",
+        "PnP PowerShell",
+        "Connect-PnPOnline",
+        "Rename-PnPFile",
+        "PowerShell 7.4"
+      ]
+    },
+    {
       "title": "Bulk import data from multiple files",
       "url": "https://pnp.github.io/script-samples/spo-bulk-import-data/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-import-data/README.md",
@@ -2427,6 +2450,26 @@
         "m365 login",
         "m365 spo file get",
         "m365 connection use"
+      ]
+    },
+    {
+      "title": "Compare SharePoint list schema between two sites",
+      "url": "https://pnp.github.io/script-samples/spo-compare-list-schema/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-list-schema/README.md",
+      "description": "A schema diff for SharePoint. Reports exactly what drifted between two sites (or a baseline versus a live site): lists only on one side, and per-column Added, Removed, or Changed.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-list-schema/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Vijay Kumar G",
+          "pictureUrl": "https://github.com/gvijaikumar9.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPField"
       ]
     },
     {
@@ -6966,6 +7009,28 @@
       ]
     },
     {
+      "title": "Report sensitivity label coverage for Copilot readiness",
+      "url": "https://pnp.github.io/script-samples/spo-report-sensitivity-label-coverage/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-sensitivity-label-coverage/README.md",
+      "description": "Reports how many documents in a site are unlabeled - the content Microsoft 365 Copilot would surface with no sensitivity classification - and ranks the gaps worst-covered library first.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-sensitivity-label-coverage/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Vijay Kumar G",
+          "pictureUrl": "https://github.com/gvijaikumar9.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Submit-PnPSearchQuery",
+        "Sensitivity labels",
+        "Information Protection",
+        "Copilot"
+      ]
+    },
+    {
       "title": "Generate File version report and trim on specific Teams",
       "url": "https://pnp.github.io/script-samples/spo-report-version-expiration-and-trim/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-version-expiration-and-trim/README.md",
@@ -8130,11 +8195,17 @@
         {
           "name": "Paul Bullock",
           "pictureUrl": "https://github.com/pkbullock.png"
+        },
+        {
+          "name": "Elliot Margot",
+          "pictureUrl": "https://github.com/OwnOptic.png"
         }
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Invoke-PnPGraphMethod"
+        "Invoke-PnPGraphMethod",
+        "m365 login",
+        "m365 request"
       ]
     },
     {

@@ -312,7 +312,7 @@
       "Creates a new user sharing link for a file."
     ],
     "body": [
-      "Add-PnPFileUserSharingLink -FileUrl $1 -Type $2 -Users $3"
+      "Add-PnPFileUserSharingLink -FileUrl $1 -Users $2"
     ],
     "prefix": [
       "Add-PnPFileUserSharingLink"
@@ -378,7 +378,7 @@
       "Creates a new user sharing link for a folder."
     ],
     "body": [
-      "Add-PnPFolderUserSharingLink -Folder $1 -ShareType $2 -Users $3"
+      "Add-PnPFolderUserSharingLink -Folder $1 -Users $2"
     ],
     "prefix": [
       "Add-PnPFolderUserSharingLink"

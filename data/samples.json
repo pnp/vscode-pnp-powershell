@@ -5643,6 +5643,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
+        {
           "name": "Ganesh Sanap",
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         },
@@ -7483,6 +7487,29 @@
       ],
       "tags": [
         "<Cmdlets-Used>"
+      ]
+    },
+    {
+      "title": "Permission discrepancies between Teams and SharePoint sites",
+      "url": "https://pnp.github.io/script-samples/spo-teams-membership-difference/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-teams-membership-difference/README.md",
+      "description": "Permission discrepancies between Teams and SharePoint sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-teams-membership-difference/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTeamsChannelUser",
+        "Get-PnPTenantSite",
+        "Get-PnPGroup",
+        "Get-PnPGroupMember"
       ]
     },
     {

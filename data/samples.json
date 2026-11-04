@@ -1218,6 +1218,31 @@
       ]
     },
     {
+      "title": "Export SharePoint Embedded container inventory to CSV",
+      "url": "https://pnp.github.io/script-samples/spe-export-container-inventory-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spe-export-container-inventory-to-csv/README.md",
+      "description": "Inventory every SharePoint Embedded container in the tenant (active, archived and deleted) with owning app, storage and sensitivity label, and export it to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spe-export-container-inventory-to-csv/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Arindam Choudhury",
+          "pictureUrl": "https://github.com/ari20089.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPContainerType",
+        "Get-PnPContainerApplication",
+        "Get-PnPContext",
+        "Get-PnPContainer",
+        "Get-PnPDeletedContainer",
+        "Export-Csv",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Activate a site feature in SharePoint online",
       "url": "https://pnp.github.io/script-samples/spo-activate-site-feature/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-activate-site-feature/README.md",
@@ -3572,6 +3597,26 @@
         "Connect-PnPOnline",
         "Disconnect-PnPOnline",
         "Get-PnPFile"
+      ]
+    },
+    {
+      "title": "SPO - Duplicate List Value Audit",
+      "url": "https://pnp.github.io/script-samples/spo-duplicate-list-value-audit/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-duplicate-list-value-audit/README.md",
+      "description": "Identify duplicate values in a SharePoint list column and export them to a CSV report using PnP PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-duplicate-list-value-audit/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Disconnect-PnPOnline"
       ]
     },
     {

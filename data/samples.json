@@ -5145,6 +5145,28 @@
       ]
     },
     {
+      "title": "Get Hero sharing links",
+      "url": "https://pnp.github.io/script-samples/spo-get-herolinks/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-herolinks/README.md",
+      "description": "Get Hero sharing links.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-herolinks/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPList",
+        "invoke-pnpsprestmethod"
+      ]
+    },
+    {
       "title": "Get Inactive SharePoint Sites Report",
       "url": "https://pnp.github.io/script-samples/spo-get-inactive-sites-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-inactive-sites-report/README.md",
@@ -7149,6 +7171,26 @@
       ]
     },
     {
+      "title": "How to reset hero link",
+      "url": "https://pnp.github.io/script-samples/spo-reset-herolink/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reset-herolink/README.md",
+      "description": "How to reset hero link",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reset-herolink/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPList"
+      ]
+    },
+    {
       "title": "SPO Restore Multiple Items",
       "url": "https://pnp.github.io/script-samples/spo-restore-multiple-items/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-restore-multiple-items/README.md",
@@ -7755,6 +7797,47 @@
         "Get-PnPView",
         "Get-PnPContentType",
         "Invoke-PnPQuery"
+      ]
+    },
+    {
+      "title": "Update Hero Link to 'Only people added to the file have access'",
+      "url": "https://pnp.github.io/script-samples/spo-update-herolink/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-herolink/README.md",
+      "description": "Update Hero Link to 'Only people added to the file have access'",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-herolink/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "invoke-pnpsprestmethod"
+      ]
+    },
+    {
+      "title": "Update Hero Link sharing settings",
+      "url": "https://pnp.github.io/script-samples/spo-update-herolink-sharingsetting/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-herolink-sharingsetting/README.md",
+      "description": "Update Hero Link sharing settings",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-herolink-sharingsetting/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPList",
+        "Get-PnPListItem"
       ]
     },
     {

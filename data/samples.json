@@ -21,7 +21,8 @@
         "Get-PnPMicrosoft365GroupSettings",
         "New-PnPMicrosoft365GroupSettings",
         "Set-PnPMicrosoft365GroupSettings",
-        "Get-PnPMicrosoft365Group"
+        "Get-PnPMicrosoft365Group",
+        "Governance"
       ]
     },
     {
@@ -91,8 +92,9 @@
         "Add-PnPMicrosoft365GroupMember",
         "m365 login",
         "m365 spo site list",
-        "m365 entra m365group user list ",
-        "m365 entra m365group user add"
+        "m365 entra m365group user list",
+        "m365 entra m365group user add",
+        "Governance"
       ]
     },
     {
@@ -112,7 +114,9 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "get-PnPMicrosoft365Group"
+        "get-PnPMicrosoft365Group",
+        "Governance",
+        "Microsoft 365 Group"
       ]
     },
     {
@@ -185,7 +189,8 @@
         "Disconnect-PnPOnline",
         "Get-PnPMicrosoft365ExpiringGroup",
         "Reset-PnPMicrosoft365GroupExpiration",
-        "Get-PnPMicrosoft365Group"
+        "Get-PnPMicrosoft365Group",
+        "Governance"
       ]
     },
     {
@@ -275,7 +280,9 @@
         "modern",
         "Connect-PnPOnline",
         "Invoke-PnPGraphMethod",
-        "Get-PnPMicrosoft365GroupSettings"
+        "Get-PnPMicrosoft365GroupSettings",
+        "Unified Settings",
+        "Microsoft 365 Group"
       ]
     },
     {
@@ -560,7 +567,8 @@
         "Get-PnPSubWeb",
         "Get-PnPTenantSite",
         "Get-PnPGroup",
-        "Export-Csv"
+        "Export-Csv",
+        "SharePoint"
       ]
     },
     {
@@ -581,7 +589,14 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
       ],
-      "tags": null
+      "tags": [
+        "Get-PnPWeb",
+        "Get-PnPUser",
+        "Get-PnPUserProfileProperty",
+        "m365 login",
+        "m365 spo user list",
+        "m365 spo userprofile get"
+      ]
     },
     {
       "title": "Export all flows in environment",
@@ -1036,7 +1051,8 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Submit-PnPSearchQuery"
+        "Submit-PnPSearchQuery",
+        "PnP Modern Search"
       ]
     },
     {
@@ -1388,7 +1404,8 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Add-PnPFile"
+        "Add-PnPFile",
+        "Content"
       ]
     },
     {
@@ -1571,7 +1588,7 @@
       "url": "https://pnp.github.io/script-samples/spo-add-multiple-document-libraries-with-list-template/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-document-libraries-with-list-template/README.md",
       "description": "Script that creates multiple libraries by applying custom list template with custom document library, site columns and site content types",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-list-template-with-custom-library/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-document-libraries-with-list-template/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -1643,7 +1660,8 @@
         "Disconnect-PnPOnline",
         "m365 status",
         "m365 login",
-        "m365 spo list add"
+        "m365 spo list add",
+        "Migration"
       ]
     },
     {
@@ -1917,7 +1935,9 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "Invoke-PnPSPRestMethod"
+        "Invoke-PnPSPRestMethod",
+        "Sites",
+        "SharePoint"
       ]
     },
     {
@@ -2031,7 +2051,7 @@
       "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
       "description": "This PowerShell script can be used to associate mutilple site collections to Hub site. You can provide list of site collection URLs in an array.",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/example.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -2126,7 +2146,9 @@
         "Connect-PnPOnline",
         "Get-PnPNavigationNode",
         "Add-PnPNavigationNode",
-        "Get-PnPProperty"
+        "Get-PnPProperty",
+        "Channels",
+        "Navigation"
       ]
     },
     {
@@ -2251,7 +2273,7 @@
       "url": "https://pnp.github.io/script-samples/spo-bulk-remove-retention-labels/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-remove-retention-labels/README.md",
       "description": "Bulk remove all retention labels from all files in a library that are labelled with a retention label. These files will now no longer be tagged with a retention label",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-publish-syntex-model/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-remove-retention-labels/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -2516,7 +2538,8 @@
         "Set-PnPSiteDocumentIdPrefix",
         "Enable-PnPFeature",
         "Get-PnPList",
-        "Invoke-PnPQuery"
+        "Invoke-PnPQuery",
+        "SharePoint"
       ]
     },
     {
@@ -2717,7 +2740,9 @@
         "Connect-PnPOnline",
         "Get-PnPList",
         "Get-PnPSearchCrawlLog",
-        "Submit-PnPSearchQuery"
+        "Submit-PnPSearchQuery",
+        "Search",
+        "Crawl Log"
       ]
     },
     {
@@ -2738,7 +2763,9 @@
         "Connect-PnPOnline",
         "Get-PnPList",
         "Get-PnPSearchCrawlLog",
-        "Submit-PnPSearchQuery"
+        "Submit-PnPSearchQuery",
+        "Search",
+        "Crawl Log"
       ]
     },
     {
@@ -2846,7 +2873,10 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "Invoke-PnPSPRestMethod"
+        "Invoke-PnPSPRestMethod",
+        "Libraries",
+        "Lists",
+        "SharePoint"
       ]
     },
     {
@@ -2996,7 +3026,8 @@
         "Get-PnPList",
         "Remove-PnPFileSharingLink",
         "Remove-PnPFolderSharingLink",
-        "invoke-pnpsprestmethod"
+        "invoke-pnpsprestmethod",
+        "Sharing Links"
       ]
     },
     {
@@ -3023,7 +3054,9 @@
         "Get-PnPFolderStorageMetric",
         "Remove-PnPFolder",
         "Get-PnPList",
-        "Get-PnPWeb"
+        "Get-PnPWeb",
+        "Cleanup",
+        "Maintenance"
       ]
     },
     {
@@ -3046,7 +3079,8 @@
         "Get-PnPProperty",
         "Remove-PnPgroup",
         "Get-PnPList",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "Sharing Links"
       ]
     },
     {
@@ -3125,7 +3159,8 @@
         "Get-PnPProperty",
         "Remove-PnPgroup",
         "Get-PnPList",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "Sharing Links"
       ]
     },
     {
@@ -3228,7 +3263,9 @@
         "Get-PnPWeb",
         "Invoke-PnPSPRestMethod",
         "Get-PnPTenantServicePrincipalPermissionRequests",
-        "Approve-PnPTenantServicePrincipalPermissionRequest"
+        "Approve-PnPTenantServicePrincipalPermissionRequest",
+        "SPFx",
+        "Hub Site"
       ]
     },
     {
@@ -3512,7 +3549,9 @@
         "Get-PnPList",
         "Add-PnPFieldToContentType",
         "Add-PnPContentType",
-        "Enable-PnPFeature"
+        "Enable-PnPFeature",
+        "Libraries",
+        "SharePoint"
       ]
     },
     {
@@ -3871,7 +3910,8 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "SharePoint"
       ]
     },
     {
@@ -3964,7 +4004,8 @@
         "sharepoint",
         "documents",
         "checkedout",
-        "hubsite"
+        "hubsite",
+        "Migration"
       ]
     },
     {
@@ -4087,7 +4128,8 @@
         "m365 login",
         "m365 spo file list",
         "m365 spo file sharinginfo get",
-        "m365 logout"
+        "m365 logout",
+        "Archive"
       ]
     },
     {
@@ -4218,7 +4260,7 @@
       "title": "Export HTML content from SharePoint Online modern pages",
       "url": "https://pnp.github.io/script-samples/spo-export-page-html/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-page-html/README.md",
-      "description": "",
+      "description": "Export the text content of SharePoint Online modern pages as HTML files for analysis with tools that do not connect to SharePoint.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-page-html/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -4270,9 +4312,10 @@
       ],
       "tags": [
         "Invoke-PnPSPRestMethod",
-        "Get-PnPProperty ",
+        "Get-PnPProperty",
         "Get-PnPList",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "PowerShell"
       ]
     },
     {
@@ -4304,7 +4347,9 @@
         "Get-PnPProperty",
         "Get-PnPFile",
         "Connect-PnPOnline",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "Migration",
+        "Archive"
       ]
     },
     {
@@ -4483,7 +4528,9 @@
         "Disconnect-PnPOnline",
         "Get-PnPTerm",
         "Get-PnPTermGroup",
-        "Get-PnPTermSet"
+        "Get-PnPTermSet",
+        "Migration",
+        "Archive"
       ]
     },
     {
@@ -4682,7 +4729,8 @@
         "Get-PnPSiteCollectionAppCatalog",
         "Invoke-PnPSPRestMethod",
         "Get-PnPWeb",
-        "Get-PnPApp"
+        "Get-PnPApp",
+        "SPFx"
       ]
     },
     {
@@ -4901,7 +4949,9 @@
         "Get-PnPList",
         "Get-PnPListItem",
         "Get-PnPFolderSharingLink",
-        "Get-PnPFileSharingLink"
+        "Get-PnPFileSharingLink",
+        "Sites",
+        "SharePoint"
       ]
     },
     {
@@ -5002,7 +5052,8 @@
         "Get-PnPSiteCollectionAppCatalog",
         "Invoke-PnPSPRestMethod",
         "Get-PnPWeb",
-        "Get-PnPApp"
+        "Get-PnPApp",
+        "SPFx"
       ]
     },
     {
@@ -5049,7 +5100,10 @@
         "Get-PnPList",
         "Get-PnPWeb",
         "Get-PnPContext",
-        "Get-PnPGroupMember"
+        "Get-PnPGroupMember",
+        "Permissions",
+        "Unique Permissions",
+        "SharePoint Groups"
       ]
     },
     {
@@ -5074,7 +5128,9 @@
         "Get-PnPHomeSite",
         "Get-PnPHubSite",
         "Get-PnPHubSiteChild",
-        "Get-PnPList"
+        "Get-PnPList",
+        "Site Structure",
+        "Information Architecture"
       ]
     },
     {
@@ -5412,7 +5468,11 @@
         "Get-PnPGroupMember",
         "Get-PnPMicrosoft365GroupOwners",
         "Get-PnPMicrosoft365GroupMembers",
-        "Get-PnPSiteSensitivityLabel"
+        "Get-PnPSiteSensitivityLabel",
+        "SharingLinks",
+        "Permissions",
+        "Unique Permissions",
+        "SharePoint Groups"
       ]
     },
     {
@@ -5458,7 +5518,8 @@
         "Get-PnPWeb",
         "Get-PnPContext",
         "Get-PnPFileSharingLink",
-        "Get-PnPFolderSharingLink"
+        "Get-PnPFolderSharingLink",
+        "SharingLinks"
       ]
     },
     {
@@ -5503,7 +5564,9 @@
         "Connect-PnPOnline",
         "Invoke-PnPSPRestMethod",
         "Get-PnPConnection",
-        "Get-PnPTenantSite"
+        "Get-PnPTenantSite",
+        "Sharing settings",
+        "Permissions"
       ]
     },
     {
@@ -5527,7 +5590,8 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "Invoke-PnPGraphMethod"
+        "Invoke-PnPGraphMethod",
+        "SiteId"
       ]
     },
     {
@@ -5591,7 +5655,9 @@
         "Exchange Online",
         "Search-UnifiedAuditLog",
         "Connect-PnPOnline",
-        "Add-PnPListItem"
+        "Add-PnPListItem",
+        "Audit",
+        "Reports"
       ]
     },
     {
@@ -5655,7 +5721,8 @@
         "Connect-PnPOnline",
         "Get-PnPHubSite",
         "Get-PnPMicrosoft365Group",
-        "Get-PnPSite"
+        "Get-PnPSite",
+        "Channels"
       ]
     },
     {
@@ -5856,7 +5923,8 @@
         "Get-PnPWeb",
         "Add-PnPDataRowsToSiteTemplate",
         "Get-PnPListItem",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "Provisioning"
       ]
     },
     {
@@ -5882,7 +5950,8 @@
         "Get-PnPContentType",
         "Add-PnPContentTypeToList",
         "Set-PnPListItem",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "Migration"
       ]
     },
     {
@@ -6251,7 +6320,6 @@
         "Connect-PnPOnline",
         "Get-PnPAccessToken",
         "Invoke-RestMethod",
-        "Get-PnPAccessToken",
         "Get-PnPProperty"
       ]
     },
@@ -6299,7 +6367,9 @@
         "modern",
         "Connect-PnPOnline",
         "Get-PnPField",
-        "Set-PnPField"
+        "Set-PnPField",
+        "Libraries",
+        "SharePoint"
       ]
     },
     {
@@ -6350,7 +6420,9 @@
         "modern",
         "Connect-PnPOnline",
         "Get-PnPField",
-        "Set-PnPField"
+        "Set-PnPField",
+        "Libraries",
+        "SharePoint"
       ]
     },
     {
@@ -6371,7 +6443,9 @@
         "modern",
         "Connect-PnPOnline",
         "Get-PnPList",
-        "Add-PnPListFoldersToSiteTemplate"
+        "Add-PnPListFoldersToSiteTemplate",
+        "Libraries",
+        "SharePoint"
       ]
     },
     {
@@ -6534,7 +6608,8 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Register-PnPEntraIDApp"
+        "Register-PnPEntraIDApp",
+        "Migration"
       ]
     },
     {
@@ -6585,7 +6660,9 @@
         "Get-PnPList",
         "PSCustomObject",
         "Request-PnPReIndexList",
-        "Export-Csv"
+        "Export-Csv",
+        "termstore",
+        "Search"
       ]
     },
     {
@@ -6986,7 +7063,9 @@
         "Disconnect-PnPOnline",
         "Get-PnPList",
         "Get-PnPListItem",
-        "Get-PnPPage"
+        "Get-PnPPage",
+        "Migration",
+        "Archive"
       ]
     },
     {
@@ -7012,7 +7091,9 @@
         "Unregister-PnPHubSite",
         "Rename-PnPTenantSite",
         "Remove-PnPTenantSite",
-        "Register-PnPHubSite"
+        "Register-PnPHubSite",
+        "Sites",
+        "SharePoint"
       ]
     },
     {
@@ -7083,7 +7164,7 @@
       "title": "Report sensitivity label coverage for Copilot readiness",
       "url": "https://pnp.github.io/script-samples/spo-report-sensitivity-label-coverage/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-sensitivity-label-coverage/README.md",
-      "description": "Reports how many documents in a site are unlabeled - the content Microsoft 365 Copilot would surface with no sensitivity classification - and ranks the gaps worst-covered library first.",
+      "description": "Reports how many documents in a site are unlabeled - the content Microsoft Copilot would surface with no sensitivity classification - and ranks the gaps worst-covered library first.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-report-sensitivity-label-coverage/assets/example.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -7232,11 +7313,11 @@
         "Get-PnPMicrosoft365GroupMembers",
         "Get-PnPTenantSite",
         "Get-PnPWeb",
-        "Get-PnPTenantSite",
         "Get-PnPContext",
-        "Get-PnPWeb",
         "Get-PnPList",
-        "Get-PnPListItem"
+        "Get-PnPListItem",
+        "Permissions",
+        "Effective Permissions"
       ]
     },
     {
@@ -7352,7 +7433,9 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>"
+        "<Cmdlets-Used>",
+        "Audit",
+        "Service Principal"
       ]
     },
     {
@@ -7596,7 +7679,8 @@
         "Get-PnPTeamsChannelUser",
         "Get-PnPTenantSite",
         "Get-PnPGroup",
-        "Get-PnPGroupMember"
+        "Get-PnPGroupMember",
+        "Permissions"
       ]
     },
     {
@@ -7684,7 +7768,7 @@
       "url": "https://pnp.github.io/script-samples/spo-trim-and-m365-archive-sitecollection/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-trim-and-m365-archive-sitecollection/README.md",
       "description": "Trim the file versions and archive the site using Microsoft 365 Archive",
-      "image": "spo-trim-and-m365-archive-sitecollection/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-trim-and-m365-archive-sitecollection/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -7726,7 +7810,9 @@
         "Remove-PnPApp",
         "Get-PnPWeb",
         "Get-PnPTenantSite",
-        "Invoke-PnPSPRestMethod"
+        "Remove",
+        "SPFx",
+        "Hub Site"
       ]
     },
     {
@@ -7749,7 +7835,8 @@
         "Add-PnPFile",
         "Get-PnPFile",
         "Set-PnPWebHeader",
-        "Get-PnPHubSiteChild"
+        "Get-PnPHubSiteChild",
+        "Branding"
       ]
     },
     {
@@ -7929,7 +8016,7 @@
       "url": "https://pnp.github.io/script-samples/spo-update-lookup-field/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-lookup-field/README.md",
       "description": "Updates a SharePoint Online lookup column to reference a lookup list",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-modern-webpart-properties/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-lookup-field/assets/LookupField.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -7968,7 +8055,9 @@
         "Disconnect-PnPOnline",
         "Get-PnPList",
         "Get-PnPListItem",
-        "Get-PnPPage"
+        "Get-PnPPage",
+        "Migration",
+        "Archive"
       ]
     },
     {
@@ -8105,7 +8194,8 @@
         "Connect-PnPOnline",
         "Get-PnPWebhookSubscription",
         "Remove-PnPWebhookSubscription",
-        "New-PnPWebhookSubscription"
+        "New-PnPWebhookSubscription",
+        "Webhooks"
       ]
     },
     {
@@ -8161,7 +8251,8 @@
         "m365 teams team get",
         "m365 aad o365group add",
         "m365 aad o365group list",
-        "m365 aad o365group teamify"
+        "m365 aad o365group teamify",
+        "Security"
       ]
     },
     {
@@ -8315,7 +8406,8 @@
       "tags": [
         "Connect-PnPOnline",
         "Get-PnPTeamsTeam",
-        "Get-PnPTenantSite"
+        "Get-PnPTenantSite",
+        "Governance"
       ]
     },
     {
@@ -8395,7 +8487,8 @@
         "m365 status",
         "m365 login",
         "m365 teams team list",
-        "m365 teams user list"
+        "m365 teams user list",
+        "Security"
       ]
     },
     {
